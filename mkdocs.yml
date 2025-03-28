@@ -5,11 +5,13 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  # Removed the invalid logo icon
-
-
-  icon: 
-    logo: fontawesome/solid/a
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  icon:
+    logo: material/terrain
+    #favicon: material/terrain  
 
   palette:
     # Dark Mode
@@ -33,3 +35,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
