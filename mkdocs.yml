@@ -1,5 +1,9 @@
 site_name: Atlas's Notebook
-site_url: https://mydomain.org/mysite
+site_url: https://Atlas-Notebook
+
+plugins:
+  - glightbox
+
 theme:
   name: material
   font:
@@ -10,8 +14,8 @@ theme:
     - content.code.select
     - content.code.annotate
   icon:
-    logo: material/terrain
-    #favicon: material/terrain  
+    logo: material/bridge
+  favicon: simple-lionair
 
   palette:
     # Dark Mode
@@ -19,15 +23,15 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: indigo
+      primary: amber
       accent: orange
 
     # Light Mode
-    - scheme: default
+    - scheme: yellow
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
+      primary: light green
       accent: deep orange
 
 markdown_extensions:
