@@ -1,8 +1,12 @@
 site_name: Atlas's Notebook
-site_url: https://Atlas-Notebook
+site_url: https://github.com/Atlas-Lee/MyMkdocsREP/
 
 plugins:
   - glightbox
+
+# git add .
+# git commit -m "Updated files with improvements"
+# git push origin main
 
 theme:
   name: material
@@ -12,10 +16,10 @@ theme:
   features:
     - content.code.copy
     - content.code.select
-    - content.code.annotate
-  icon:
-    logo: material/bridge
-  favicon: simple-lionair
+    - content.code.annotate 
+  favicon: assets\images\smileface.ico
+  logo: assets/images/apple-touch-icon.png
+
 
   palette:
     # Dark Mode
