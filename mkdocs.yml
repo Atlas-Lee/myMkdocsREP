@@ -84,9 +84,10 @@ extra_javascript:
 nav:
   - 🏠 Home Page: home page.md
   - 🚀 My Pamphlet: formations.md
-  - 📚 Documentation:
-      - 📖 Study : 
-        - 📝 Data Processing: data processing.md
-        - 💡 MATLAB: MATLAB.md
-        - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md
+  - 📖 Study : 
+    - 🎶 Acoustics: acoustics.md
+    - 🧩 Language Learning: language learning.md
+    - 📝 Data Processing: data processing.md
+    - 💡 MATLAB: MATLAB.md
+    - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md
 

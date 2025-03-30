@@ -1,4 +1,4 @@
-## visualazaiton tech
+# visualazaiton tech
 `visualization`:data info -> visual formation
 
  - components:
