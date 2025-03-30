@@ -1,5 +1,7 @@
 site_name: Atlas's Notebook
-site_url: https://github.com/Atlas-Lee/MyMkdocsREP/
+site_url: https://atlas-lee.github.io/myMkdocsREP
+# use_directory_urls: false  # Important for GitHub Pages
+
 
 plugins:
   - glightbox
@@ -65,17 +67,17 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.arithmatex
+  - pymdownx.betterem
   - toc:
       permalink: "📌"
 
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js
-  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
-extra_css:
-  - assets/stylesheets/custom.css
 
 
 nav:
