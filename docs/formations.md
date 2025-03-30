@@ -25,6 +25,47 @@ When deciding between MathJax and KaTeX, there are several key factors to consid
 
 In summary, KaTeX shines with its speed and simplicity, whereas MathJax offers more features and better compatibility at the expense of speed. The choice between the two will largely depend on your specific needs and constraints.
 
+## Git commands
+```dash
+# 🚀 Basic Git Operations
+git init                                  # Initialize a new Git repository
+git clone https://github.com/user/repo.git # Clone a remote repository
+git status                                # Check the current status
+git add filename                          # Add a specific file to staging
+git add .                                 # Add all changes in the current directory
+git commit -m "Descriptive message"        # Commit staged changes
+git log                                   # View commit history
+
+# 🔄 Branching and Merging
+git branch branch_name                    # Create a new branch
+git checkout branch_name                  # Switch to the specified branch
+git switch branch_name                    # Alternative to checkout (newer Git versions)
+git checkout -b new_branch                 # Create and switch to a new branch
+git merge branch_name                     # Merge a branch into the current one
+git branch -d branch_name                  # Delete a local branch
+
+# 🚀 Working with Remotes
+git remote add origin https://github.com/user/repo.git  # Add a remote repository
+git push origin branch_name                            # Push changes to the remote branch
+git pull origin branch_name                            # Pull updates from the remote branch
+
+# 🕵️ Inspecting Changes
+git diff                                  # View changes between working directory and last commit
+git diff --staged                         # View changes that have been staged for commit
+
+# 🔧 Advanced Tips
+git stash                                 # Stash changes temporarily
+git stash apply                           # Apply stashed changes
+git revert commit_hash                    # Undo a previous commit with a new commit
+git reset --hard commit_hash              # Reset to a specific commit (destructive)
+git reset --soft HEAD~1                    # Undo the last commit but keep changes
+git rm --cached filename                   # Untrack a file without deleting it locally
+git log --oneline                          # View commit history in a compact format
+git diff branch1..branch2                  # View differences between two branches
+git rebase branch_name                     # Rebase current branch onto another branch
+
+```
+
 ## Annotations
 When SuperFences is enabled, annotations can be nested inside annotations by adding the annotate class to the list item hosting the annotation content, repeating the process:
 

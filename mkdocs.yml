@@ -1,6 +1,6 @@
 site_name: Atlas's Notebook
 site_url: https://atlas-lee.github.io/myMkdocsREP
-# use_directory_urls: false  # Important for GitHub Pages
+use_directory_urls: false  # Important for GitHub Pages
 
 
 plugins:
@@ -8,6 +8,7 @@ plugins:
 
 # git add .
 # git commit -m "Updated files with improvements"
+# git commit -m "Fix homepage link and deploy settings"
 # git push origin main
 
 theme:
@@ -27,16 +28,16 @@ theme:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
+        icon: material/weather-night-partly-cloudy
+        name: Light mode
       primary: teal
       accent: pink
 
     # Light Mode
     - scheme: yellow
       toggle:
-        icon: material/weather-night
-        name: Light mode
+        icon: material/weather-sunset-up
+        name: Night mode
       primary: light green
       accent: deep orange
 

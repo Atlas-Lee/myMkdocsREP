@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2025-03-27</lastmod>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/MATLAB.html</loc>
+         <lastmod>2025-03-30</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/MATLAB%20notes/</loc>
-         <lastmod>2025-03-27</lastmod>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/data%20processing.html</loc>
+         <lastmod>2025-03-30</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/fundamental%20principles%20%20of%20Marxism/</loc>
-         <lastmod>2025-03-27</lastmod>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/formations.html</loc>
+         <lastmod>2025-03-30</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/fundamental%20principles%20of%20Marxism.html</loc>
+         <lastmod>2025-03-30</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/home%20page.html</loc>
+         <lastmod>2025-03-30</lastmod>
     </url>
 </urlset>

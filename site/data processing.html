@@ -8,22 +8,28 @@
       
       
       
+        <link rel="canonical" href="https://atlas-lee.github.io/myMkdocsREP/data%20processing.html">
       
       
+        <link rel="prev" href="formations.html">
       
-      <link rel="icon" href="/myMkdocsREP/assets/images/smileface.ico">
+      
+        <link rel="next" href="MATLAB.html">
+      
+      
+      <link rel="icon" href="assets/images/smileface.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
     
     
       
-        <title>Atlas's Notebook</title>
+        <title>📝 Data Processing - Atlas's Notebook</title>
       
     
     
-      <link rel="stylesheet" href="/myMkdocsREP/assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
       
         
-        <link rel="stylesheet" href="/myMkdocsREP/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,14 +54,23 @@
       
     
     
-    <script>__md_scope=new URL("/myMkdocsREP/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -73,6 +88,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#visualazaiton-tech" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,9 +105,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/myMkdocsREP/." title="Atlas&#39;s Notebook" class="md-header__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
+    <a href="." title="Atlas&#39;s Notebook" class="md-header__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
       
-  <img src="/myMkdocsREP/assets/images/apple-touch-icon.png" alt="logo">
+  <img src="assets/images/apple-touch-icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              📝 Data Processing
             
           </span>
         </div>
@@ -168,9 +188,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/myMkdocsREP/." title="Atlas&#39;s Notebook" class="md-nav__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
+    <a href="." title="Atlas&#39;s Notebook" class="md-nav__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
       
-  <img src="/myMkdocsREP/assets/images/apple-touch-icon.png" alt="logo">
+  <img src="assets/images/apple-touch-icon.png" alt="logo">
 
     </a>
     Atlas's Notebook
@@ -185,7 +205,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/myMkdocsREP/home%20page.html" class="md-nav__link">
+      <a href="home%20page.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -206,7 +226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/myMkdocsREP/formations.html" class="md-nav__link">
+      <a href="formations.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -224,17 +244,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -249,7 +271,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             📚 Documentation
@@ -260,17 +282,19 @@
                 
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
         
           
           <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
@@ -285,7 +309,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
             📖 Study
@@ -296,10 +320,29 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/myMkdocsREP/data%20processing.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    📝 Data Processing
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="data%20processing.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -309,6 +352,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visualazaiton-tech" class="md-nav__link">
+    <span class="md-ellipsis">
+      visualazaiton tech
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -321,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/myMkdocsREP/MATLAB.html" class="md-nav__link">
+      <a href="MATLAB.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -343,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/myMkdocsREP/fundamental%20principles%20of%20Marxism.html" class="md-nav__link">
+      <a href="fundamental%20principles%20of%20Marxism.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -391,6 +461,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visualazaiton-tech" class="md-nav__link">
+    <span class="md-ellipsis">
+      visualazaiton tech
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -401,8 +488,94 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+  <h1>📝 Data Processing</h1>
+
+<h2 id="visualazaiton-tech">visualazaiton tech<a class="headerlink" href="#visualazaiton-tech" title="Permanent link">📌</a></h2>
+<p><code>visualization</code>:data info -&gt; visual formation</p>
+<ul>
+<li>components:</li>
+<li>spatial sub - strate(空间基)</li>
+<li>graph ele (图形元素)</li>
+<li>
+<p>graph (图形属性)</p>
+</li>
+<li>
+<p>R </p>
+</li>
+<li>
+<p>defaulted: graphics </p>
+</li>
+<li>
+<p>most powerful one: ggplot2</p>
+<div class="language-R highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># installment</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>basic graphics</p>
+</li>
+<li>
+<p>散点图(scatter)</p>
+<p>can be used to indicate underlying connections bet. parameters( dep. on the dimentionary of them). Usually applied f 2d statistics in a <em>Catesian</em> codt.(coordination).</p>
+</li>
+<li>
+<p>折线图</p>
+</li>
+<li>
+<p>条形图/柱形图(bar)</p>
+<p>includes dif. color, length, fill etc. to perform <em>same&amp;diffenrence</em> among multiple statistics.</p>
+</li>
+<li>
+<p>饼图(pie)</p>
+</li>
+<li>
+<p>直方图(histogram)</p>
+<p>display the statistic characteristics(PDF)</p>
+</li>
+<li>
+<p>箱线图(box-plot)</p>
+</li>
+<li>
+<p>advanced graphics</p>
+</li>
+<li>
+<p>热力图(hitmap)</p>
+<p>display cross level, both horizonal direction and vertical direction(multiple comparison). It can be allaied with cluster graphics</p>
+</li>
+<li></li>
+<li>
+<p>ggplot2</p>
+</li>
+</ul>
+<p>from <em>specific statistics</em> to <em>geometry objects(geom)</em></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>plot - aesthetics - geometry
+</span></code></pre></div>
+<p><strong>R</strong> can save the drawing process(use "/*+..." to append more set) -&gt; overlap other layers</p>
+<div class="language-R highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># initial-&gt; build layers -&gt; adjust</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c1"># common aesth.: axis(x,y), color, size, shape, fill, alpha(透明度)</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># scatter</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1"># statistics transform</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="nf">ggplot</span><span class="p">(</span><span class="n">mpg</span><span class="p">,</span><span class="w"> </span><span class="nf">aes</span><span class="p">(</span><span class="n">trans</span><span class="p">,</span><span class="w"> </span><span class="n">cty</span><span class="p">))</span><span class="o">+</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="nf">geom_point</span><span class="p">()</span><span class="o">+</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="nf">geom_point</span><span class="p">(</span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;summary&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">fun</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;mean&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;red&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4</span><span class="p">)</span><span class="w"> </span><span class="c1"># apply another graph above the former ones</span>
+</span></code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -436,17 +609,19 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/myMkdocsREP/", "features": ["content.code.copy", "content.code.select", "content.code.annotate"], "search": "/myMkdocsREP/assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy", "content.code.select", "content.code.annotate"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/myMkdocsREP/assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="/myMkdocsREP/assets/javascripts/mathjax.js"></script>
+        <script src="assets/javascripts/mathjax.js"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

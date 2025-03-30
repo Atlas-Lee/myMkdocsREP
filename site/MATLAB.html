@@ -8,30 +8,36 @@
       
       
       
-        <link rel="canonical" href="https://mydomain.org/mysite/MATLAB%20notes/">
+        <link rel="canonical" href="https://atlas-lee.github.io/myMkdocsREP/MATLAB.html">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="data%20processing.html">
       
       
-        <link rel="next" href="../fundamental%20principles%20%20of%20Marxism/">
+        <link rel="next" href="fundamental%20principles%20of%20Marxism.html">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="assets/images/smileface.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
     
     
       
-        <title>MATLAB notes - Atlas's Notebook</title>
+        <title>💡 MATLAB - Atlas's Notebook</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
       
       
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%209.5A2.5%202.5%200%200%200%209.5%2012a2.5%202.5%200%200%200%202.5%202.5%202.5%202.5%200%200%200%202.5-2.5A2.5%202.5%200%200%200%2012%209.5m0%203.5a1%201%200%200%201-1-1%201%201%200%200%201%201-1%201%201%200%200%201%201%201%201%201%200%200%201-1%201m0-3.5A2.5%202.5%200%200%200%209.5%2012a2.5%202.5%200%200%200%202.5%202.5%202.5%202.5%200%200%200%202.5-2.5A2.5%202.5%200%200%200%2012%209.5m0%203.5a1%201%200%200%201-1-1%201%201%200%200%201%201-1%201%201%200%200%201%201%201%201%201%200%200%201-1%201m0-11A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202m0%2014c-2.63%200-5-1.57-6-4a6.505%206.505%200%200%201%208.5-3.5A6.52%206.52%200%200%201%2018%2012c-1%202.43-3.37%204-6%204m0-6.5A2.5%202.5%200%200%200%209.5%2012a2.5%202.5%200%200%200%202.5%202.5%202.5%202.5%200%200%200%202.5-2.5A2.5%202.5%200%200%200%2012%209.5m0%203.5a1%201%200%200%201-1-1%201%201%200%200%201%201-1%201%201%200%200%201%201%201%201%201%200%200%201-1%201%22/%3E%3C/svg%3E');}</style>
 
 
     
@@ -48,14 +54,23 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -65,7 +80,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="orange">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="pink">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -90,10 +105,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Atlas&#39;s Notebook" class="md-header__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
+    <a href="." title="Atlas&#39;s Notebook" class="md-header__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14 6-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22z"/></svg>
+  <img src="assets/images/apple-touch-icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -110,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MATLAB notes
+              💡 MATLAB
             
           </span>
         </div>
@@ -123,20 +137,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="orange"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="pink"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 10.28c-.26.02-.5.03-.74.03-1.94 0-3.87-.74-5.35-2.22A7.52 7.52 0 0 1 13.72 2c.05-.47-.5-1-1.01-1a.7.7 0 0 0-.39.12c-.32.24-.66.52-.96.82-2.31 2.3-2.81 5.72-1.52 8.52a5.48 5.48 0 0 0-3.15 3.6L6 14a4 4 0 0 0-4 4 4 4 0 0 0 4 4h13a3 3 0 0 0 3-3 3 3 0 0 0-3-3c-.58 0-1.12.16-1.58.45l.08-.95c0-.22 0-.45-.04-.67a7.45 7.45 0 0 0 4.6-2.19c.32-.3.58-.64.82-.96.39-.55-.23-1.4-.84-1.4M19 18a1 1 0 0 1 1 1 1 1 0 0 1-1 1H6a2 2 0 0 1-2-2 2 2 0 0 1 2-2h2.5v-.5c0-1.56 1.03-2.86 2.44-3.32.16-.05.32-.09.49-.12.18-.03.37-.06.57-.06.23 0 .45.03.66.07q.105.015.21.06c.13.03.28.07.41.12.08.03.16.07.22.11.13.05.24.11.34.18.08.05.16.1.23.16.1.07.18.14.27.22.07.08.16.13.21.2.08.08.14.17.21.25.06.08.13.16.18.25.06.09.1.18.15.28s.11.18.15.28c.17.41.26.85.26 1.32V18m1.33-5.14A5.51 5.51 0 0 0 12 10h-.13c-.46-.81-.73-1.74-.73-2.71 0-.98.25-1.92.72-2.74A9.4 9.4 0 0 0 14.5 9.5a9.35 9.35 0 0 0 4.95 2.64c-.79.46-1.69.7-2.62.72"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="yellow" data-md-color-primary="light-green" data-md-color-accent="deep-orange"  aria-label="Night mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      <label class="md-header__button md-icon" title="Night mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 12h4a5 5 0 0 1 5-5 5 5 0 0 1 5 5h4a1 1 0 0 1 1 1 1 1 0 0 1-1 1H3a1 1 0 0 1-1-1 1 1 0 0 1 1-1m12 0a3 3 0 0 0-3-3 3 3 0 0 0-3 3zM12 2l2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm17.31 0-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-7.94 9.3 3.11 3.11a.996.996 0 1 1-1.41 1.41L12 18.41l-2.41 2.41a.996.996 0 1 1-1.41-1.41l3.11-3.11c.21-.2.45-.3.71-.3s.5.1.71.3"/></svg>
       </label>
     
   
@@ -147,43 +161,6 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
     
     
   </nav>
@@ -211,10 +188,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Atlas&#39;s Notebook" class="md-nav__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
+    <a href="." title="Atlas&#39;s Notebook" class="md-nav__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14 6-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22z"/></svg>
+  <img src="assets/images/apple-touch-icon.png" alt="logo">
 
     </a>
     Atlas's Notebook
@@ -229,11 +205,32 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="home%20page.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Home
+    🏠 Home Page
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="formations.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🚀 My Pamphlet
     
   </span>
   
@@ -251,6 +248,104 @@
   
   
   
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    📚 Documentation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            📚 Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    📖 Study
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            📖 Study
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data%20processing.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    📝 Data Processing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -261,7 +356,7 @@
           
   
   <span class="md-ellipsis">
-    MATLAB notes
+    💡 MATLAB
     
   </span>
   
@@ -269,11 +364,11 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="./" class="md-nav__link md-nav__link--active">
+      <a href="MATLAB.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    MATLAB notes
+    💡 MATLAB
     
   </span>
   
@@ -516,24 +611,41 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="../fundamental%20principles%20%20of%20Marxism/" class="md-nav__link">
+      <a href="fundamental%20principles%20of%20Marxism.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    fundamental principles  of Marxism
+    🏭 Fundamental Principles of Marxism
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -794,7 +906,7 @@
 
 
 
-<h2 id="colors">Colors</h2>
+<h2 id="colors">Colors<a class="headerlink" href="#colors" title="Permanent link">📌</a></h2>
 <table>
 <thead>
 <tr>
@@ -841,8 +953,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="dsp-learning-using-matlab">DSP Learning using MATLAB</h2>
-<h2 id="basic-information-about-fdsp-companion">Basic Information about FDSP Companion</h2>
+<h2 id="dsp-learning-using-matlab">DSP Learning using MATLAB<a class="headerlink" href="#dsp-learning-using-matlab" title="Permanent link">📌</a></h2>
+<h2 id="basic-information-about-fdsp-companion">Basic Information about FDSP Companion<a class="headerlink" href="#basic-information-about-fdsp-companion" title="Permanent link">📌</a></h2>
 <table>
 <thead>
 <tr>
@@ -897,7 +1009,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="personal-learning-summary">Personal Learning Summary</h2>
+<h2 id="personal-learning-summary">Personal Learning Summary<a class="headerlink" href="#personal-learning-summary" title="Permanent link">📌</a></h2>
 <div class="language-matlab highlight"><span class="filename">personal practices</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">b</span><span class="p">=[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">];</span><span class="n">a</span><span class="p">=[</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span><span class="mi">1</span><span class="p">];</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="p">[</span><span class="n">R</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">C</span><span class="p">]=</span><span class="n">residuez</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="n">a</span><span class="p">)</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">[</span><span class="n">b1</span><span class="p">,</span><span class="n">a1</span><span class="p">]=</span><span class="n">residuez</span><span class="p">(</span><span class="n">R</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">C</span><span class="p">)</span>
@@ -949,12 +1061,12 @@
 </span><span id="__span-0-49"><a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a><span class="p">[</span><span class="n">f</span><span class="p">,</span><span class="n">g</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">latcfilt</span><span class="p">(</span><span class="n">K</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">x</span><span class="p">)</span>
 </span><span id="__span-0-50"><a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a><span class="p">[</span><span class="n">f</span><span class="p">,</span><span class="n">g</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">latcfilt</span><span class="p">(</span><span class="n">K</span><span class="p">,</span><span class="n">C</span><span class="p">,</span><span class="n">x</span><span class="p">)</span>
 </span></code></pre></div>
-<h2 id="gui">GUI</h2>
+<h2 id="gui">GUI<a class="headerlink" href="#gui" title="Permanent link">📌</a></h2>
 <ul>
 <li><strong>GUI (Graphical User Interface)</strong> refers to a user interface that allows users to interact with computers or software through graphical and visual elements such as buttons, text boxes, icons, menus, and more. </li>
 </ul>
 <p>This type of interface design enables users to engage with computer programs in a more intuitive and user-friendly way, rather than relying on command line input. </p>
-<h3 id="components-of-gui">Components of GUI</h3>
+<h3 id="components-of-gui">Components of GUI<a class="headerlink" href="#components-of-gui" title="Permanent link">📌</a></h3>
 <ol>
 <li><strong>Windows</strong>: GUI typically consists of one or more windows. Each window can display different information or allow users to perform various operations.</li>
 <li><strong>Controls</strong>: Various elements included in the window, common controls are:</li>
@@ -965,7 +1077,7 @@
 <li><strong>Slider</strong>: Allows users to select a value by sliding.</li>
 <li><strong>Events</strong>: Interactions by users with the GUI generate events, such as button clicks or text input. The program responds to these user actions through an event-driven mechanism.</li>
 </ol>
-<h3 id="implementation-of-gui">Implementation of GUI</h3>
+<h3 id="implementation-of-gui">Implementation of GUI<a class="headerlink" href="#implementation-of-gui" title="Permanent link">📌</a></h3>
 <ol>
 <li>
 <p><strong>Create the Window</strong>: Use the <code>figure</code> function to create a window and set its position and size.</p>
@@ -1042,9 +1154,9 @@
 </span><span id="__span-1-63"><a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a><span class="w">    </span><span class="k">end</span>
 </span><span id="__span-1-64"><a id="__codelineno-1-64" name="__codelineno-1-64" href="#__codelineno-1-64"></a><span class="k">end</span>
 </span></code></pre></div>
-<h2 id="mathematical-and-statistical-operations-with-arrays">Mathematical and Statistical Operations with Arrays</h2>
-<h2 id="mathematical-functions">Mathematical Functions</h2>
-<p><img alt="sin(Array)" src="https://lcms-files.mathworks.com/content/file/73e7ac9a-3c3a-4925-b673-8ec0b15edc5b/functionOnMatrix.png?versionId=a.ZNMnjT_SgD0k5Oa0OAFYTtzIqhbV5q" /></p>
+<h2 id="mathematical-and-statistical-operations-with-arrays">Mathematical and Statistical Operations with Arrays<a class="headerlink" href="#mathematical-and-statistical-operations-with-arrays" title="Permanent link">📌</a></h2>
+<h2 id="mathematical-functions">Mathematical Functions<a class="headerlink" href="#mathematical-functions" title="Permanent link">📌</a></h2>
+<p><a class="glightbox" href="https://lcms-files.mathworks.com/content/file/73e7ac9a-3c3a-4925-b673-8ec0b15edc5b/functionOnMatrix.png?versionId=a.ZNMnjT_SgD0k5Oa0OAFYTtzIqhbV5q" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="sin(Array)" src="https://lcms-files.mathworks.com/content/file/73e7ac9a-3c3a-4925-b673-8ec0b15edc5b/functionOnMatrix.png?versionId=a.ZNMnjT_SgD0k5Oa0OAFYTtzIqhbV5q" /></a></p>
 <table>
 <thead>
 <tr>
@@ -1084,7 +1196,7 @@
 </tbody>
 </table>
 <p>Matrix Operations (Including Scalar Expansion)</p>
-<p><img alt="scalar addition" src="https://lcms-files.mathworks.com/content/file/b56d75e7-9174-44ea-9bb0-2a11a4a284f6/scalarExpansion.png?versionId=Adpc7yCz5QqVyJX8i1ZtK6JQK4rF3KYr" /></p>
+<p><a class="glightbox" href="https://lcms-files.mathworks.com/content/file/b56d75e7-9174-44ea-9bb0-2a11a4a284f6/scalarExpansion.png?versionId=Adpc7yCz5QqVyJX8i1ZtK6JQK4rF3KYr" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="scalar addition" src="https://lcms-files.mathworks.com/content/file/b56d75e7-9174-44ea-9bb0-2a11a4a284f6/scalarExpansion.png?versionId=Adpc7yCz5QqVyJX8i1ZtK6JQK4rF3KYr" /></a></p>
 <table>
 <thead>
 <tr>
@@ -1116,7 +1228,7 @@
 </tbody>
 </table>
 <p>Element-wise Operations</p>
-<p><img alt="summing matrices" src="https://lcms-files.mathworks.com/content/file/b7e51a60-75ef-4410-8db1-736eccd5db94/elementwiseArithmetic.png?versionId=ppUoTcdHeoKao8YGFG1e_8UHSHVyiBUT" /></p>
+<p><a class="glightbox" href="https://lcms-files.mathworks.com/content/file/b7e51a60-75ef-4410-8db1-736eccd5db94/elementwiseArithmetic.png?versionId=ppUoTcdHeoKao8YGFG1e_8UHSHVyiBUT" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="summing matrices" src="https://lcms-files.mathworks.com/content/file/b7e51a60-75ef-4410-8db1-736eccd5db94/elementwiseArithmetic.png?versionId=ppUoTcdHeoKao8YGFG1e_8UHSHVyiBUT" /></a></p>
 <table>
 <thead>
 <tr>
@@ -1148,7 +1260,7 @@
 </tbody>
 </table>
 <p>Implicit Expansion</p>
-<p><img alt="summing a matrix and vector" src="https://lcms-files.mathworks.com/content/file/18e87519-c4ab-4925-95da-2fa1e8faf38a/implicitExpansion.png?versionId=SOWXkTYSk2UTUOqrxz_jdOtkxA2dIXeW" /></p>
+<p><a class="glightbox" href="https://lcms-files.mathworks.com/content/file/18e87519-c4ab-4925-95da-2fa1e8faf38a/implicitExpansion.png?versionId=SOWXkTYSk2UTUOqrxz_jdOtkxA2dIXeW" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="summing a matrix and vector" src="https://lcms-files.mathworks.com/content/file/18e87519-c4ab-4925-95da-2fa1e8faf38a/implicitExpansion.png?versionId=SOWXkTYSk2UTUOqrxz_jdOtkxA2dIXeW" /></a></p>
 <table>
 <thead>
 <tr>
@@ -1180,7 +1292,7 @@
 </tbody>
 </table>
 <p>Array operations can be performed on operands of different <em>compatible</em> sizes. Two arrays have compatible sizes if the size of each dimension is either the same or one.</p>
-<h2 id="statistics-processing">Statistics Processing</h2>
+<h2 id="statistics-processing">Statistics Processing<a class="headerlink" href="#statistics-processing" title="Permanent link">📌</a></h2>
 <ul>
 <li><strong>The plot command also works on matrices column-wise.</strong> (defaulted)So it can operate a matrix</li>
 </ul>
@@ -1222,7 +1334,7 @@
 </span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="n">b</span><span class="p">=</span><span class="nb">diff</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="c">%diff is forward difference</span>
 </span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="c">%1  1   -2  3   -2</span>
 </span></code></pre></div>
-<h2 id="statistical-operations-on-matrices">Statistical Operations on Matrices</h2>
+<h2 id="statistical-operations-on-matrices">Statistical Operations on Matrices<a class="headerlink" href="#statistical-operations-on-matrices" title="Permanent link">📌</a></h2>
 <p>Some common mathematical functions which calculate a value for each column in a matrix include:</p>
 <table>
 <thead>
@@ -1275,7 +1387,7 @@
 </tbody>
 </table>
 <p>Many statistical functions accept an optional dimensional argument that specifies whether the operation should be applied to columns independently (the default) or to rows.
-<img alt="cols and rows" src="https://lcms-files.mathworks.com/content/file/59efa30b-f4d3-400c-8b72-621841f8335b/dimensions.png?versionId=ObI.AJXnNKmOVHri3lcu8hJwc8GZSiOc" /></p>
+<a class="glightbox" href="https://lcms-files.mathworks.com/content/file/59efa30b-f4d3-400c-8b72-621841f8335b/dimensions.png?versionId=ObI.AJXnNKmOVHri3lcu8hJwc8GZSiOc" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="cols and rows" src="https://lcms-files.mathworks.com/content/file/59efa30b-f4d3-400c-8b72-621841f8335b/dimensions.png?versionId=ObI.AJXnNKmOVHri3lcu8hJwc8GZSiOc" /></a></p>
 <div class="language-matlab highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">M</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">mean</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">dim</span><span class="p">)</span>
 </span></code></pre></div>
 <table>
@@ -1306,13 +1418,13 @@
 </tr>
 </tbody>
 </table>
-<h2 id="matrix-multiplication">Matrix Multiplication</h2>
+<h2 id="matrix-multiplication">Matrix Multiplication<a class="headerlink" href="#matrix-multiplication" title="Permanent link">📌</a></h2>
 <p>linear algebra rules...</p>
-<h2 id="the-backslash-operator">The Backslash Operator</h2>
+<h2 id="the-backslash-operator">The Backslash Operator<a class="headerlink" href="#the-backslash-operator" title="Permanent link">📌</a></h2>
 <p>With scalars, and represent the same equation. The solution to these equations is , like you'd expect.</p>
 <p><em>Ax≠xA</em>. So, <em>Ax</em>=<em>B</em> and <em>xA</em>=<em>B</em> are two different equations. <u>The solution of both can be thought of as</u> </p>
 <p><u>'B divided by A', but the order is important.</u> </p>
-<p>MATLAB has two "division" operators: <strong>/ (slash) and \ (backslash).</strong></p>
+<p>MATLAB has two "division" operators: <strong>/ (slash) and  (backslash).</strong></p>
 <table>
 <thead>
 <tr>
@@ -1331,8 +1443,8 @@
 </tr>
 </tbody>
 </table>
-<h1 id="visualizing-data">Visualizing Data</h1>
-<h2 id="basic-functions">Basic Functions</h2>
+<h1 id="visualizing-data">Visualizing Data<a class="headerlink" href="#visualizing-data" title="Permanent link">📌</a></h1>
+<h2 id="basic-functions">Basic Functions<a class="headerlink" href="#basic-functions" title="Permanent link">📌</a></h2>
 <table>
 <thead>
 <tr>
@@ -1399,11 +1511,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="labels">labels</h2>
+<h2 id="labels">labels<a class="headerlink" href="#labels" title="Permanent link">📌</a></h2>
 <p>图题标注    title(obj,__)  可以为指定的对象添加标题</p>
 <p>图例标注    legend(__,'Orientation',Value)  'vertical' 'horizontal'</p>
-<p>文本标注    text(1.1,8,['$<strong><em>_' , latex(</em></strong>) , '$'] , 'interpreter' , 'latex')</p>
-<h2 id="identifying-available-plot-types">Identifying Available Plot Types</h2>
+<p>文本标注    text(1.1,8,['<span class="arithmatex">\(____' , latex(___) , '\)</span>'] , 'interpreter' , 'latex')</p>
+<h2 id="identifying-available-plot-types">Identifying Available Plot Types<a class="headerlink" href="#identifying-available-plot-types" title="Permanent link">📌</a></h2>
 <div class="language-matlab highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">xticklabels</span><span class="p">([</span><span class="s">&quot;January&quot;</span><span class="p">,</span><span class="k">...</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="s">&quot;April&quot;</span><span class="p">,</span><span class="k">...</span>
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="s">&quot;July&quot;</span><span class="p">,</span><span class="k">...</span>
@@ -1455,18 +1567,18 @@
 </tr>
 </tbody>
 </table>
-<h2 id="axis-control">Axis Control</h2>
+<h2 id="axis-control">Axis Control<a class="headerlink" href="#axis-control" title="Permanent link">📌</a></h2>
 <p>MATLAB automatically chooses the limits and tick markings for plot axes. Although the automatic values are usually aesthetically reasonable, you may want more precise control of the axis appearance to investigate subsets of the data.</p>
-<p><img alt="img" src="https://i-blog.csdnimg.cn/blog_migrate/b77c935b01e9429273117be5a9c912ac.png" /> </p>
+<p><a class="glightbox" href="https://i-blog.csdnimg.cn/blog_migrate/b77c935b01e9429273117be5a9c912ac.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="https://i-blog.csdnimg.cn/blog_migrate/b77c935b01e9429273117be5a9c912ac.png" /></a> </p>
 <div class="language-matlab highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">xyLims</span><span class="p">=</span><span class="nb">axis</span>
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="c">%1990   2008    1   8</span>
 </span></code></pre></div>
-<h2 id="visualizing-matrices">Visualizing Matrices</h2>
+<h2 id="visualizing-matrices">Visualizing Matrices<a class="headerlink" href="#visualizing-matrices" title="Permanent link">📌</a></h2>
 <div class="language-matlab highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nb">surf</span><span class="p">(</span><span class="n">yr</span><span class="p">,</span><span class="n">mth</span><span class="p">,</span><span class="n">revenue</span><span class="p">);</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="nb">mesh</span><span class="p">(</span><span class="n">yr</span><span class="p">,</span><span class="n">mth</span><span class="p">,</span><span class="n">revenue</span><span class="p">);</span>
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="nb">contour</span><span class="p">(</span><span class="n">yr</span><span class="p">,</span><span class="n">mth</span><span class="p">,</span><span class="n">revenue</span><span class="p">);</span><span class="c">%矩阵的等高线图</span>
 </span></code></pre></div>
-<h1 id="conditional-data-selection">Conditional Data Selection</h1>
+<h1 id="conditional-data-selection">Conditional Data Selection<a class="headerlink" href="#conditional-data-selection" title="Permanent link">📌</a></h1>
 <div class="language-matlab highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">hwLast10</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">any</span><span class="p">(</span><span class="n">homewinning</span><span class="p">(</span><span class="k">end</span><span class="o">-</span><span class="mi">9</span><span class="p">:</span><span class="k">end</span><span class="p">))</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">numHomeLosing</span><span class="p">=</span><span class="nb">nnz</span><span class="p">(</span><span class="o">~</span><span class="n">homewinning</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="mi">10</span><span class="p">))</span><span class="c">%count the Number of Non-Zero values in an array</span>
 </span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
@@ -1481,7 +1593,7 @@
 </span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="nb">xticks</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
 </span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="nb">legend</span><span class="p">(</span><span class="n">country</span><span class="p">,</span><span class="s">&quot;Location&quot;</span><span class="p">,</span><span class="s">&quot;eastoutside&quot;</span><span class="p">)</span><span class="c">%&quot;eastoutside&quot; exracts legends out</span>
 </span></code></pre></div>
-<h1 id="tables-of-data">Tables of Data</h1>
+<h1 id="tables-of-data">Tables of Data<a class="headerlink" href="#tables-of-data" title="Permanent link">📌</a></h1>
 <p>1.table tool button</p>
 <p>2.programmatically using the function.</p>
 <p><div class="language-matlab highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">EPL</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">readtable</span><span class="p">(</span><span class="s">&quot;EPLresults.xlsx&quot;</span><span class="p">)</span>
@@ -1529,7 +1641,7 @@ The readtable function creates the table variable names from the column headings
 </span><span id="__span-9-12"><a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a><span class="c">%Use the cumsum function to calculate the cumulative sum</span>
 </span><span id="__span-9-13"><a id="__codelineno-9-13" name="__codelineno-9-13" href="#__codelineno-9-13"></a><span class="n">ptsTot</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">cumsum</span><span class="p">(</span><span class="n">manU</span><span class="p">.</span><span class="n">Points</span><span class="p">)</span>
 </span></code></pre></div>
-<h2 id="proprocessing-data">Proprocessing Data</h2>
+<h2 id="proprocessing-data">Proprocessing Data<a class="headerlink" href="#proprocessing-data" title="Permanent link">📌</a></h2>
 <div class="language-matlab highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">centeredUsage</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">normalize</span><span class="p">(</span><span class="n">usage</span><span class="p">,</span><span class="s">&quot;center&quot;</span><span class="p">,</span><span class="s">&quot;mean&quot;</span><span class="p">);</span><span class="c">%不加参数的话，默认均值为零，进行z归一化处理</span>
 </span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
 </span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="n">scaledUsage</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">normalize</span><span class="p">(</span><span class="n">usage</span><span class="p">,</span><span class="s">&quot;scale&quot;</span><span class="p">,</span><span class="s">&quot;first&quot;</span><span class="p">);</span>
@@ -1593,11 +1705,19 @@ The readtable function creates the table variable names from the column headings
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy", "content.code.select", "content.code.annotate"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="assets/javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
