@@ -1,6 +1,6 @@
 site_name: Atlas's Notebook
 site_url: https://atlas-lee.github.io/myMkdocsREP
-use_directory_urls: false  # Important for GitHub Pages
+# use_directory_urls: false  # Important for GitHub Pages
 
 
 plugins:
