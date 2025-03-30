@@ -17,18 +17,18 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate 
-  favicon: assets\images\smileface.ico
+  favicon: assets/images/smileface.ico
   logo: assets/images/apple-touch-icon.png
-
-
+  icon:
+    annotation: material/eye-circle
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: amber
-      accent: orange
+      primary: teal
+      accent: pink
 
     # Light Mode
     - scheme: yellow
@@ -39,7 +39,6 @@ theme:
       accent: deep orange
 
 markdown_extensions:
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -53,3 +52,38 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - toc:
+      permalink: "📌"
+
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/stylesheets/custom.css
+
+
+nav:
+  - 🏠 Home Page: home page.md
+  - 🚀 My Pamphlet: formations.md
+  - 📚 Documentation:
+      - 📖 Study : 
+        - 📝 Data Processing: data processing.md
+        - 💡 MATLAB: MATLAB.md
+        - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md
+
