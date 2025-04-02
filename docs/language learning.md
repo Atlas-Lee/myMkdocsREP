@@ -206,3 +206,171 @@
 - *utmost*
 - *bond*
 - *hilarious*
+
+### U 19
+- *chamber*: 
+
+*n.*
+房间，室；会议厅，会所；议院；腔，膛；洞穴；<旧>卧室；法官办公室，律师事务所（chambers）
+
+*v.*
+把子弹送入弹膛；把……关在房间里
+
+*adj.*
+室内的；私人的，秘密的
+
+- *chaos* -> *chaotic*
+- *charter*: 
+
+*n.*
+宪章，章程；特许状，许可证；不完善，漏洞；包租，租赁
+
+*v.*
+包租，租用；特许成立，给予……特权
+
+*adj.*
+（临时）租用的
+!!! note "charter & lease & rent"
+    - charter: 特指租车租船用于出行或娱乐
+
+    - lease: 长期租，单次预支几年，一般在结束后会进行续租
+
+    - rent: 短期租，大多以月为单位，结束后可能退租
+
+- *defect*: *n.*: 缺点，缺陷
+- *deficiency*: *n.*: 1.缺乏，不足 2.缺陷 3.赤字 (deficit)
+??? abstract "examples"
+    1.
+    Vitamin deficiency in the diet can cause illness.
+
+    饮食中缺乏维生素可能导致疾病。
+    《牛津词典》
+
+    2.
+    Opacity of the eye lens can be induced by deficiency of certain vitamins.
+
+    眼球晶状体的混浊可由缺乏某些维生素引起。
+    《柯林斯英汉双解大词典》
+
+    3.
+    The most serious deficiency in NATO's air defence is the lack of an identification system to distinguish friend from foe.
+
+    北约防空的最大缺陷就是缺乏能够辨认敌友的识别系统。
+    《柯林斯英汉双解大词典》
+
+    4.
+    Pellagra is a disease that results from niacin deficiency.
+
+    糙皮病是一种由烟酸缺乏引起的疾病。
+    youdao
+
+    5.
+    In parts of South America, vitamin-A deficiency is a serious health problem, especially among children.
+
+    在南美部分地区，缺乏维生素 A 是一个严重的健康问题，尤其在儿童之中。
+    youdao
+- *degenerate*: -> *condescend*: *vi.*屈尊；俯就；（对某人）表现出优越感
+
+*v.*
+恶化，堕落，退化
+
+*adj.*
+衰退的，堕落的；退化的
+
+*n.*
+堕落的人，颓废的人
+
+- *seduce*: {==/sɪˈdjuːs/==}
+
+*v.*诱奸，勾引；引诱，吸引
+
+- *eject*: 
+
+*v.*驱逐，赶出；喷射，排出；（飞行员从即将坠毁的飞机中）弹出；（磁带或光盘）弹出 
+
+-> *exile*: *n.*流放；被流放者，流亡者 *v.*流放；使离开
+
+- *elbow*: 
+!!! note "phrases"
+    - at one's elbow: 在手头，附近
+
+    - give sb. the elbow: （非正式）排斥某人
+
+    - up tp one's elbows in: （非正式）把手插入（某物）
+- *menace*: 
+
+*n.*
+威胁，危险的人或物；烦人的人（或事物），引起麻烦的人（或事物）；危险气氛，威胁；<英，法律>（以）威胁（或恐吓）的手段（索要钱财）
+
+*v.*
+<正式>威胁，威吓
+??? note "Menace vs. Threat" 
+    1.  {++Menace++}： 
+
+        • 定义：A potential danger or threat that is likely to cause harm or damage. 
+        
+        • 侧重点：Emphasizes something ominous, impending, or threatening, often in a {==more abstract or lingering sense.==}
+        
+        • 常见用法： • "The storm clouds were a menace to the picnic." • "His constant criticism was a menace to her confidence."   
+        
+        • 语境：Often used to describe something that is not immediately present but feels threatening or dangerous.   
+        
+    2.  {++Threat++}： 
+
+        • 定义：A statement, action, or condition that indicates an {==intention to cause harm or damage.==} 
+        
+        • 侧重点：Emphasizes something direct, explicit, or intentional, often in a more immediate sense. 
+        
+        • 常见用法： • "The robber held up a gun as a threat." • "The company's layoffs were seen as a threat to employee stability."   
+        
+        • 语境：Often used to describe something that is direct, clear, or intended to cause fear.      
+        
+    3.  {++Key Differences++}： 
+
+        •  抽象 vs. 具体： • Menace is more abstract and often refers to a lingering or potential danger. • Threat is more concrete and direct, often referring to an explicit indication of harm.   
+        
+        •  情感色彩： • Menace often carries a sense of dread or ominousness. • Threat is more about the explicit indication of harm or danger.   
+        
+        •  使用场景： • Menace is often used in literature or poetic contexts to describe an ominous presence. • Threat is used in everyday language to describe direct warnings or dangers.      
+    
+    4.  {++Examples in Context++}： 
+    
+        •  Menace： • "The dark clouds gathering on the horizon were a menace to the hikers." • "His angry tone was a menace to the peaceful conversation."   
+        
+        •  Threat： • "The CEO's restructuring plan was a threat to many employees' jobs." • "The suspect made an explicit threat to harm the witness."
+- *mend*
+- *persecute*:{++/ˈpɜːsɪkjuːt/++} 
+
+*v.*（尤指因种族、宗教或政治信仰而）迫害，残害；骚扰，纠缠
+- *linger*: 
+
+*v.*继续存留，缓慢消失；流连，逗留；持续看（或思考）；苟延残喘；消磨，缓慢度过-> *lingering*: *adj.*拖延的，迟迟不结束的
+
+- *petroleum* {++/pəˈtrəʊliəm/++}
+- *pilgrim*
+- *pillar*: 
+
+*n.*柱子，支柱；主心骨，栋梁；（组织、制度、信仰等的）核心，基础；柱状物；纪念柱；煤柱，矿柱
+
+- *slip*
+
+*v.*
+滑倒，失足；滑落，脱落；溜走，悄悄地走；偷偷塞进；滑行，打滑；下降，变差；陷入；迅速穿上，迅速脱下；摆脱，挣脱；飞逝，过得飞快；被（某人）忘记；放出（动物，尤指猎狗）；（身体部分）移位，脱臼；（编织）挑过一针不结；**略微松动（汽车离合器）**；**（动物）流产**
+
+*n.*
+疏漏，差错；**小纸条**；滑，滑倒；滑动；衬裙；（击球员后侧的）守场员；（制陶器用的）泥浆，泥釉；（飞机飞行中的）侧滑；牵狗皮带；（两个码头之间）泊位；（编织）挑针；变糟，下跌；**接枝，插枝；瘦小的年轻人**
+
+??? "记忆方法"
+    尽管“slip”有多种含义，但它们之间存在一些内在联系： 
+    
+    1.  核心概念：失去控制 • “滑倒”是因为失去平衡，无法控制身体。 • “溜走”是指某物或某人悄悄移动，失去掌控。 • “小错误”是因为注意力不集中或失误，失去对细节的控制。   
+    
+    2.  物理与抽象的联系 • “滑倒”是物理上的失去平衡。 • “溜走”可以是物理上的移动，也可以是时间的流逝。 • “小错误”则是抽象上的失误，类似于“滑”出正确轨道。
+
+- *slope*: 
+
+*n.*
+斜坡，斜面；山坡；滑雪斜坡；斜度，坡度；（电子）斜率；扛枪姿势；<美，非正式> 东方人（尤指越南人）
+
+*v.*
+倾斜，成斜坡；歪斜；悄悄地走，溜；<英，非正式> 逛，随意走动

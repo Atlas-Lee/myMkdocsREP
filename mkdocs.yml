@@ -3,7 +3,7 @@ site_url: https://atlas-lee.github.io/myMkdocsREP
 # use_directory_urls: false  # Important for GitHub Pages
 
 
-plugins:
+plugins: 
   - glightbox
 
 # git add .
@@ -42,6 +42,7 @@ theme:
       accent: deep orange
 
 markdown_extensions:
+  - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -72,6 +73,11 @@ markdown_extensions:
   - pymdownx.betterem
   - toc:
       permalink: "📌"
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 
 extra_javascript:
@@ -85,7 +91,11 @@ nav:
   - 🏠 Home Page: home page.md
   - 🚀 My Pamphlet: formations.md
   - 📖 Study : 
-    - 🎶 Acoustics: acoustics.md
+    - 🎶 Acoustics: 
+      - Audio Acoustics: audio acoustics.md
+      - Ultrasonics: ultrasonics.md
+      - Acoustic Measure: acoustic measure.md
+      - Room Acoustics: room acoustics.md
     - 🧩 Language Learning: language learning.md
     - 📝 Data Processing: data processing.md
     - 💡 MATLAB: MATLAB.md
