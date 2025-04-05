@@ -374,3 +374,21 @@
 
 *v.*
 倾斜，成斜坡；歪斜；悄悄地走，溜；<英，非正式> 逛，随意走动
+
+### U20
+- *shabby*
+- *shaft*: 轴，杆状物
+- *shatter*: n. 破碎，碎裂，巨大打击 v. 碎片，落花
+- *shed*: v. 去除，摆脱，落(叶)，蜕皮，脱毛，落泪 n. 棚屋，小屋
+- *shave*
+- *terrific*
+- *aisle*
+- *chew*
+- *chronic* adj. 慢性的
+- *chunk* n. 厚块，大片，厚片
+- *pinch* v. 紧缺，节约，捏，拧，夹
+- *delegat* v. 授权，委托 n. 代表
+- *elevate*
+- *eligible*
+- *eloquent*
+- *emit*

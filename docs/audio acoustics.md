@@ -2,7 +2,7 @@
 
 # - Pre-contents
 
-![Application Field](.\assets\images\AudioAcoustics_process.png)
+![Application Field](https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs/assets/images/AudioAcoustics_process.png)
 
 # - Some rules of vector and matrix
 
@@ -1227,3 +1227,179 @@ Welch方法是一种用于估计信号功率谱密度（Power Spectral Density, 
 \]
 
 系数矩阵为Toeplitz matrix，可通过Levinson-Durbin迭代方法快速计算
+
+# 5. Time-Frequency Displays
+
+## Different FT
+![different FT](https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs/assets/images/4kinds_of_FT.png)
+
+In all four cases, the Fourier transform can be interpreted as the inner product of the signal \(x\) with a complex sinusoid at radian frequency \(\omega\).
+
+\[
+    \begin{align*}
+    s_\omega(t)&=e^{j\omega t}&\text{(Fourier Transform)}\\
+    s_{\omega_k}(t_n)&=e^{j\omega_kt_n}=e^{j2\pi nk/N}&\mathrm{(DFT)}
+    \\s_\omega(t_n)&=e^{j\omega t_n}=e^{j\omega n}&\mathrm{(DTFT)}
+    \end{align*}
+\]
+
+- DTFT
+
+Instead of operating on sampled signals of length \(N\) (like the DFT), the DTFT operates on sampled signals \(x(n)\) defined over all integers \( n \in \mathbb{Z} \) 
+
+Unlike the DFT, the DTFT frequencies form a continuum. That is, the DTFT is a function of continuous frequency, while the DFT is a function of discrete frequency. The DFT frequencies \(\omega_k\), are given by the angles of \(N\) points uniformly distributed along the unit circle in the complex plane. Thus, as \(N \rightarrow \infty\) , a continuous frequency axis must result in the limit along the unit circle. The axis is still finite in length, however, {++because the time domain remains sampled++}.
+
+- FT
+
+The Fourier transform is defined for {++continuous time and continuous frequency++}, both unbounded. As a result, mathematical questions such as existence and invertibility are **most difficult** for this case.
+
+??? tip "integrablility conditions"
+    \[
+        \begin{align*}
+        &\text{Conditions for the existence of FT are complicated to state in}\\&\text{general, but it is sufficient for }x(t)\text{ to be }absolutely\  intergrable,i.e.,\\
+        &\|x\|_{1}\triangleq\int_{-\infty}^{\infty}|x(t)|dt\quad<\infty\\
+        &\text{This requirement can be stated as }x\in L_{1}\text{, meaning that }x\text{ belongs to the set of}\\&\text{all signal having a finite }L_{1}\mathrm{~nrom}(\|x\|_{1}<\infty)\text{. It is similarly sufficient for}\\&x(t)\text{ to be square integrable, i.e.,}\\\\&\|x\|_{2}^{2}\triangleq\int_{-\infty}^{\infty}|x(t)|^{2}dt<\infty\\\\&\mathrm{or~}x\in L_{2}\text{. More geneally, it suffices to show }x\in L_{p}\mathrm{~for~}1\leq p\leq2
+        \end{align*}
+    \]
+
+\[
+    x(\frac{t}{a}) \longleftrightarrow |a|\cdot X(a\omega)    
+\]
+
+## STFT(Short-Time Fourier Transform, STFT)
+
+The STFT is the main computational tool used in spectral modeling applications. The STFT may be viewed as either an 
+
+1. overlap-add processor--a sequence of Fourier transforms of windowed data segments (a ''sliding'' or ''hopping'' FFT), or a 
+2. filter-bank-sum processor--an implementation of a time-domain bandpass filter bank using an FFT to implement the filter bank.
+
+!!! success "applications"
+    1.Approximating the time-frequency analysis performed by the ear for purposes of spectral display. 
+
+    2.Measuring model parameters in a short-time spectrum.
+---
+- 基本概念
+短时傅里叶变换（STFT）是一种时频分析工具，通过对信号加窗分段后计算傅里叶变换，将非平稳信号的频谱随时间变化的过程可视化。其核心思想是：{++假设信号在短时间内是平稳的++}。
+
+---
+
+### Mathematical definition
+
+!!! note annotate "(1)"
+    \[
+        X_m(\omega)=\sum_{n=-\infty}^\infty x(n)w(n-mR)e^{-j\omega n}=\mathrm{DTFT}_\omega(x\cdot\mathrm{SHIFT}_{mR}(w))
+    \]
+1. 
+\[
+    \begin{aligned}
+    \\x(n)&=\quad\text{imput signal at time }n\\w(n)&=\quad\mathrm{leagh~}M\text{ window function }(e.g.,\mathrm{~Hamming})\\X_m(\omega)&=\quad\text{DTFT of windowed data centered about time }mR\\R&=\quad\text{hop size, in samples, between successive DTFTs.}\end{aligned}
+\]
+
+*Constant OverLap-Add(COLA) property* at hop-size \(R\), i.e.,{==\(\sum_{m} w(n-mR) = 1\)==}. Then,
+
+{++lossless reconstruction++}
+
+\[
+    \begin{aligned}\begin{aligned}\sum_{m=-\infty}^\infty X_m(\omega)\end{aligned}&\overset{\Delta}{\operatorname*{=}}
+    \sum_{m=-\infty}^{\infty}[\sum_{n=-\infty}^{\infty}x(n)w(n-mR)e^{-j\omega n}]\\&=\sum_{n=-\infty}^\infty x(n)e^{-j\omega n}\underbrace{\sum_{m=-\infty}^\infty w(n-mR)}_{1\mathrm{~if~}w{\in}\mathrm{COLA}(R)}\\&=\quad\sum_{n=-\infty}^\infty x(n)e^{-j\omega n}\\&\overset{\Delta}{\operatorname*{\operatorname*{\equiv}}}\quad\mathrm{DTFT}_\omega(x)=X(\omega).\end{aligned}
+\]
+
+For usage as a spectrum analyzer for measurement and display, the COLA requirement can often be relaxed, as doing so only means we are not **weighting all information equally in our analysis**. Nothing disastrous happens.
+
+For example, if we use 50% overlap with the Blackman window in a short-time spectrum analysis over time--the results look fine; however, in such a case, data falling near the edges of the window will have a slightly muted impact on the results relative to data falling near the window center, because the Blackman window is not COLA at 50% overlap.
+
+### STFT discretization
+
+- Take it as static window and hopping signal: variable replace: \(n \rightarrow n+MR\)
+
+\[
+    \begin{aligned}X_m(\omega)&\begin{aligned}=\sum_{n=-\infty}^{\infty}x(n+mR)w(n)e^{-j\omega(n+mR)}\end{aligned}
+    \\&=e^{-j\omega mR}\sum_{n=-\infty}^\infty x(n+mR)w(n)e^{-j\omega n}\\&=e^{-j\omega mR}\mathrm{DTFT}_\omega(\mathrm{SHIFT}_{-mR}(x)\cdot w).\end{aligned}
+\]
+
+- Take it as static signal and hopping window:
+
+\[
+    X_m(\omega)=e^{j\omega mR}\mathrm{DTFT}_\omega(\mathrm{SHIFT}_{mR}(w)\cdot x)
+\]
+
+
+
+Discretize it,
+
+\[
+    \begin{aligned}X_m(\omega_k)&=e^{-j\omega_kmR}\sum_{n=0}^{N}x(n+mR)w(n)e^{-j\omega_kn}\\&=e^{-j\omega_kmR}\mathrm{DFT}_{N,\omega_k}(\mathrm{SHIFT}_{-mR}(x)\cdot w) 
+    \end{aligned}
+\]
+
+---
+- detailed deduction
+ 
+连续STFT表达式为：
+
+\[
+\text{STFT}(\omega, \tau) = \int_{-\infty}^{\infty} x(t) w(t - \tau) e^{-j\omega t} \mathrm{d}t
+\]
+
+1.信号采样
+对连续信号\(x(t)\)以采样率\(F_s\)采样，得到离散序列：
+
+\[
+x[n] = x(nT_s), \quad T_s = 1/F_s
+\]
+
+2.分帧与加窗
+将信号分割为长度为\(N\)的帧，每帧起始时间为\(mH\)（\(H\)为帧移）：
+
+\[
+x_m[n] = x[n + mH] \cdot w[n], \quad 0 \leq n \leq N-1
+\]
+
+其中窗函数\(w[n]\)满足*COLA*：
+
+\[
+\sum_{m=-\infty}^{\infty} w[n - mH] = 1
+\]
+
+3.DFT
+对每帧信号做DFT：
+
+\[
+X[m, k] = \sum_{n=0}^{N-1} x_m[n] e^{-j\frac{2\pi}{N}kn} = \sum_{n=0}^{N-1} x_m[n] e^{-j \omega_k n}, \quad 0 \leq k \leq N-1
+\]
+
+---
+
+!!! tip "关键参数解析"
+    1.  帧长\(N\)
+        - 频率分辨率：\(\Delta f = F_s/N\)
+        - 时间分辨率：\(\Delta t = N/F_s\)
+        - 典型值：512/1024（语音处理），4096（音乐分析）
+
+    2.  帧移\(H\)
+        - 重叠率：\( \text{Overlap} = (N - H)/N \times 100\% \)
+        - 常用重叠率：50%-75%（平衡计算量与时间连续性）
+
+    3.  窗函数选择
+    
+    | 窗类型       | 主瓣宽度 | 旁瓣衰减 | 适用场景          |
+    |--------------|----------|----------|-------------------|
+    | 矩形窗       | 窄       | -13 dB   | 瞬态信号分析      |
+    | 汉明窗       | 较宽     | -43 dB   | 稳态信号（默认）  |
+    | 布莱克曼窗   | 最宽     | -58 dB   | 高精度频谱分析    |
+
+---
+
+- 时频网格的离散化
+离散STFT输出为二维复数矩阵：
+
+\[
+X[m, k] \in \mathbb{C}^{M \times K}
+\]
+
+**时间轴**：\( t[m] = mH/F_s \)（秒）
+
+**频率轴**：\( f[k] = kF_s/N \)（Hz），仅需保留\(0 \leq k \leq N/2\)（共轭对称性）
+
+---
+
