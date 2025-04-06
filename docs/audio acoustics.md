@@ -1403,3 +1403,118 @@ X[m, k] \in \mathbb{C}^{M \times K}
 
 ---
 
+## Wavelet Analysis
+与傅里叶变换相比，它既能捕捉频率信息，又能保留时间/空间定位能力。
+
+### 1. 连续小波变换 (CWT)
+- 基本定义
+连续小波变换将信号$f(t)$分解为一系列小波基函数 (1) 的线性组合
+{ .annotate }
+
+    1.   $\psi(t)$：母小波函数（满足$\int_{-\infty}^\infty\psi(t)dt = 0$）
+        $a > 0$：尺度参数（控制频率）
+        $b \in \mathbb{R}$：平移参数（控制时间定位）
+
+$$
+W(a,b) = \frac{1}{\sqrt{a}} \int_{-\infty}^{\infty} f(t) \psi^*\left( \frac{t-b}{a} \right) dt
+$$
+
+
+
+
+- 容许条件
+为使重构可行，母小波需满足容许性条件：
+$$
+C_\psi = \int_0^\infty \frac{|\hat{\psi}(\omega)|^2}{\omega} d\omega < \infty
+$$
+其中$\hat{\psi}(\omega)$是$\psi(t)$的傅里叶变换
+
+---
+
+### 2. 离散小波变换 (DWT)
+- 二进离散化
+取$a=2^j$, $b=k2^j$（$j,k\in\mathbb{Z}$），得到离散小波基：
+$$
+\psi_{j,k}(t) = 2^{-j/2} \psi(2^{-j}t - k)
+$$
+
+- 正交性条件
+若小波族$\{\psi_{j,k}\}$构成正交基，则满足：
+$$
+\langle \psi_{j,k}, \psi_{m,n} \rangle = \delta_{j,m} \delta_{k,n}
+$$
+
+---
+
+### 3. 多分辨率分析 (MRA)
+- 嵌套子空间
+定义闭子空间序列$\{V_j\}_{j\in\mathbb{Z}}$满足：
+1. **嵌套性**：$V_j \subset V_{j-1}$
+2. **稠密性**：$\overline{\bigcup_{j\in\mathbb{Z}} V_j} = L^2(\mathbb{R})$
+3. **正交基存在性**：存在尺度函数$\phi(t)$使得$\{\phi(t-k)\}$构成$V_0$的正交基
+
+- 尺度方程与小波方程
+$$
+\begin{aligned}
+\phi(t) &= \sqrt{2} \sum_n h_n \phi(2t-n) \quad (\text{尺度方程}) \\
+\psi(t) &= \sqrt{2} \sum_n g_n \phi(2t-n) \quad (\text{小波方程})
+\end{aligned}
+$$
+其中$h_n$为低通滤波器系数，$g_n = (-1)^n h_{1-n}$为高通滤波器系数
+
+---
+
+### 4. 快速小波变换 (Mallat算法)
+- 分解过程
+$$
+\begin{aligned}
+c_{j+1}[k] &= \sum_n h[n-2k] c_j[n] \quad (\text{近似系数}) \\
+d_{j+1}[k] &= \sum_n g[n-2k] c_j[n] \quad (\text{细节系数})
+\end{aligned}
+$$
+
+- 重构过程
+$$
+c_j[n] = \sum_k h[n-2k] c_{j+1}[k] + \sum_k g[n-2k] d_{j+1}[k]
+$$
+
+---
+
+### 5. 常用小波函数推导示例（Haar小波）
+- 尺度函数
+$$
+\phi(t) = 
+\begin{cases}
+1 & 0 \leq t < 1 \\
+0 & \text{其他}
+\end{cases}
+$$
+
+- 小波函数
+$$
+\psi(t) = 
+\begin{cases}
+1 & 0 \leq t < 0.5 \\
+-1 & 0.5 \leq t < 1 \\
+0 & \text{其他}
+\end{cases}
+$$
+
+- 滤波器系数
+$$
+h = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right], \quad 
+g = \left[\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right]
+$$
+
+---
+
+### 6. 时频分辨率关系
+根据Heisenberg不确定性原理：
+$$
+\Delta t \cdot \Delta \omega \geq \frac{1}{2}
+$$
+其中：
+- $\Delta t = \sqrt{\int t^2 |\psi(t)|^2 dt}$
+- $\Delta \omega = \sqrt{\int \omega^2 |\hat{\psi}(\omega)|^2 d\omega}$
+
+
