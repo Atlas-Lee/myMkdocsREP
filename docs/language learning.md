@@ -57,7 +57,7 @@
 
     这并不是一个口语用词，较为正式
 
-- *opt* 
+#### *opt* 
 
 !!! tip
 
@@ -91,7 +91,8 @@
   *v.*
   （绕……）环行
 
-- *grace*: 含义极为广泛灵活。
+#### *grace*
+含义极为广泛灵活。
 
   *n.*
   优美，优雅；文雅，高雅；风度，体面；恩宠，恩典；饭前感恩祷告；宽限期，延缓期；大人（用于对公爵、公爵夫人或大主教的尊称）
@@ -100,10 +101,12 @@
   为增色，装饰；使增光，使荣耀
 
 - *gracious*
+*adj.* 有礼貌的，和蔼的；豪华舒适的，富足安逸的；（上帝）慈悲的；尊贵的，仁慈的（用于对王室成员的称呼）
 
 !!! tip
 
     good gracious 天哪，我去
+
 ### U 18
 
 - *skim*: *vt.* 1.擦去,撇去 2.掠过,擦过(表面) 3.略读
@@ -111,7 +114,7 @@
 - *skin* -> skinny, <-> peel 剥皮
 - *slam*
 - *slap* -> snap
-- *slaughter*
+#### *slaughter*
 !!! note "slaughter & massacre"
     {==/ˈmæsəkə(r)/ /ˈslɔːtə(r)/==}  
     1. **Scale and Context**: Massacre is typically used to describe large-scale, brutal killings of people, often in a historical or political context. Slaughter can refer to both animals and people, and it is used in a **wider** range of contexts, including metaphorical ones.  
@@ -122,7 +125,7 @@
 - *slice*:*n.* 薄片,切片;部分,份 *vt.* 切
 - *climax* -> culminate *v.*（以……）结束，告终；到达顶点，达到高潮
 - *clip*: *vt.* 剪，修建；钳，夹住 *n.* 夹子，钳子，回形针
-- *cloak*
+#### *cloak*
 !!! note "cloak & cape"
     1.  Cloak:斗篷✒️  
     • Definition: A long, outer garment without sleeves, often with a hood.  
@@ -141,9 +144,9 @@
     Collar：领子。 2. Sleeve：袖子。 3. Cuff：袖口。 4. Waist：腰部。 5. Hem：下摆。 6. Belt：腰带。 7. Pocket：口袋。 8. Zipper：拉链。 9. Button：纽扣。 10. Fabric：布料。 11. Sash：腰带或饰带。 12. Dress：裙子（用于连衣裙）。 13. Jacket：夹克。 14. Blouse：衬衫。 15. Skirt：裙子。
 
 - *descend*:*v.* 下来，下降；下倾，下斜；降临，来临；（情绪、气氛等）笼罩；突然到来，突然造访；降低身份，堕落；衰落，陷入；遗传 <-> *ascend*: *v.* 攀登，登上；上升，升高，通往高处；升职，晋升；追溯，溯源
-- *endow* {==/ɪnˈdaʊ/==}
+#### *endow* {==/ɪnˈdaʊ/==}
 !!! note "endow & sponsor"
-    1. 定义： • Endow：指为某个机构、项目或个人提供资金支持，以促进其发展或维持其运作。通常用于教育、慈善等领域。 • Sponsor：指为某个活动、组织或项目提供资金、资源或支持的人或公司。适用于商业、体育、文化等多种场合。  
+    1. 定义： • Endow：指为某个机构、项目或个人提供资金支持，以促进其发展或维持其运作。通常用于**教育、慈善**等领域。 • Sponsor：指为某个活动、组织或项目提供资金、资源或支持的人或公司。适用于商业、体育、文化等多种场合。  
     2. 侧重点： • Endow 强调长期的、持续的资金支持，通常用于非营利性或教育性项目。 • Sponsor 强调支持和合作，可以是短期或长期，侧重于资金和资源的提供。   
     3. 使用场景： • Endow 用于描述对机构或项目的长期资助，如奖学金、研究基金等。 • Sponsor 用于描述对活动、组织或项目的资金支持和合作，如赞助体育赛事、音乐会等。   
     4.  例句：  
@@ -220,7 +223,7 @@
 室内的；私人的，秘密的
 
 - *chaos* -> *chaotic*
-- *charter*: 
+#### *charter*
 
 *n.*
 宪章，章程；特许状，许可证；不完善，漏洞；包租，租赁
@@ -297,7 +300,7 @@
     - give sb. the elbow: （非正式）排斥某人
 
     - up tp one's elbows in: （非正式）把手插入（某物）
-- *menace*: 
+#### *menace* 
 
 *n.*
 威胁，危险的人或物；烦人的人（或事物），引起麻烦的人（或事物）；危险气氛，威胁；<英，法律>（以）威胁（或恐吓）的手段（索要钱财）
@@ -346,7 +349,7 @@
 
 *v.*继续存留，缓慢消失；流连，逗留；持续看（或思考）；苟延残喘；消磨，缓慢度过-> *lingering*: *adj.*拖延的，迟迟不结束的
 
-- *petroleum* {++/pəˈtrəʊliəm/++}
+- *petroleum* {++/pəˈtrəʊliəm/++} *n.*石油，原油
 - *pilgrim*
 - *pillar*: 
 
@@ -377,18 +380,336 @@
 
 ### U20
 - *shabby*
-- *shaft*: 轴，杆状物
+- *shaft*: **轴，杆状物**
 - *shatter*: n. 破碎，碎裂，巨大打击 v. 碎片，落花
 - *shed*: v. 去除，摆脱，落(叶)，蜕皮，脱毛，落泪 n. 棚屋，小屋
 - *shave*
 - *terrific*
 - *aisle*
 - *chew*
-- *chronic* adj. 慢性的
-- *chunk* n. 厚块，大片，厚片
-- *pinch* v. 紧缺，节约，捏，拧，夹
-- *delegat* v. 授权，委托 n. 代表
+#### *chronic* 
+*adj.* 慢性的
+!!! success ""
+    - malignant
+    - benign
+- *chunk* 
+*n.* 厚块，大片，厚片
+- *pinch* 
+*v.* 紧缺，节约，捏，拧，夹 pinch and scrape
+- *delegat* 
+*v.* 授权，委托 *n.* 代表
 - *elevate*
 - *eligible*
 - *eloquent*
+*adj.* 雄辩的，口才流利的；传神的，明确表示的
 - *emit*
+
+### U21
+- *sideways*: 
+*adv.* 斜向一边地；侧面朝前地，侧着；（工作调动）平级地；间接地
+*adj.* 向一边（或一侧）的，向旁边的；（工作，职位）平级变动的；间接的；（观点）非常规的，非正统的
+- *sigh*: *v.*
+- *threshold*:{++/ˈθreʃhəʊld/++}
+*n.* 门槛，门口；阈，界，起始点；开端，起点，入门；机场跑道入口，跑道头
+#### *thrust*
+*v.* *n.*
+!!! success "comparison"
+    | **单词** | **定义**                                                                 | **例句**                                                                 | **用法**                                                                 |
+    |----------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+    | **Thrust** | 用力刺入或推入某物，强调动作的力度和速度。                              | He thrust his sword into the enemy.                                         | 通常用于描述有力量的动作，如刺入或推入。                                      |
+    | **Pierce** | 用尖锐的物体刺穿某物，形成孔洞，强调穿透。                              | The doctor pierced the patient's vein for the injection.                     | 通常用于描述使用尖锐工具穿透物体，如针、子弹等。                              |
+    | **Stab**  | 用尖锐的物体刺入，通常带有攻击性，常用于暴力语境。                      | The attacker stabbed the victim multiple times.                             | 强调攻击性和伤害性，常用于描述攻击行为。                                      |
+    | **Stick** | 既可以指刺入，也可以指粘附，用法较广。                                  | He stuck the pin into the map.                                              | 刺入时强调插入，粘附时强调附着，如胶带或钉子。                                |
+    | **Penetrate** | 强调进入或穿透，常用于液体、光线或抽象概念。                        | The sunlight penetrated the dense forest.                                   | 强调进入或穿透，常用于抽象或不可见的事物，如气味、光线等。                    |
+    | **poke** | （用手指或尖利物品）戳，刺；从……露出（或伸出、探出）；戳（洞）；<俚>与（某人）性交；吸引（另一用户）的注意                        | He gave me a poke in the ribs to wake me up.                      | 强调动作本身，一般不具有攻击性，只是为了引起注意                    |
+
+
+- *volatile*: {++/ˈvɒlətaɪl/++}
+*adj.* 易变的，动荡不定的，反复无常的；（情绪）易变的，易怒的，突然发作的；（液体或固体）易挥发的，易气化的；（计算机内存）易失的
+**核心含义就是不稳定性，强调食物的不可长久存在性质，引申到物理化学等层面**
+- *amiable*: {++/ˈeɪmiəb(ə)l/++}
+*adj.* 和蔼可亲的，友好的；令人愉快的 
+!!! note ""
+
+    1.
+    Her parents seemed very amiable.
+
+    她的父母好像很和蔼可亲。
+    《牛津词典》
+
+    2.
+    The new CEO is an educated, amiable, and decent man.
+
+    新的首席执行官是一位受过良好教育、亲切、正派的人。
+    《柯林斯英汉双解大词典》
+
+    3.
+    She had been surprised at how amiable and polite he had been.
+
+    她对他如此和蔼可亲、彬彬有礼感到了惊讶。
+    《柯林斯英汉双解大词典》
+- *bench*:
+*n.* **长凳，长椅；长方形工作台**；法官席（the bench）； 议员席；替补席；（砖石建筑的）壁架，（斜坡上的）平台
+*v.* 把（场上队员）**换下**；（在展览会上）展览（狗）；仰卧推举；给……以席位；为……设置条凳
+- *clash*: *v.* *n.*
+- *clasp*:  
+*n.* 扣子，扣环；紧握，紧抱
+*v.* 扣住，扣紧；握紧，抱紧；紧紧缠绕
+- *clap*: 
+!!! success ""
+    - Clap： 
+        • 更常用于日常交流，表达个人的情感。 
+        • 可以用于任何需要拍手的场合，如赞同、欢迎或鼓励。   
+    - Applause： 
+        • 更正式，通常用于大型或正式的场合，如音乐会、颁奖典礼等。 
+        • 表达集体的赞赏和欢迎，通常是对表演者或获奖者的肯定。
+- *departure*: *n.* 
+!!! note ""
+    - take one's ~: 出发（较为正式和文学性，用于替代简单的leave）
+    - a point of ~: 起点
+    - in anticipation of ~: 预期即将离开（用于描述离开前的准备工作或其他内容） 
+- *depict*: *v.*
+- *gorgeous*: *adj.* 
+- *gossip*: *v.* *n.*
+- *deplete*: *v.* 大量减少，耗尽
+#### *cereal*
+*n.* *adj.* 
+!!! success ""
+    1. Cereal： • 通常指的是谷物类食物，如小麦、大米、玉米等。 • 在日常生活中，cereal常用来指代早餐谷物，如燕麦片、玉米片等。   
+    2. Grain： • 指的是谷物的籽实部分，包括小麦、大米、玉米等。 • Grain是一个更广泛的术语，不仅包括我们通常食用的谷物，还包括一些工业用途的谷物，如用于酿造的高粱和大麦。 • 在地质学中，grain也可以指岩石中的颗粒。    
+    3. 总结： • Cereal 更常用于指代谷物类食物，尤其是在早餐谷物的语境中。 • Grain 是一个更广泛的术语，包括各种谷物的籽实部分，以及颗粒状的物质。
+- *hedge*: 
+*n.* 树篱；防范措施，防备手段
+*v.* 拐弯抹角，**避免正面回答**；用树篱围住；**包围，限制**；采取保值措施以规避风险
+- *herd*: *v.* *n.* -> *nomad* *n.* 游牧民，游牧部落一员；流浪者，不断更换工作的人
+-> *flock* *n.*（鸟或羊等动物）群；一大群人；（某个教堂的）会众，全体教徒；（填充垫子的）絮屑，毛棉填料；（植绒用的）短绒，绒屑
+
+### U22  
+#### *revolt*
+
+n.
+（对权威、规定、法律的）反抗，违抗；叛乱，造反
+
+v.
+叛乱，造反；反抗，拒绝服从（权威、规定或法律）；使反感，使震惊
+!!! success ""
+    - revolt和revolution同源，意义相近，指“大规模、有组织的反抗行动”，并且是暴力反抗
+    - rebel和rebelion指“局部、小范围的反抗活动”
+
+- *retire* -> *resign*
+- *retro* -> *retrospect*
+- liver
+- loaf
+
+n.
+一条，一块（面包）；（美味食物切碎压成块后烹制成的）糕
+
+v.
+游荡，闲逛
+#### lodge
+
+v.
+（使）固定，（使）卡住；**（通常付住宿费地）借住，寄住**，（为某人）提供住宿；存放，寄放（贵重物品）；**正式提出（投诉、要求等）**；铭记，留存
+
+n.
+（公园或宅第的）门口小屋，门房；**（大学、机构等的）门房，管理员室**；（乡村或山间供狩猎者等使用的）小屋，小舍；（地方分会会员的）集会地，活动地；（河狸或水獭的）穴，窝；印第安锥形棚屋；（剑桥的）学院院长住宅；用于名字中宅，舍，旅馆
+
+1. *lodge a claim* 提出索赔
+
+2. *lodge a complaint* 投诉；对…提出控告
+- lofty
+
+!!! success "discount & coupon & boucher"
+    | **项目**       | **Discount**                     | **Coupon**                       | **Voucher**                      |
+    |----------------|----------------------------------|----------------------------------|----------------------------------|
+    | **定义**       | 价格的直接减少                  | 优惠凭证，提供折扣或优惠        | 兑换凭证，用于多种消费形式      |
+    | **用法**       | 直接应用，无需凭证              | 需要出示或输入代码              | 需要兑换或使用凭证              |
+    | **适用范围**   | 各种商品和服务                  | 特定商品或服务                  | 多种消费形式，如旅行、购物等    |
+    | **例子**       | 10% off on all electronics      | $5 off on diapers with coupon   | Travel voucher for free coffee  |
+    | **特点**       | - 直接减少价格，无需凭证        | - **针对性强，通常有使用期限或限制条件** | - 灵活性高，用途广泛            |
+
+    ---
+
+    **总结**
+
+    - **Discount** 是一种直接的价格减少，适用于各种商品和服务。
+    - **Coupon** 是一种优惠凭证，通常用于特定商品或服务，提供折扣或优惠。
+    - **Voucher** 是一种兑换凭证，可以用于多种消费形式，如礼品卡、旅行券等。
+
+    通过理解这些区别，可以在不同的场合中正确使用这三个词，避免混淆。😊
+- disguise
+- dismay
+
+n.
+担忧；失望，沮丧；惊愕
+
+v.
+使担忧；使失望，使沮丧；使惊恐
+
+- disposal{++/dɪˈspəʊz(ə)l/++}
+
+n.
+**处理，清除**；（土地、财产等的）变卖，**转让**
+!!! note "examples"
+    1.
+    Congress passed a law that regulates the disposal of waste.
+
+    国会通过了一条管理废物处理的法律。
+    《柯林斯英汉双解大词典》
+
+    2.
+    Attempts are being made to solve the problem of waste disposal.
+
+    正在想办法解决废物处理的问题。
+    《牛津词典》
+
+    3.
+    Therefore, less money is spent for garbage disposal.
+
+    因此，花在垃圾处理上的钱就少了。
+    youdao
+
+    4.
+    There's a high-tech underground trash disposal system.
+
+    有一个高科技的地下垃圾处理系统。
+    youdao
+
+    5.
+    Typically, parents have fewer technological resources at their disposal than do schools.
+
+    通常情况下，家长可支配的技术资源比学校少。
+    youdao
+#### dispose 
+
+v.
+处理，放置，安排；使易于，使倾向于；丢掉
+!!! tip "phrases"
+    - dispose of 
+
+    处理：指处理或处理掉某物，通常是为了摆脱或解决问题。
+
+    处置：指采取行动或决策来解决问题或处理情况。
+
+    摆脱：指摆脱或解决某种不需要或不想要的东西。
+
+    - dispose for 
+    
+    为……做好准备：为某事或某人做好安排或准备。
+- disposition
+
+n.
+性情，性格；倾向，癖性；易患某病的倾向；**赠与，转让**{++继承了dispose,disposal的含义++}；排列，布置；支配权，处置权；<古>（尤指天意的）决定
+- estate
+- esteem
+
+n.
+尊重，敬重
+
+v.
+尊重，敬重；认为，把……看作
+
+{++self-esteem自尊；自尊心；自我尊重++}
+
+- evacuate
+- evade
+
+v.
+规避，逃避；难倒，使困惑；未能（被某人）获得；（尤指违法犯罪后）逃脱，躲开（追捕）
+
+{++对于“回避问题，逃避责任”，有如下的近义词: hedge(实际多以“树篱笆”的含义出现), avoid++}
+
+#### mist
+
+n.
+薄雾，水汽；雾状物；使视线模糊的东西；迷雾，难以透彻了解的事物
+
+v.
+使……蒙上雾气；（使）充满泪水；给……喷水；下毛毛细雨
+!!! success "misty & foggy"
+    | **项目**       | **Foggy**                     | **Misty**                       |
+    |----------------|--------------------------------|---------------------------------|
+    | **定义**       | 有雾的，雾气浓重的             | 有轻雾或薄雾的                 |
+    | **例句**       | - It's a foggy morning.        | - The sunrise was misty.       |
+    | **使用场景**   | - 天气预报：foggy weather      | - 天气预报：misty weather       |
+    |                | - 视力模糊：foggy vision       | - 照片模糊：misty photo         |
+    | **区别**       | 雾气较浓，能见度较**低**           | 雾气较轻，能见度较**高**           |
+
+
+- nuisance {==/ˈnjuːsns/==}注意读音
+
+n.
+麻烦事，讨厌的人（或事物、情况）；损害，妨害；骚扰行为，妨害行为
+
+#### retail & wholesale
+!!! success "retail & wholesale"
+    - retail
+
+    n.
+    零售
+
+    v.
+    零售；以……价格销售；详说，述说（尤指别人的事情）
+
+    adv.
+    以零售方式
+
+    adj.
+    零售的
+    
+    - wholesale
+    n.
+    批发，趸售
+
+    adj.
+    批发的，趸售的；大规模的，大批的
+
+    adv.
+    批发地，成批卖地；完全地
+
+    v.
+    批发销售；以……价格批发
+
+- retantion{++
+/rɪˈtenʃ(ə)n/
+++}
+
+n.
+**保持，保留**{==核心含义==}；保存，存放；保持力，持续力；记忆力；（热量的）阻滞，（液体的）潴留；（对物质的）吸收和保持
+
+#### recall
+
+v.
+记起，回想起；使想起，使想到；召回，叫回（某人）；召回（运动员），使归队； 收回（有问题的产品）；检索，调用（计算机储存的数据）；<美> 罢免；使重新集中注意力；<古> 撤销，废止（行动，决定）
+
+n.
+记忆力，记性；召回；（因产品有问题的）收回；（将运动员的）召回归队；<美>（请愿后经投票对政府官员的）罢免；回索率，检索率；撤销
+
+- contagious {==/kənˈteɪdʒəs/==}
+
+adj.
+（疾病）接触性传染的；（情感）具有感染力的；患接触传染病的
+!!! note "examples"
+    1.
+    Scarlet fever is highly contagious.
+
+    猩红热的接触传染性很强。
+    《牛津词典》
+
+    2.
+    Laughing is contagious.
+
+    笑是有感染力的。
+    《柯林斯英汉双解大词典》
+
+    3.
+    This disease is not contagious [infectious].
+
+    这病不传染。
+    《新英汉大辞典》
+
+    4.
+    The pleasure of connection seems contagious.
+
+    联系的乐趣似乎具有感染力。
+    youdao
