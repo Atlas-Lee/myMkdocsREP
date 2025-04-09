@@ -297,3 +297,29 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+流程图
+```mermaid
+graph LR
+    A[开始] --> B{条件判断}
+    B -->|是| C[执行操作]
+    B -->|否| D[结束]
+```
+
+序列图
+```mermaid
+sequenceDiagram
+    Alice->>John: 你好吗？
+    John-->>Alice: 很好！
+    Alice->>John: 任务完成了吗？
+```
+
+类图
+```mermaid
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal: +int age
+    Animal: +String gender
+    Animal: +isMammal()
+```

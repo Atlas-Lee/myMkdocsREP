@@ -50,11 +50,14 @@
 
 ??? abstract "**推导**"
     \[
-    \mathbf{x}^T \mathbf{A} \mathbf{x} = \sum_{i=1}^n \sum_{j=1}^n A_{ij}x_i x_j = A_{kk} x_k^2 + x_k \sum_{i=1,i\neq k}^n A_{ik}x_i + x_k \sum_{j=1,j\neq k}^n A_{kj}x_j \stackrel{\mathbf{A}=\mathbf{A}^T}{=} A_{KK} x_k^2 + 2 x_k \sum_{i=1,i\neq k}^n A_{ik}x_i
+    \mathbf{x}^T \mathbf{A} \mathbf{x} = \sum_{i=1}^n \sum_{j=1}^n A_{ij}x_i x_j = \]
+    
+    \[
+        \\A_{kk} x_k^2 + x_k \sum_{i=1,i\neq k}^n A_{ik}x_i + x_k \sum_{j=1,j\neq k}^n A_{kj}x_j \stackrel{\mathbf{A}=\mathbf{A}^T}{=} A_{kk} x_k^2 + 2 x_k \sum_{i=1,i\neq k}^n A_{ik}x_i
     \]
 
     \[
-    \implies \frac{\partial}{\partial x_k} = 2A_{KK} + 2\sum_{j=1,j\neq k}^n A_{kj}x_j = 2\sum_{j=1}^n A_{kj}x_j = 2\mathbf{A}\mathbf{x}
+    \implies \frac{\partial}{\partial x_k} = 2A_{kk} + 2\sum_{j=1,j\neq k}^n A_{kj}x_j = 2\sum_{j=1}^n A_{kj}x_j = 2\mathbf{A}\mathbf{x}
     \]
 
 ---

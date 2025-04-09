@@ -98,6 +98,7 @@ extra_javascript:
 nav:
   - 🏠 Home: home page.md
   - 🚀 My Pamphlet: formations.md
+  - 📒 Other Things: other things.md
   - 📖 Study : 
     - 🎶 Acoustics: 
       - Audio Acoustics: audio acoustics.md

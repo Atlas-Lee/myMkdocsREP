@@ -713,3 +713,449 @@ adj.
 
     联系的乐趣似乎具有感染力。
     youdao
+
+### U23
+- bounce
+
+v.
+弹起，反弹；跳动，蹦；（使）上下晃动；（用膝盖）颠动（孩子）；蹦蹦跳跳地去；**拒付，退回（支票等）**；**退回（电子邮件）**{++即"弹回"含义++}；驱逐，解雇；（向某人）透露主意（以试探其反应）；反复跳槽，来回往返某地；（光线或声音）反射；撞击，碰撞
+
+n.
+弹跳，跳动；**弹性，弹力；活力，精力**；（头发的）**弹性，蓬松**；突然的增长
+
+- bound
+
+adj.
+**必然的，肯定的**；**受约束的**，有义务的；被……所限制的，被……所束缚的；要到……去的，驶往……的；装订好的，有封面的；（与……）紧密相连的，关系密切；准备就绪的；（语法要素）黏附的
+
+v.
+跳跃，蹦跳着走；形成……的边界，划界；限制，约束；突然增长，急剧上升；（尤指圆形的物体）弹回，弹开
+
+n.
+界限，限制；蹦跳，跳跃
+{==be bound up in/with 热衷于,忙于==}
+
+#### travel & journey & trip & voyage & excursion
+!!! success "travel & journey & trip & voyage & excursion"
+    1. Travel
+    含义：泛指“旅行”这一行为或过程，不特指具体某次行程，强调移动的动作或概念。
+    特点：
+    不可数名词，不能与冠词（a/an）连用。
+    可作动词（如：travel to Paris）。
+    常指“长途旅行”或长期旅行的经历。
+    常用场景：
+    泛指旅行（如：I love travel.）
+    旅行行业（如：travel agency）
+    长期或多次的旅行经历（如：world travel）
+    例句：
+    Travel broadens the mind. （旅行开阔眼界。）
+    She travels a lot for work.
+    2. Journey
+    含义：强调从一地到另一地的“行程”，尤其指长距离或耗时的单程旅行，常带有情感或过程色彩。
+    特点：
+    可数名词（如：a long journey）。
+    侧重过程（时间、距离、经历），而非目的地。
+    常用场景：
+    陆地上的长途旅行（如火车、汽车）。
+    比喻人生或抽象旅程（如：life journey）。
+    例句：
+    The journey from Beijing to Shanghai took 5 hours by train.
+    It’s been a long journey to success.
+    3. Trip
+    含义：指短期、有目的的旅行（如休闲、公务），通常包含往返。
+    特点：
+    可数名词（如：a business trip）。
+    强调“整体行程”（包括出发、目的地、返回）。
+    常用场景：
+    短期旅行（如周末、假期）。
+    因特定目的出行（如出差、郊游）。
+    例句：
+    We went on a trip to the mountains last weekend.
+    His trip to New York was canceled.
+    4. Voyage
+    含义：专指长途水上或太空旅行，强调冒险性或挑战性。
+    特点：
+    可数名词（如：a voyage across the Atlantic）。
+    文学或正式用语，日常较少使用。
+    常用场景：
+    航海（如船、潜艇）。
+    太空探索（如：space voyage）。
+    例句：
+    The Titanic sank on its maiden voyage.
+    The astronauts prepared for their voyage to Mars.
+    5. Excursion
+    含义：指有组织的短途旅行（如一日游、集体出行），常以观光或教育为目的。
+    特点：
+    可数名词（如：a school excursion）。
+    强调“短暂离开”主要行程或居住地。
+    常用场景：
+    学校组织的郊游、公司团建、景点游览。
+    例句：
+    We took an excursion to the Great Wall during our stay in Beijing.
+    The museum offers guided excursions for students.
+    ---
+    |词汇	|核心含义	|典型场景	|词性|	情感/功能色彩|
+    |------|-----|-----|------|------|
+    |Travel	|泛指旅行行为	|长期、多次旅行	|不可数名词/动词	|中性，概念性|
+    |Journey	|单程长途旅行|	陆路、人生比喻	|可数名词	|强调过程或情感|
+    |Trip|	短期有目的行程	|**休闲、出差**	|可数名词	|实用，整体行程|
+    |Voyage|	水上/太空长途旅行|	航海、航天	|可数名词	|冒险性、正式|
+    |Excursion😢|	有组织的短途游览|	郊游、集体活动|	可数名词	|短暂、**有组织性**|
+
+    - 易混点总结
+
+    Travel vs. Trip：
+    Travel 是抽象概念（不可数），如：I love travel.
+    Trip 是具体某次行程（可数），如：a weekend trip.
+
+    Journey vs. Trip：
+    Journey 强调单程（可能更长更累），如：a tiring journey.
+    Trip 侧重往返和目的（更轻松），如：a fun trip.
+
+    Voyage vs. Excursion：
+    Voyage 用于长途冒险（如航海），Excursion 是短途集体活动（如郊游）。
+
+- vacate{++/vəˈkeɪt/++}
+
+vi.
+空出，腾出；辞职；休假
+
+vt.
+空出，搬出；取消；使撤退
+
+??? info "examples"
+    1.
+    Guests should vacate their rooms by 10.30 a.m.
+
+    旅客应在上午10:30以前腾出房间。
+    《牛津词典》
+
+    2.
+    Guests are requested to vacate their rooms by noon on the day of departure.
+
+    房客务请在离开之日的中午以前腾出房间。
+    《牛津词典》
+
+=== "ascend"
+
+    v.
+    攀登，登上；上升，升高，通往高处；升职，晋升；追溯，溯源
+
+=== "descend"
+
+    v.
+    下来，下降；下倾，下斜；降临，来临；（情绪、气氛等）笼罩；突然到来，突然造访；降低身份，堕落；衰落，陷入；遗传
+
+- ascertain {==/ˌæsəˈteɪn/
+==}注意读音
+
+v.
+查明，确定
+
+- ascribe 
+
+v.
+把……归因于；认为……是……所说（或所为）；认为……具有{++ascribe sth. to sb./sth.++}
+
+??? info "egs"
+    1.
+    We ascribe great importance to these policies.
+
+    我们认为这些政策十分重要。
+    《牛津词典》
+
+    2.
+    We do not ascribe a superior wisdom to government or the state.
+
+    我们并不将胜人一筹的智慧归属于政府或国家。
+    《柯林斯英汉双解大词典》
+
+    4.
+    I would not ascribe vice to him.
+
+    我不愿意把罪过归给他。
+    youdao
+
+    5.
+    Scholars ascribe the trend to many causes.
+
+    学者对这种趋势的原因众说纷纭。
+    youdao
+
+    6.
+    If I infer an intention, I ascribe meaning.
+
+    如果我推断出一个意图，我就会赋予它意义。
+    youdao
+
+    7.
+    If I infer no intention, I ascribe no meaning.
+
+    若我没有推断出任何意图，那么我不会赋予它意义。
+    youdao
+
+- coordinate
+#### copy --> transcript --> duplicate --> counterpart
+💭 
+!!! info "**快速对比表**simple version"
+    | 词汇          | 核心含义               | 典型场景                 | 词性       | 关键区别                |
+    |---------------|------------------------|--------------------------|------------|-------------------------|
+    | **Copy**      | 内容复制的产物或行为   | 文件、艺术品、盗版       | 名词/动词  | 形式可不同，用途多样    |
+    | **Transcript**| 逐字文字记录           | 会议、成绩单、采访稿     | 名词       | 忠实转写，正式场合      |
+    | **Duplicate** | 完全相同的副本         | 钥匙、数据备份、实验     | 名词/动词  | 形式内容完全一致        |
+    | **Counterpart**| 对应的人或物           | 职位、条款、生物结构     | 名词       | 功能性对等，非复制      |
+
+=== "**1. Copy**"
+    - **含义**：泛指“复制品”或“复制行为”，{==内容与原物一致，但可能有形式或载体的差异。==}
+    - **特点**：
+    - **可作名词或动词**（如：make a copy / copy the file）。
+    - 强调**内容相同**，但材质、用途可能不同（如纸质→电子版）。
+    - 可指模仿、临摹（如艺术复制品）。
+    - **常用场景**：
+        - 文件复制（如：a photocopy）。
+        - 影视/书籍的盗版（如：a pirated copy）。
+        - 广告语（如："Buy one, get a free copy!"）。
+    - **例句**：
+        - Please send me a copy of the report.  
+        - She copied the painting perfectly.
+
+=== "**2. Transcript**"
+    - **含义**：特指{==文字记录或官方誊本==}，强调对口语、音频或事件的逐字转写。
+    - **特点**：
+    - **仅作名词**，内容需忠实于原文。
+    - 常用于学术、法律或正式场合。
+    - **常用场景**：
+        - 会议/庭审记录（如：court transcript）。
+        - 学生成绩单（如：academic transcript）。
+        - 采访/演讲的文字稿。
+    - **例句**：
+        - The university requires an official transcript.  
+        - The podcast provides a transcript for accessibility.
+
+
+=== "**3. Duplicate**"
+    - **含义**：指**完全相同的副本**，强调与原物在{==形式、内容、功能上完全一致==}。
+    - **特点**：
+    - **可作名词、动词或形容词**（如：a duplicate key / duplicate the data）。
+    - 隐含“重复性”，可能带负面色彩（如冗余、多余）。
+    - **常用场景**：
+        - 钥匙/证件复制（如：a duplicate ID card）。
+        - 数据备份（如：duplicate files）。
+        - 实验重复（如：duplicate the results）。
+    - **例句**：
+        - Keep the original document; this is just a duplicate.  
+        - Avoid submitting duplicate entries.
+
+=== "**4. Counterpart**"
+    - **含义**：指**对应的人或物**，强调{==在不同系统、位置或角色中的对等关系。==}
+    - **特点**：
+    - **仅作名词**，不涉及复制，而是功能性或结构性的对应。
+    - 常用于国际关系、商业或生物学中。
+    - **常用场景**：
+        - 职位对应（如：CEO and their foreign counterpart）。
+        - 法律文件中的对应条款（如：counterpart clause）。
+        - 生物器官/结构（如：the human liver and its fish counterpart）。
+    - **例句**：
+        - The Chinese minister met his American counterpart.  
+        - Each contract must be signed by both counterparts.
+
+=== "**易混点总结**"
+    - **Copy vs. Duplicate**：  
+        - Copy 是广义的复制（内容相同即可），如：a digital copy（电子版）。  
+        - Duplicate 强调完全一致（甚至冗余），如：a duplicate key（完全相同的钥匙）。
+    - **Transcript vs. Record**：  
+        - Transcript 仅指文字记录，而 record 可以是音频、视频或其他形式。
+    - **Counterpart vs. Equivalent**：  
+        - Counterpart 强调角色或结构对应（如职位），equivalent 强调价值或功能等同（如货币等价物）。
+
+=== "**例句强化对比**"
+    1. Copy:  
+        - This is a copy of the book. （纸质书→电子书）  
+        - ❌ This is a duplicate of the book. （除非是同一材质的完全复刻）
+
+    2. Duplicate:  
+        - The lab needs to duplicate the experiment. （完全重复步骤）  
+        - ✅ The lab needs to copy the experiment. （可能指模仿方法，但不完全一致）
+
+    3. Transcript:  
+        - The interview transcript is 10 pages long. （逐字记录）  
+        - ❌ The interview duplicate is 10 pages long. （语义错误）
+
+    4. Counterpart:  
+        - The left hand is the counterpart of the right hand. （结构对应）  
+        - ❌ The left hand is a duplicate of the right hand. （除非完全克隆）
+
+---
+- correspondence
+    - in correspondence with sth.与某物一致
+    - in correspondence to...对应...,相应于...
+    - bring...into correspondence with...使得...与...一致起来
+#### corrode
+??? note "corrode & erode"
+    === "**1. Corrode**"
+        - **含义**：指通过{==化学反应==}（如氧化、酸蚀）逐渐破坏物体表面，尤其是金属。
+        - **特点**：
+        - **化学性破坏**：涉及物质分子结构的改变（如铁生锈）。
+        - 常由液体（水、酸）、气体（氧气）或电化学反应引起。
+        - 可比喻抽象事物的逐渐损害（如信任、关系）。
+        - **常用场景**：
+        - 金属腐蚀（如铁锈、铜绿）。
+        - 化学工业中的材料损耗。
+        - 比喻情感或制度的侵蚀。
+        - **例句**：
+        - Acid rain **corrodes** metal statues over time.  
+            （酸雨逐渐腐蚀金属雕像。）
+        - Jealousy can **corrode** a friendship.  
+            （嫉妒会损害友谊。）
+
+    === "**2. Erode**"
+        - **含义**：指通过{==物理作用==}（如风、水、摩擦）逐渐磨损物体表面。
+        - **特点**：
+        - **物理性破坏**：机械作用导致物质逐渐消失。
+        - 常由自然力量（河流、冰川、风沙）或人为活动（过度开垦）导致。
+        - 可比喻资源、权力或价值的逐渐减少。
+        - **常用场景**：
+        - 自然地貌的侵蚀（如河岸、海岸线）。
+        - 土壤流失或岩石风化。
+        - 比喻经济或信心的削弱。
+        - **例句**：
+        - The river **erodes** the riverbank, changing its shape.  
+            （河流侵蚀河岸，改变其形状。）
+        - Inflation **erodes** the value of savings.  
+            （通货膨胀削弱储蓄的价值。）
+
+    === "**易混场景辨析**"
+        1. **金属生锈**：  
+        - ✅ The iron gate **corroded** due to exposure to moisture.  
+            （铁门因潮湿而腐蚀。）  
+        - ❌ The iron gate eroded...（除非被物理摩擦磨损）。
+
+        2. **河岸被水破坏**：  
+        - ✅ The river **eroded** the soil along the bank.  
+            （河水侵蚀了河岸的土壤。）  
+        - ❌ The river corroded...（除非水中含强酸导致化学腐蚀）。
+
+        3. **比喻用法**：  
+        - Trust **corrodes** when lies accumulate.  
+            （谎言堆积会腐蚀信任。）——强调化学性“变质”。  
+        - Political scandals **erode** public confidence.  
+            （政治丑闻削弱公众信心。）——强调逐渐“流失”。
+
+    **核心区别对比表**
+
+    | 维度         | **Corrode**                     | **Erode**                      |
+    |--------------|---------------------------------|--------------------------------|
+    | **破坏机制** | 化学腐蚀（氧化、酸蚀等）       | 物理磨损（风、水、摩擦等）     |
+    | **典型对象** | 金属、合金、化学材料           | 岩石、土壤、地貌               |
+    | **比喻用法** | 情感、关系的逐渐损害           | 资源、权力、信心的逐渐减少     |
+    | **名词形式** | corrosion（腐蚀）              | erosion（侵蚀）                |
+    | **常见原因** | 液体、气体、电化学反应         | 自然力量（风、水）、人类活动   |
+
+- corrupt
+
+adj.
+腐败的，贪污的；不道德的，堕落的；有缺陷的，有错误的；<古>腐坏的，腐烂的
+
+v.
+使腐化，使堕落；<古>腐蚀，污染；损坏，破坏
+
+- aggravate
+- escort 名词和动词含义近似,可以共享含义,在不同场景使用
+
+n.
+护送者，护卫队，护航舰；{==（通常指异性的）社交聚会陪伴者，伴游；陪护==}，护送
+
+v.
+押送；护送，护卫
+
+- bribe 
+
+n.
+贿赂；（尤指用来哄小孩做事的）好处
+
+v.
+向……行贿；诱哄（尤指小孩）
+
+- divine {++/dɪˈvaɪn/++}
+
+adj.
+神的，天赐的；绝妙的，极令人愉快的
+
+v.
+（凭直觉）猜测，推测；占卜，预测；（通过探矿术）发现（水源）
+
+n.
+<旧>牧师，神学家；天意，上帝（the Divine）
+
+- evoke
+
+v.
+引起，唤起（感情、记忆或形象）；召（魂），唤（神）
+
+- exceedingly"非常地,极度地" <-> excessively"过多地,过分地,超过应有限度地"
+- excel
+    - excellence, excellent
+    - excel in sth.在……方面表现出色：在某个领域或活动中表现出非常出色或优秀。
+v.
+精通，擅长；超过，胜过
+
+- exceptional
+- excerpt{++/ekˈsɜːpt/++}
+n.&v.摘录，节选
+- gut n. & v. (核心){==内脏==},肠,取出内脏,毁坏建筑内部 adj.本能的,非理性的,下意识的
+- interim{++/ˈɪntərɪm/++}
+
+adj.
+暂时的，过渡期间的，间歇的；决算前的，中间时期的
+
+n.
+过渡期，中间期；中期利润，阶段性成果
+!!! info "interim & temporary"
+    === "**1. Interim**"
+        - **定义**：表示“暂时的”“过渡的”，通常用于描述在某个正式或长期安排之前的临时状态。
+        - **用法**：
+        - 通常用于正式或书面语境，尤其是在商业、政府或组织中。
+        - 强调“过渡性”，即某个安排或状态是为了填补正式安排的空白。
+        - **例句**：
+        - The company appointed an interim CEO while searching for a permanent candidate.  
+            （公司在寻找正式候选人期间任命了一位临时首席执行官。）
+        - The interim report will be submitted by the end of this month.  
+            （临时报告将于本月末提交。）
+        - **常见搭配**：
+        - Interim leader（临时领导人）
+        - Interim solution（临时解决方案）
+        - Interim measures（临时措施）
+
+    === "**2. Temporary**"
+        - **定义**：表示“暂时的”“临时的”，通常用于描述某个状态或安排的短暂性。
+        - **用法**：
+        - 既可用于口语，也可用于书面语，适用范围较广。
+        - 强调“短暂性”，即某个安排或状态不会长期存在。
+        - **例句**：
+        - She took a temporary job to earn some extra money.  
+            （她找了一份临时工作来赚点外快。）
+        - The road closure is temporary due to construction work.  
+            （由于施工，道路封闭是暂时的。）
+        - **常见搭配**：
+        - Temporary worker（临时工）
+        - Temporary fix（临时修复）
+        - Temporary visa（临时签证）
+
+    === "**3. 主要区别**"
+        | **方面**       | **Interim**                          | **Temporary**                       |
+        |------------------|--------------------------------------|-------------------------------------|
+        | **含义**         | 强调“过渡性”，更常用于正式语境，强调“过渡性”，通常用于填补正式安排的空白。   | 强调“短暂性”，通常是为了短期使用,更常用于日常语境 |
+        | **语境**         | 更正式，常用于商业或政府语境         | 既可用于正式语境，也可用于日常语境 |
+        | **常见搭配**     | Interim leader, interim solution     | Temporary job, temporary visa       |
+        | **语气**         | 更正式、中性                         | 更中性、口语化                     |
+
+- closure
+
+n.
+（永久的）关闭，倒闭；（尤指通路、边境的）封锁；（讨论、写作、活动或事件的）结尾；（事件或一段时间的）了结，解脱感；（立法院）辩论终止提付表决；认栽；闭锁物（如帽子、领带）；（夹克等）闭合方式
+
+v.
+（在立法会议上）终止（辩论，发言）；使终止
+
+- lubricate{++/ˈluːbrɪkeɪt++}
+- ventilate  versatile
