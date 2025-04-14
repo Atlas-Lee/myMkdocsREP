@@ -1409,7 +1409,7 @@ X[m, k] \in \mathbb{C}^{M \times K}
 ## Wavelet Analysis
 与傅里叶变换相比，它既能捕捉频率信息，又能保留时间/空间定位能力。
 
-### 1. 连续小波变换 (CWT)
+### 连续小波变换 (CWT)
 - 基本定义
 连续小波变换将信号$f(t)$分解为一系列小波基函数 (1) 的线性组合
 { .annotate }
@@ -1434,7 +1434,7 @@ $$
 
 ---
 
-### 2. 离散小波变换 (DWT)
+### 离散小波变换 (DWT)
 - 二进离散化
 取$a=2^j$, $b=k2^j$（$j,k\in\mathbb{Z}$），得到离散小波基：
 $$
@@ -1449,7 +1449,7 @@ $$
 
 ---
 
-### 3. 多分辨率分析 (MRA)
+### 多分辨率分析 (MRA)
 - 嵌套子空间
 定义闭子空间序列$\{V_j\}_{j\in\mathbb{Z}}$满足：
 1. **嵌套性**：$V_j \subset V_{j-1}$
@@ -1457,67 +1457,153 @@ $$
 3. **正交基存在性**：存在尺度函数$\phi(t)$使得$\{\phi(t-k)\}$构成$V_0$的正交基
 
 - 尺度方程与小波方程
-$$
+
+\[
 \begin{aligned}
 \phi(t) &= \sqrt{2} \sum_n h_n \phi(2t-n) \quad (\text{尺度方程}) \\
 \psi(t) &= \sqrt{2} \sum_n g_n \phi(2t-n) \quad (\text{小波方程})
 \end{aligned}
-$$
-其中$h_n$为低通滤波器系数，$g_n = (-1)^n h_{1-n}$为高通滤波器系数
+\]
+
+其中\(h_n\)为低通滤波器系数，\(g_n = (-1)^n h_{1-n}\)为高通滤波器系数
 
 ---
 
-### 4. 快速小波变换 (Mallat算法)
-- 分解过程
-$$
-\begin{aligned}
-c_{j+1}[k] &= \sum_n h[n-2k] c_j[n] \quad (\text{近似系数}) \\
-d_{j+1}[k] &= \sum_n g[n-2k] c_j[n] \quad (\text{细节系数})
-\end{aligned}
-$$
+## 快速小波变换 (Mallat算法, DWT)
 
-- 重构过程
-$$
-c_j[n] = \sum_k h[n-2k] c_{j+1}[k] + \sum_k g[n-2k] d_{j+1}[k]
-$$
+### 1. 双尺度方程（Two-Scale Equations）
+定义尺度函数 $\phi(t)$ 和小波函数 $\psi(t)$ 的递归关系：
+!!! abstract annotate "iteration relation (1) "
+    \[
+    \phi(t) = \sqrt{2} \sum_{n} h_0[n] \phi(2t - n), \quad 
+    \psi(t) = \sqrt{2} \sum_{n} h_1[n] \phi(2t - n)
+    \]
 
----
+1. - $h_0[n]$：低通分解滤波器（尺度系数）
+    - $h_1[n]$：高通分解滤波器（小波系数），满足 $h_1[n] = (-1)^n h_0[1-n]$
 
-### 5. 常用小波函数推导示例（Haar小波）
-- 尺度函数
-$$
-\phi(t) = 
-\begin{cases}
-1 & 0 \leq t < 1 \\
-0 & \text{其他}
-\end{cases}
-$$
+### 2. 分解算法（正向DWT）
+信号 $a_{j+1}[k]$ 在尺度 $j+1$ 的系数分解为：
 
-- 小波函数
-$$
-\psi(t) = 
-\begin{cases}
-1 & 0 \leq t < 0.5 \\
--1 & 0.5 \leq t < 1 \\
-0 & \text{其他}
-\end{cases}
-$$
+!!! abstract "分解过程"
+    \[
+    \begin{cases}
+    a_j[k] = \sum_{n} h_0[n-2k] a_{j+1}[n] \quad (\text{近似系数})
+    \\\\
+    d_j[k] = \sum_{n} h_1[n-2k] a_{j+1}[n] \quad (\text{细节系数})
+    \end{cases}
+    \]
+!!! warning "~"
+    这里的系数都是通过更高精度的细节空间进行张出, 即W空间
+
+- **操作**：卷积 + 下采样（步长2）
+
+### 3. 重构算法（逆向DWT）
+通过上采样和滤波器合并：
+
+\[
+a_{j+1}[k] = \sum_{n} a_j[n] h_0[k-2n] + \sum_{n} d_j[n] h_1[k-2n]
+\]
+
+{==即通过j+1阶的近似空间V和细节空间W直和形成高阶近似空间==}
+
+- **操作**：上采样（插零） + 卷积 + 求和
 
 - 滤波器系数
 $$
 h = \left[\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right], \quad 
 g = \left[\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right]
 $$
+---
+
+### 常用小波函数推导示例（Haar小波）
+- 尺度函数
+
+\[
+\phi(t) = 
+\begin{cases}
+1 & 0 \leq t < 1 \\
+0 & \text{else}
+\end{cases}
+\]
+
+- 小波函数
+
+\[
+\psi(t) = 
+\begin{cases}
+1 & 0 \leq t < 0.5 \\
+-1 & 0.5 \leq t < 1 \\
+0 & \text{else}
+\end{cases}
+\]
+
+``` py
+import tensorflow as tf
+```
+
+```python title = "Harr小波处理演示"
+import numpy as np
+
+# Haar小波滤波器系数（理论值）
+h0 = np.array([1/np.sqrt(2), 1/np.sqrt(2)])  # 低通
+h1 = np.array([1/np.sqrt(2), -1/np.sqrt(2)])  # 高通 
+
+# 正向DWT（分解） 
+def dwt_1d(signal, h0, h1):
+    # 卷积后下采样
+    cA = np.convolve(signal, h0[::-1], mode='valid')[::2]  # 近似系数
+    cD = np.convolve(signal, h1[::-1], mode='valid')[::2]  # 细节系数
+    return cA, cD
+
+# 示例信号
+x = np.array([1, 2, 3, 4, 5, 6, 7, 8], dtype=float)
+cA, cD = dwt_1d(x, h0, h1)
+print("近似系数 (cA):", cA)  # 输出: [2.121, 4.950, 7.778, 10.607]
+print("细节系数 (cD):", cD)  # 输出: [-0.707, -0.707, -0.707, -0.707] 
+
+# 逆向DWT（重构） 
+def idwt_1d(cA, cD, h0, h1):
+    # 上采样（插零）
+    up_cA = np.zeros(2 * len(cA))
+    up_cA[::2] = cA
+    up_cD = np.zeros(2 * len(cD))
+    up_cD[::2] = cD
+    
+    # 卷积合并
+    recon = np.convolve(up_cA, h0, mode='full') + np.convolve(up_cD, h1, mode='full')
+    return recon[:len(up_cA)]  # 裁剪
+
+x_recon = idwt_1d(cA, cD, h0, h1)
+print("重构信号:", x_recon)  # 应接近原始信号
+
+# 多级分解实现 
+def multilevel_dwt(signal, h0, h1, levels=3):
+    coeffs = []
+    current = signal.copy()
+    for _ in range(levels):
+        cA, cD = dwt_1d(current, h0, h1)
+        coeffs.append(cD)
+        current = cA
+    coeffs.append(current)  # 最后一级的cA
+    return coeffs
+
+# 3级分解示例
+coeffs = multilevel_dwt(x, h0, h1, levels=3)
+```
 
 ---
 
-### 6. 时频分辨率关系
-根据Heisenberg不确定性原理：
+### 时频分辨率关系
+根据Heisenberg不确定性原理 (1) ：
+{ .annotate }
+
+1.  - $\Delta t = \sqrt{\int t^2 |\psi(t)|^2 dt}$
+    - $\Delta \omega = \sqrt{\int \omega^2 |\hat{\psi}(\omega)|^2 d\omega}$
+
 $$
 \Delta t \cdot \Delta \omega \geq \frac{1}{2}
 $$
-其中：
-- $\Delta t = \sqrt{\int t^2 |\psi(t)|^2 dt}$
-- $\Delta \omega = \sqrt{\int \omega^2 |\hat{\psi}(\omega)|^2 d\omega}$
+
 
 

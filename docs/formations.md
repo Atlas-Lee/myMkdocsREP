@@ -1,16 +1,19 @@
-## Math
+## Pamphlet
+# 0. Improtant Links
+[Markdown教程](https://markdown.com.cn/)
+# 1. Math
 
-### Using block syntax
+## Using block syntax
 $$
 \cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
 $$
 
-### Using inline block syntax
+## Using inline block syntax
 The homomorphism $f$ is injective if and only if its kernel is only the
 singleton set $e_G$, because otherwise $\exists a,b\in G$ with $a\neq b$ such
 that $f(a)=f(b)$.
 
-### Comparison
+## Comparison
 When deciding between MathJax and KaTeX, there are several key factors to consider:
 
 - Speed: KaTeX is generally faster than MathJax. If your site requires rendering large quantities of complex equations quickly, KaTeX may be the better choice.
@@ -25,7 +28,7 @@ When deciding between MathJax and KaTeX, there are several key factors to consid
 
 In summary, KaTeX shines with its speed and simplicity, whereas MathJax offers more features and better compatibility at the expense of speed. The choice between the two will largely depend on your specific needs and constraints.
 
-## Git commands
+# 2. Git Commands
 ```dash
 # 🚀 Basic Git Operations
 git init                                  # Initialize a new Git repository
@@ -66,7 +69,7 @@ git rebase branch_name                     # Rebase current branch onto another 
 
 ```
 
-## Annotations
+# 3. Annotations
 When SuperFences is enabled, annotations can be nested inside annotations by adding the annotate class to the list item hosting the annotation content, repeating the process:
 
 Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
@@ -77,7 +80,7 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 
     1.  :woman_raising_hand: I'm an annotation as well!
 
-### in admonitions
+## in admonitions
 The titles and bodies of admonitions can also host annotations by adding the annotate modifier after the type qualifier, which is similar to how inline blocks work:
 
 !!! note annotate "Phasellus posuere in sem ut cursus (1)"
@@ -89,7 +92,7 @@ The titles and bodies of admonitions can also host annotations by adding the ann
 1.  :man_raising_hand: I'm an annotation!
 2.  :woman_raising_hand: I'm an annotation as well!
 
-### in content tabs
+## in content tabs
 Content tabs can host annotations by adding the `annotate` class to the block of a dedicated content tab (and not to the container, which is not supported):
 
 === "Tab 1"
@@ -105,8 +108,9 @@ Content tabs can host annotations by adding the `annotate` class to the block of
     { .annotate }
 
     1.  :woman_raising_hand: I'm an annotation as well!
-## Admonitions
-### Usage
+
+# 4. Admonitions
+## Usage
 Admonitions follow a simple syntax: a block starts with !!!, followed by a single keyword used as a type qualifier. The content of the block follows on the next line, indented by four spaces:
 
 !!! note
@@ -131,7 +135,7 @@ Similar to changing the title, the icon and title can be omitted entirely by add
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Nested admonitions
+## Nested admonitions
 !!! note "Outer Note"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -144,7 +148,7 @@ Similar to changing the title, the icon and title can be omitted entirely by add
         nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
         massa, nec semper lorem quam in massa.
 
-### Collapsible blocks
+## Collapsible blocks
 
 When Details is enabled and an admonition block is started with ??? instead of !!!, the admonition is rendered as an expandable block with a small toggle on the right side:
 
@@ -154,7 +158,7 @@ When Details is enabled and an admonition block is started with ??? instead of !
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
-### Inline blocks
+## Inline blocks
 
 Admonitions can also be rendered as inline blocks (e.g., for sidebars), placing them to the right using the inline + end modifiers, or to the left using only the inline modifier:
 
@@ -176,20 +180,48 @@ Admonitions can also be rendered as inline blocks (e.g., for sidebars), placing 
 
 `Important`: admonitions that use the inline modifiers must be declared prior to the content block you want to place them beside. If there's insufficient space to render the admonition next to the block, the admonition will stretch to the full width of the viewport, e.g., on mobile viewports.
 
-### Supported types
+## Supported types
 
 ```admonition
 note, abstract, info, tip, success, question, warning, 
 failure, danger, bug, example, quote
 ```
-## Icons (Material Icons)
+- review
+
+!!! note "note"
+    这是该样式的演示
+!!! abstract "abstract"
+    这是该样式的演示
+!!! info "info"
+    这是该样式的演示
+!!! tip "tip"
+    这是该样式的演示
+!!! success "success"
+    这是该样式的演示
+!!! question "question"
+    这是该样式的演示
+!!! warning "warning"
+    这是该样式的演示
+
+!!! failure "failure"
+    这是该样式的演示
+!!! danger "danger"
+    这是该样式的演示
+!!! bug "bug"
+    这是该样式的演示
+!!! example "example"
+    这是该样式的演示
+!!! quote "quote"
+    这是该样式的演示
+
+# 5. Icons (Material Icons)
 :material-home: Home 
 :material-github: GitHub 
 
-## Emojis
+# 6. Emojis
 :tada:  :rocket:  :smile:  :fire:  
 
-## Formatting
+# 7. Formatting
 
 When Critic is enabled, Critic Markup can be used, which adds the ability to highlight suggested changes, as well as add inline comments to a document:
 
@@ -217,7 +249,7 @@ tags on separate lines and adding new lines between the tags and the content.
 
 ==}
 
-## Content tabs
+# 8. Content Tabs
 
 When a content tab contains more than one code block, it is rendered with horizontal spacing. Vertical spacing is never added, but can be achieved by nesting tabs in other blocks:
 
@@ -285,11 +317,11 @@ When SuperFences is enabled, content tabs can contain arbitrary nested content, 
         3. Nulla tempor lobortis orci
         ```
 
-## Task Lists
+# 9. Task Lists
 - [x] Task 1  
 - [ ] Task 2  
 
-## Mermaid Diagrams
+# 10. Mermaid Diagrams
 ```mermaid
 graph TD;
     A-->B;
@@ -323,3 +355,5 @@ classDiagram
     Animal: +String gender
     Animal: +isMammal()
 ```
+
+

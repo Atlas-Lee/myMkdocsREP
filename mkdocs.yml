@@ -5,8 +5,7 @@ site_url: https://atlas-lee.github.io/myMkdocsREP
 
 plugins: 
   - glightbox
-  - search:
-      separator: '[\s\-\.]+'
+  - search: {}
   - redirects:
       redirect_maps:
         'index.md': 'home page.md'
@@ -20,16 +19,20 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  features:
+  features: 
+    - navigation.tabs       # 可选：顶部标签页
+    - navigation.indexes    # 允许折叠/展开导航项
+    - navigation.tracking
+
+    - toc.integrate  # 自动集成目录
+
     - content.code.copy
     - content.code.select
-    - content.code.annotate 
-    - navigation.tabs       # 主选项卡导航 (需 9.0+ 版本)
-    - navigation.top        # 顶部导航栏
-    - navigation.expand     # 自动展开当前页面的侧边栏目录
-    - navigation.sections   # 侧边栏分组显示
-    - navigation.tracking   # 侧边栏自动高亮当前滚动位置
+    - content.code.annotate
+
+
     - search.highlight      # 搜索关键词高亮 (替代 navigation.instant)
+  
   favicon: assets/images/smileface.ico
   logo: assets/images/apple-touch-icon.png
   icon:
@@ -82,18 +85,20 @@ markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.betterem
   - toc:
-      permalink: "📌"
+      permalink: "🏷️"
+      toc_depth: 3 # restraint the depth of the table of contents
   - pymdownx.superfences:
       custom_fences:
-        - name: mermaid
-          class: mermaid
+        - name: foldable
+          class: foldable
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - assets/javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  #- assets/javascripts/collapse-nav.js  # 自定义折叠逻辑
 
+#extra_css:
+ # - assets/stylesheets/extra.css
 
 nav:
   - 🏠 Home: home page.md
@@ -103,11 +108,11 @@ nav:
     - 🎶 Acoustics: 
       - Audio Acoustics: audio acoustics.md
       - Ultrasonics: ultrasonics.md
-      - Acoustic Measure: acoustic measure.md
+      - Acoustic Measure: acoustic measure.md 
       - Room Acoustics: room acoustics.md
     - ⚙️COMSOL: COMSOL.md
     - 🧩 Language Learning: language learning.md
-    - 📝 Data Processing: data processing.md
+    - 📝 Data Science: data science.md
     - 💡 MATLAB: MATLAB.md
     - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md
 

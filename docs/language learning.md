@@ -1,9 +1,9 @@
-# Vocabulary
-## Core Wordlist
+## Vocabulary
+# Core Wordlist
 
-## Basic Wordlist
+# Basic Wordlist
 
-### U 17
+# U 17
 - *allege*: *vt.*断言，宣称 -> alleged *adj.* (未经证实的)陈述的
 
 - *allegiance*: /əˈliːdʒəns/ *n.* (对政党、宗教、统治者的)忠诚，效忠，拥戴
@@ -57,7 +57,7 @@
 
     这并不是一个口语用词，较为正式
 
-#### *opt* 
+## *opt* 
 
 !!! tip
 
@@ -91,7 +91,7 @@
   *v.*
   （绕……）环行
 
-#### *grace*
+## *grace*
 含义极为广泛灵活。
 
   *n.*
@@ -107,14 +107,14 @@
 
     good gracious 天哪，我去
 
-### U 18
+# U 18
 
 - *skim*: *vt.* 1.擦去,撇去 2.掠过,擦过(表面) 3.略读
   - skim through/over sth. 略读。浏览
 - *skin* -> skinny, <-> peel 剥皮
 - *slam*
 - *slap* -> snap
-#### *slaughter*
+## *slaughter*
 !!! note "slaughter & massacre"
     {==/ˈmæsəkə(r)/ /ˈslɔːtə(r)/==}  
     1. **Scale and Context**: Massacre is typically used to describe large-scale, brutal killings of people, often in a historical or political context. Slaughter can refer to both animals and people, and it is used in a **wider** range of contexts, including metaphorical ones.  
@@ -125,7 +125,7 @@
 - *slice*:*n.* 薄片,切片;部分,份 *vt.* 切
 - *climax* -> culminate *v.*（以……）结束，告终；到达顶点，达到高潮
 - *clip*: *vt.* 剪，修建；钳，夹住 *n.* 夹子，钳子，回形针
-#### *cloak*
+## *cloak*
 !!! note "cloak & cape"
     1.  Cloak:斗篷✒️  
     • Definition: A long, outer garment without sleeves, often with a hood.  
@@ -144,7 +144,7 @@
     Collar：领子。 2. Sleeve：袖子。 3. Cuff：袖口。 4. Waist：腰部。 5. Hem：下摆。 6. Belt：腰带。 7. Pocket：口袋。 8. Zipper：拉链。 9. Button：纽扣。 10. Fabric：布料。 11. Sash：腰带或饰带。 12. Dress：裙子（用于连衣裙）。 13. Jacket：夹克。 14. Blouse：衬衫。 15. Skirt：裙子。
 
 - *descend*:*v.* 下来，下降；下倾，下斜；降临，来临；（情绪、气氛等）笼罩；突然到来，突然造访；降低身份，堕落；衰落，陷入；遗传 <-> *ascend*: *v.* 攀登，登上；上升，升高，通往高处；升职，晋升；追溯，溯源
-#### *endow* {==/ɪnˈdaʊ/==}
+## *endow* {==/ɪnˈdaʊ/==}
 !!! note "endow & sponsor"
     1. 定义： • Endow：指为某个机构、项目或个人提供资金支持，以促进其发展或维持其运作。通常用于**教育、慈善**等领域。 • Sponsor：指为某个活动、组织或项目提供资金、资源或支持的人或公司。适用于商业、体育、文化等多种场合。  
     2. 侧重点： • Endow 强调长期的、持续的资金支持，通常用于非营利性或教育性项目。 • Sponsor 强调支持和合作，可以是短期或长期，侧重于资金和资源的提供。   
@@ -210,7 +210,7 @@
 - *bond*
 - *hilarious*
 
-### U 19
+# U 19
 - *chamber*: 
 
 *n.*
@@ -223,7 +223,7 @@
 室内的；私人的，秘密的
 
 - *chaos* -> *chaotic*
-#### *charter*
+## *charter*
 
 *n.*
 宪章，章程；特许状，许可证；不完善，漏洞；包租，租赁
@@ -300,7 +300,7 @@
     - give sb. the elbow: （非正式）排斥某人
 
     - up tp one's elbows in: （非正式）把手插入（某物）
-#### *menace* 
+## *menace* 
 
 *n.*
 威胁，危险的人或物；烦人的人（或事物），引起麻烦的人（或事物）；危险气氛，威胁；<英，法律>（以）威胁（或恐吓）的手段（索要钱财）
@@ -378,7 +378,7 @@
 *v.*
 倾斜，成斜坡；歪斜；悄悄地走，溜；<英，非正式> 逛，随意走动
 
-### U20
+# U20
 - *shabby*
 - *shaft*: **轴，杆状物**
 - *shatter*: n. 破碎，碎裂，巨大打击 v. 碎片，落花
@@ -387,7 +387,7 @@
 - *terrific*
 - *aisle*
 - *chew*
-#### *chronic* 
+## *chronic* 
 *adj.* 慢性的
 !!! success ""
     - malignant
@@ -404,14 +404,14 @@
 *adj.* 雄辩的，口才流利的；传神的，明确表示的
 - *emit*
 
-### U21
+# U21
 - *sideways*: 
 *adv.* 斜向一边地；侧面朝前地，侧着；（工作调动）平级地；间接地
 *adj.* 向一边（或一侧）的，向旁边的；（工作，职位）平级变动的；间接的；（观点）非常规的，非正统的
 - *sigh*: *v.*
 - *threshold*:{++/ˈθreʃhəʊld/++}
 *n.* 门槛，门口；阈，界，起始点；开端，起点，入门；机场跑道入口，跑道头
-#### *thrust*
+## *thrust*
 *v.* *n.*
 !!! success "comparison"
     | **单词** | **定义**                                                                 | **例句**                                                                 | **用法**                                                                 |
@@ -472,7 +472,7 @@
 - *gorgeous*: *adj.* 
 - *gossip*: *v.* *n.*
 - *deplete*: *v.* 大量减少，耗尽
-#### *cereal*
+## *cereal*
 *n.* *adj.* 
 !!! success ""
     1. Cereal： • 通常指的是谷物类食物，如小麦、大米、玉米等。 • 在日常生活中，cereal常用来指代早餐谷物，如燕麦片、玉米片等。   
@@ -484,8 +484,8 @@
 - *herd*: *v.* *n.* -> *nomad* *n.* 游牧民，游牧部落一员；流浪者，不断更换工作的人
 -> *flock* *n.*（鸟或羊等动物）群；一大群人；（某个教堂的）会众，全体教徒；（填充垫子的）絮屑，毛棉填料；（植绒用的）短绒，绒屑
 
-### U22  
-#### *revolt*
+# U22  
+## *revolt*
 
 n.
 （对权威、规定、法律的）反抗，违抗；叛乱，造反
@@ -506,7 +506,7 @@ n.
 
 v.
 游荡，闲逛
-#### lodge
+## lodge
 
 v.
 （使）固定，（使）卡住；**（通常付住宿费地）借住，寄住**，（为某人）提供住宿；存放，寄放（贵重物品）；**正式提出（投诉、要求等）**；铭记，留存
@@ -580,7 +580,7 @@ n.
 
     通常情况下，家长可支配的技术资源比学校少。
     youdao
-#### dispose 
+## dispose 
 
 v.
 处理，放置，安排；使易于，使倾向于；丢掉
@@ -619,7 +619,7 @@ v.
 
 {++对于“回避问题，逃避责任”，有如下的近义词: hedge(实际多以“树篱笆”的含义出现), avoid++}
 
-#### mist
+## mist
 
 n.
 薄雾，水汽；雾状物；使视线模糊的东西；迷雾，难以透彻了解的事物
@@ -641,7 +641,7 @@ v.
 n.
 麻烦事，讨厌的人（或事物、情况）；损害，妨害；骚扰行为，妨害行为
 
-#### retail & wholesale
+## retail & wholesale
 !!! success "retail & wholesale"
     - retail
 
@@ -677,7 +677,7 @@ n.
 n.
 **保持，保留**{==核心含义==}；保存，存放；保持力，持续力；记忆力；（热量的）阻滞，（液体的）潴留；（对物质的）吸收和保持
 
-#### recall
+## recall
 
 v.
 记起，回想起；使想起，使想到；召回，叫回（某人）；召回（运动员），使归队； 收回（有问题的产品）；检索，调用（计算机储存的数据）；<美> 罢免；使重新集中注意力；<古> 撤销，废止（行动，决定）
@@ -714,7 +714,7 @@ adj.
     联系的乐趣似乎具有感染力。
     youdao
 
-### U23
+# U23
 - bounce
 
 v.
@@ -735,7 +735,7 @@ n.
 界限，限制；蹦跳，跳跃
 {==be bound up in/with 热衷于,忙于==}
 
-#### travel & journey & trip & voyage & excursion
+## travel & journey & trip & voyage & excursion
 !!! success "travel & journey & trip & voyage & excursion"
     1. Travel
     含义：泛指“旅行”这一行为或过程，不特指具体某次行程，强调移动的动作或概念。
@@ -895,7 +895,7 @@ v.
     youdao
 
 - coordinate
-#### copy --> transcript --> duplicate --> counterpart
+## copy --> transcript --> duplicate --> counterpart
 💭 
 !!! info "**快速对比表**simple version"
     | 词汇          | 核心含义               | 典型场景                 | 词性       | 关键区别                |
@@ -990,7 +990,7 @@ v.
     - in correspondence with sth.与某物一致
     - in correspondence to...对应...,相应于...
     - bring...into correspondence with...使得...与...一致起来
-#### corrode
+## corrode
 ??? note "corrode & erode"
     === "**1. Corrode**"
         - **含义**：指通过{==化学反应==}（如氧化、酸蚀）逐渐破坏物体表面，尤其是金属。
@@ -1160,7 +1160,7 @@ v.
 - lubricate{++/ˈluːbrɪkeɪt++}
 - ventilate <-> versatile
 
-### U24
+# U24
 - stoop
 
 v.
@@ -1187,7 +1187,7 @@ n.
 v.
 怠慢，小看；<古>轻浮地说（或做）；浪费（物品，尤指时间），虚度
 
-#### trim
+## trim
 
 v.
 修剪，修整；削减，减少；修饰，点缀（尤指某物的边缘）；切除，剪掉（不规则或不需要的部分）；调整（船帆）利用风力；使（飞机）配平；调整负载以保持（船，飞机）的平衡；使（身体某一部分）变结实，变瘦；（为个人升迁而在政治上）随大流，见风使舵
@@ -1215,3 +1215,77 @@ v.
 拆下，使分离；脱离，摆脱；派遣，分派
 
 - holistic adj.整体的，全面的；功能整体性的
+- prone
+
+adj.
+有做……倾向的，易于……的；俯卧的，趴着的；（前臂姿势）手心向下的
+
+v.
+（尤指面部向下）使俯卧，趴着
+
+- stoop
+- evade
+- exile -> expel
+- detour
+## tend & opt & prone...
+!!! success "comparison"
+    | 词汇         | 核心含义               | 常见搭配               | 语境特点               | 例句                                      |
+    |--------------|------------------------|------------------------|------------------------|-------------------------------------------|
+    | **Tend**     | 规律性或习惯性倾向     | tend to do sth         | 中性，客观描述         | *People tend to forget details over time.* |
+    | **Prone**    | 易受负面影响           | prone to (noun/-ing)   | 消极，强调脆弱性       | *He's prone to making mistakes under pressure.* |
+    | **Opt**      | 主动选择或偏好         | opt for sth / opt to do | 主观决策               | *She opted for the cheaper option.*        |
+    | **Inclined** | 主观偏好或自然倾向, 原意"倾斜", 引申出倾向     | inclined to do sth     | 正式，意愿或性格       | *I'm inclined to trust his opinion.*       |
+    | **Leaning**  | 观点或兴趣的偏向, 带有"倚靠"的含义       | lean toward(s) sth     | 非正式，多用于观点     | *The government is leaning toward reform.* |
+    | **Disposed** | 性格或意愿上的倾向     | disposed to do sth     | 正式，多用于书面       | *He's disposed to help those in need.*     |
+    | **Liable**   | 易遭受风险或后果       | liable to do sth       | 法律或负面结果         | *Without care, the system is liable to fail.* |
+    | **Predisposed** | 先天或早期的倾向    | predisposed to sth     | 生物/心理因素          | *Some breeds are predisposed to hip dysplasia.* |
+    | **Bent**     | 强烈的天赋或兴趣       | have a bent for sth    | 强调才能或爱好         | *She has a bent for music.*                |
+    | **Apt**      | 典型的自然倾向         | apt to do sth          | 略带褒义，口语常见     | *Children are apt to imitate adults.*      |
+
+bent: 
+
+adj.
+弯曲的，变形的；驼背的；(有权者)不诚实的，不正派的；下定决心的；同性恋的
+
+n.
+天赋，爱好；信仰；翦股颖；草茎，草梗；<英>莎草；<英，古>石南丛生的荒野，荒草牧场
+
+v.
+弯腰；使弯曲；屈从（bend 的过去式和过去分词形式）        
+
+- detour 
+
+n.
+绕行，迂回；<美>（常用道路暂时封闭时的）临时绕行道路
+
+v.
+<美>（使）绕道，绕行；绕过，绕……走
+
+take a detour: 绕道 detour around sth 迂回策略(引申义), 绕行
+
+{==
+    1.人生/计划的迂回
+    After losing his job, he took a career detour into teaching.（失业后，他转而从事教师职业。）  
+    2.回避问题
+    Stop making detours and answer the question directly!（别绕弯子，直接回答问题！）
+==}
+
+## hitch
+
+v.
+搭便车（旅行），搭顺风车；拴住，套住，钩住；将（动物）套上车；提起，拉起（衣服）；攀上，爬上；<非正式>结婚（get hitched）
+
+n.
+临时故障，小问题；（某种）结；<美，非正式>一段服役，一段任职期；<美>（尤指机动车的拖杆）牵引装置；<非正式>免费搭便车；蹒跚
+
+# U 25
+- promiscuous
+adj.
+混杂的；杂乱的
+
+adv.
+偶然地；胡乱地
+- excuse
+- semen
+- convertible
+- ditch
