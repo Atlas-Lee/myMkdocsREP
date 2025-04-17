@@ -1,0 +1,16 @@
+/* docs/assets/stylesheets/extra.css */
+/* 修复v9的展开状态残留 */
+.md-nav__item--nested .md-nav {
+    display: none;
+}
+
+.md-nav__item--nested .md-nav__toggle:checked ~ .md-nav {
+    display: block;
+}
+
+.md-nav__toggle {
+  pointer-events: auto !important; /* 确保可以点击 */
+}
+.md-nav__link {
+  pointer-events: none !important; /* 标题不拦截点击 */
+}
