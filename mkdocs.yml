@@ -104,6 +104,7 @@ nav:
   - 🏠 Home: home page.md
   - 🚀 My Pamphlet: formations.md
   - 📒 Other Things: other things.md
+  - 🧩 Language Learning: language learning.md
   - 📖 Study : 
     - 🎶 Acoustics: 
       - Audio Acoustics: audio acoustics.md
@@ -111,7 +112,7 @@ nav:
       - Acoustic Measure: acoustic measure.md 
       - Room Acoustics: room acoustics.md
     - ⚙️COMSOL: COMSOL.md
-    - 🧩 Language Learning: language learning.md
+
     - 📝 Data Science: data science.md
     - 💡 MATLAB: MATLAB.md
     - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md

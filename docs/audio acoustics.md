@@ -1538,11 +1538,8 @@ $$
 \end{cases}
 \]
 
-``` py
-import tensorflow as tf
-```
 
-```python title = "Harr小波处理演示"
+```py title="Harr example.py"
 import numpy as np
 
 # Haar小波滤波器系数（理论值）
