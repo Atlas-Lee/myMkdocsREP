@@ -55,7 +55,7 @@
     \[
         \\A_{kk} x_k^2 + x_k \sum_{i=1,i\neq k}^n A_{ik}x_i + x_k \sum_{j=1,j\neq k}^n A_{kj}x_j \stackrel{\mathbf{A}=\mathbf{A}^T}{=} A_{kk} x_k^2 + 2 x_k \sum_{i=1,i\neq k}^n A_{ik}x_i
     \]
-
+    
     \[
     \implies \frac{\partial}{\partial x_k} = 2A_{kk} + 2\sum_{j=1,j\neq k}^n A_{kj}x_j = 2\sum_{j=1}^n A_{kj}x_j = 2\mathbf{A}\mathbf{x}
     \]
@@ -93,100 +93,100 @@
     \[
     d\,\text{tr}(\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B}) = \text{tr}(\mathbf{B} \mathbf{X}^T \mathbf{A} d\mathbf{X} + \mathbf{A} \mathbf{X} \mathbf{B} d\mathbf{X}^T) \implies \frac{\partial}{\partial \mathbf{X}} = \mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X} \mathbf{B}^T
     \]
-
+    
     - 目标表达式
     推导标量函数\( f(\mathbf{X}) = \text{tr}(\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B}) \)对矩阵\(\mathbf{X}\)的导数：
     
     \[
     \frac{\partial \, \text{tr}(\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B})}{\partial \mathbf{X}} = \mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X} \mathbf{B}^T
     \]
-
+    
     ---
-
+    
     - 推导步骤
-
+    
     1.微分定义
     首先计算微分\( df = d[\text{tr}(\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B})] \)，利用微分与迹交换的性质：
-
+    
     \[
     df = \text{tr}(d[\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B}])
     \]
-
+    
     2.展开微分
     应用乘积法则展开微分：
-
+    
     \[
     d[\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B}] = d\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{X}^T \mathbf{A} d\mathbf{X} \mathbf{B}
     \]
-
+    
     {==（注：由于\(\mathbf{A}\)和\(\mathbf{B}\)为常数矩阵，其微分为零）==}
-
+    
     3.分项处理
     将微分分为两部分处理：
-
+    
     \[
     df = \underbrace{\text{tr}(d\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B})}_{\text{项I}} + \underbrace{\text{tr}(\mathbf{X}^T \mathbf{A} d\mathbf{X} \mathbf{B})}_{\text{项II}}
     \]
-
+    
     项I处理：
-
+    
     利用迹的循环置换性：
-
+    
     \[
     \text{tr}(d\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B}) = \text{tr}(\mathbf{B} d\mathbf{X}^T \mathbf{A} \mathbf{X}) 
     \]
-
+    
     再应用转置性质\(\text{tr}(\mathbf{M}^T) = \text{tr}(\mathbf{M})\)：
-
+    
     \[
     = \text{tr}(\mathbf{X}^T \mathbf{A}^T d\mathbf{X} \mathbf{B}^T)
     \]
-
+    
     提取与\(d\mathbf{X}\)相关的项：
-
+    
     \[
     = \text{tr}(\mathbf{A}^T \mathbf{X} \mathbf{B}^T d\mathbf{X})
     \]
-
+    
     项II处理：
-
+    
     直接应用迹的循环置换：
-
+    
     \[
     \text{tr}(\mathbf{X}^T \mathbf{A} d\mathbf{X} \mathbf{B}) = \text{tr}(\mathbf{B} \mathbf{X}^T \mathbf{A} d\mathbf{X})
     = \text{tr}(\mathbf{A} \mathbf{X} \mathbf{B} d\mathbf{X})
     \]
-
+    
     4.合并结果
     将两项合并：
-
+    
     \[
     df = \text{tr}\left( [\mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X} \mathbf{B}^T]^T d\mathbf{X} \right)
     \]
-
+    
     根据矩阵导数定义：
-
+    
     \[
     \frac{\partial f}{\partial \mathbf{X}} = \mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X} \mathbf{B}^T
     \]
-
+    
     ---
-
+    
     - 几何解释
-
+    
     **第一项**\(\mathbf{A} \mathbf{X} \mathbf{B}\)：来自原始乘积链路的直接微分
-
+    
     **第二项**\(\mathbf{A}^T \mathbf{X} \mathbf{B}^T\)：由转置操作引入的共轭项，保证导数结构的对称性
-
+    
     ---
-
+    
     - 特例验证
     当\(\mathbf{B} = \mathbf{I}\)时，公式退化为：
-
+    
     \[
     \frac{\partial \, \text{tr}(\mathbf{X}^T \mathbf{A} \mathbf{X})}{\partial \mathbf{X}} = \mathbf{A} \mathbf{X} + \mathbf{A}^T \mathbf{X}
     \]
-
+    
     与二次型导数公式一致（当\(\mathbf{A}\)对称时简化为\(2\mathbf{A}\mathbf{X}\)）
 
 ??? warning "为什么迹导数中向量微分可以更序的问题"
@@ -196,94 +196,94 @@
     \[
     \text{tr}(d\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B}) = \text{tr}(\mathbf{B} d\mathbf{X}^T \mathbf{A} \mathbf{X})
     \]
-
+    
     随后进一步转换为：
-
+    
     \[
     = \text{tr}(\mathbf{A}^T \mathbf{X} \mathbf{B}^T d\mathbf{X})
     \]
-
+    
     **疑问**：为什么可以改变\(d\mathbf{X}\)的位置？矩阵乘法不满足交换律，这种操作是否合法？
-
+    
     ---
-
+    
     - 关键原理说明
-
+    
         1.迹的循环置换性
 
 
         对任意合规矩阵\(\mathbf{M}, \mathbf{N}, \mathbf{P}\)，有：
-
+    
         \[
         \text{tr}(\mathbf{M}\mathbf{N}\mathbf{P}) = \text{tr}(\mathbf{P}\mathbf{M}\mathbf{N}) = \text{tr}(\mathbf{N}\mathbf{P}\mathbf{M})
         \]
-
+    
         这一性质允许我们在{++保持矩阵乘积整体结构++}的前提下，循环移动矩阵位置。
-
+    
         2.转置运算的迹性质
-
+    
         对任意矩阵\(\mathbf{M}\)，有：
-
+    
         \[
         \text{tr}(\mathbf{M}^T) = \text{tr}(\mathbf{M})
         \]
-
+    
     ---
-
+    
     - 分步解释
-
+    
     原始项I：
-
+    
     \[
     \text{tr}(d\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B})
     \]
-
+    
     应用循环置换：
-
+    
     \[
     = \text{tr}(\mathbf{B} d\mathbf{X}^T \mathbf{A} \mathbf{X})
     \]
-
+    
     利用转置的迹性质：
-
+    
     \[
     \text{tr}(\mathbf{B} d\mathbf{X}^T \mathbf{A} \mathbf{X}) = \text{tr}([\mathbf{X}^T \mathbf{A}^T d\mathbf{X} \mathbf{B}^T]^T)= \text{tr}(\mathbf{X}^T \mathbf{A}^T d\mathbf{X} \mathbf{B}^T)
     \]
-
+    
     最终整理，再次应用循环置换：
-
+    
     \[
     = \text{tr}(\mathbf{B}^T \mathbf{X}^T \mathbf{A}^T d\mathbf{X})
     \]
-
+    
     提取有效成分：
-
+    
     \[
     = \text{tr}([\mathbf{A}^T \mathbf{X} \mathbf{B}^T]^T d\mathbf{X})
     \]
-
+    
     ---
-
+    
     - 合法性验证
-
+    
     虽然矩阵乘法不满足交换律，但：
-
+    
     1.**迹运算只关心对角线元素之和**，与矩阵排列顺序无关（只要保证乘积维度匹配）
-
+    
     2.**转置操作本质上是在重组信息**，而不是改变矩阵间的相互作用关系
-
+    
     3.**微分矩阵\(d\mathbf{X}\)始终作为独立变量处理**，其位置变化通过迹的运算性质实现
-
+    
     ---
-
+    
     - 几何视角理解
-
+    
     可以把整个运算过程看作：
-
+    
     通过迹的运算特性，在{++保持矩阵乘积"信息流"完整性++}的前提下对计算路径进行拓扑变形（类似张量网络的收缩重组），最终将\(d\mathbf{X}\)移动到标准位置以便提取导数
-
+    
     ---
-
+    
     - 重要结论
     这种顺序调整的合法性建立在：
     {++
@@ -291,7 +291,7 @@
         2.微分矩阵的独立性
         3.转置运算与迹运算的兼容性
     ++}
-
+    
     因此，虽然表面上改变了矩阵位置，但数学上是严格等价的。
 
 
@@ -398,12 +398,12 @@
     \[
     g' = J^T g J
     \]
-   
+
 
     由于g是单位矩阵，$g' = J^T J$。
-
+    
     计算$J^T J$：
-
+    
     \[
     J^T = \begin{bmatrix}
     \sin\theta \cos\phi & \sin\theta \sin\phi & \cos\theta \\
@@ -411,7 +411,7 @@
     -r \sin\theta \sin\phi & r \sin\theta \cos\phi & 0
     \end{bmatrix}
     \]
-
+    
     \[
     J^T J = \begin{bmatrix}
     \sin^2\theta \cos^2\phi + \sin^2\theta \sin^2\phi + \cos^2\theta & \cdots & \cdots \\
@@ -419,9 +419,9 @@
     \cdots & \cdots & r^2 \sin^2\theta (\sin^2\phi + \cos^2\phi)
     \end{bmatrix}
     \]
-
+    
     简化后得到：
-
+    
     !!! abstract "球坐标系下的度量张量"
         \[
         g' = \begin{bmatrix}
@@ -430,9 +430,9 @@
         0 & 0 & r^2 \sin^2\theta
         \end{bmatrix}
         \]
-
+    
     同理。
-
+    
     !!! abstract "柱坐标"
         \[
         J^T = \begin{bmatrix}
@@ -441,7 +441,7 @@
         0 & 0 & 1
         \end{bmatrix}
         \]
-
+    
         \[
         J^T \cdot J = \begin{bmatrix}
         \cos^2\phi + \sin^2\phi & 0 & 0 \\
@@ -594,7 +594,7 @@ dV = r dr  d\phi  dz
     9. 标量乘法的结合律 对于任意两个标量 𝑎 和 𝑏 以及任意信号（向量）𝑥，有 (𝑎𝑏)𝑥=𝑎(𝑏𝑥)。 • 例子：𝑎=2，𝑏=3，𝑥=[1,2]，则 (𝑎𝑏)𝑥=[6,12]，𝑎(𝑏𝑥)=[6,12]。  
     10. 标量乘法的单位元 存在一个标量 1，使得对于任意信号（向量）𝑥，有 1𝑥=𝑥。 • 例子：1𝑥=𝑥，其中 𝑥=[1,2]。
 - Common norm def: 
-!!! note "continuous SPE **L** & discrete SPE **l**"
+  !!! note "continuous SPE **L** & discrete SPE **l**"
     \[
         \begin{gathered}\left\|\mathbf{x}\right\|_p=\begin{cases}\left[\int_{-\infty}^\infty\left|x(t)\right|^pdt\right]^{\frac{1}{p}},1\leq p<\infty\\\\\sup\left|x\left(t\right)\right|,\quad p\to\infty&\end{cases}\\\left\|\mathbf{x}\right\|_p=\begin{cases}\left[\sum_{n=-\infty}^\infty\left|x(n)\right|^p\right]^{\frac{1}{p}},1\leq p<\infty\\\\\sup\left|x(n)\right|,\quad p\to\infty&\end{cases}\end{gathered}
     \]
@@ -674,17 +674,18 @@ dV = r dr  d\phi  dz
 2. **平方可积函数空间**：
    考虑区间 \( [a, b] \) 上的所有平方可积函数 \( f \)，即满足
    
+
 \[
 \int_a^b |f(x)|^2 dx < \infty
 \]
-   
+
    定义内积为:
 !!! note "inner prod"   
 
     \[
     \langle f, g \rangle = \int_a^b \overline{f(x)} g(x)  dx
     \]
-   
+
    这个空间在 \( L^2 \) 范数下是完备的，因此是一个Hilbert空间。
 
 - 总结
@@ -736,13 +737,13 @@ dV = r dr  d\phi  dz
     \[
     |\det(U)| = 1
     \]  
-
+    
     -  逆矩阵的共轭转置：酉矩阵的逆矩阵是其共轭转置，即： 
-
+    
     \[
     U^{-1} = U^\dagger
     \]  
-
+    
     -  特征值的模为1：酉矩阵的特征值的模都是1，即它们位于复数单位圆上。   
 
 - 酉变换的应用 
@@ -750,7 +751,7 @@ dV = r dr  d\phi  dz
     2.  信号处理：酉变换在信号处理中用于**设计正交滤波器和正交码**，以减少干扰。  
     3.  控制系统：
     在控制系统中，酉变换用于保持系统的稳定性，因为它们保持**系统的能量不变**。
-??? tip "示例 考虑一个二维复数空间中的酉矩阵"
+    ??? tip "示例 考虑一个二维复数空间中的酉矩阵"
     \[
     U = \begin{bmatrix}
     \cos\theta & -\sin\theta \\
@@ -807,31 +808,33 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
     \[
     \mathbb{E}[\mathbf{x}] = \mathbf{0}
     \]
-
+    
     2.协方差矩阵
     协方差矩阵定义为：
-
+    
     \[
     \mathbf{C} = \mathbb{E}[\mathbf{x}\mathbf{x}^T] = \frac{1}{N} \sum_{i=1}^N \mathbf{x}_i \mathbf{x}_i^T
     \]
-
+    
     3.特征分解
     对协方差矩阵进行特征分解(1)：
-
+    
     \[
     \mathbf{C} \mathbf{u}_k = \lambda_k \mathbf{u}_k
     \]
 
-    
+
+​    
 
     4.投影与坐标
     将数据\( \mathbf{x} \)投影到**前\(m\)个特征向量张成的子空间**(2)：
-
+    
     \[
     y_k = \mathbf{u}_k^T \mathbf{x} \quad (k=1,2,...,m)
     \]
 
    
+
 1. 其中：
     - \( \lambda_k \)为第\(k\)大特征值，即需要对特征值**排序**
     - \( \mathbf{u}_k \)为对应的正交特征向量
@@ -854,18 +857,18 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
     \[
     \mathbf{u}^T\mathbf{u} = 1 \quad (\text{单位向量约束})
     \]
-
+    
     ---
-
+    
     2.单主成分推导
-
+    
     2.1 Lagrange函数构造
     引入Lagrange乘子(1)\(\lambda\)：
     
     \[
     \mathcal{L}(\mathbf{u}, \lambda) = \mathbf{u}^T\mathbf{C}\mathbf{u} - \lambda(\mathbf{u}^T\mathbf{u} - 1)
     \]
-
+    
     2.2 求导求解
     对\(\mathbf{u}\)求导并令导数为零：
     
@@ -874,36 +877,36 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
     \]
     
     此时：
-
+    
     - \(\lambda\)为协方差矩阵\(\mathbf{C}\)的特征值
-
+    
     - \(\mathbf{u}\)为对应特征向量
-
+    
     2.3 极值验证
     最大方差对应最大特征值：
     
     \[
     \mathbf{u}_1^T\mathbf{C}\mathbf{u}_1 = \lambda_1 \quad (\lambda_1 \text{为最大特征值})
     \]
-
+    
     ---
-
+    
     3.多主成分扩展
-
+    
     3.1 正交约束条件
     寻找第\(k\)个主成分时，需满足正交约束：
     
     \[
     \mathbf{u}_k^T\mathbf{u}_i = 0 \quad (i=1,...,k-1)
     \]
-
+    
     3.2 推广的Lagrange函数
     引入多个乘子\(\{\lambda, \mu_i\}\)：
     
     \[
     \mathcal{L} = \mathbf{u}_k^T\mathbf{C}\mathbf{u}_k - \lambda(\mathbf{u}_k^T\mathbf{u}_k - 1) - \sum_{i=1}^{k-1} \mu_i \mathbf{u}_k^T\mathbf{u}_i
     \]
-
+    
     3.3 特征方程推导
     求导可得：
     
@@ -952,16 +955,16 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
     \[
     \text{tr}(\mathbf{C}) = \sum_{i=1}^d \lambda_i
     \]
-
+    
     - 最优截断准则
     选择前\(m\)个最大特征值对应的特征向量，保留方差：
-
+    
     \[
     \eta = \frac{\sum_{k=1}^m \lambda_k}{\sum_{i=1}^d \lambda_i}
     \]
-
+    
     此时在均方误差意义下达到最优：
-
+    
     \[
     \min_{\{\mathbf{u}_k\}} \mathbb{E}\left[\|\mathbf{x} - \sum_{k=1}^m (\mathbf{u}_k^T\mathbf{x})\mathbf{u}_k\|^2\right]
     \]
@@ -981,14 +984,14 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
     0.8 & 0.9
     \end{bmatrix}
     \]
-
+    
     其特征分解结果为：
-
+    
     \[
     \lambda_1=1.8, \ \mathbf{u}_1=[0.81, 0.58]^T \\
     \lambda_2=0.3, \ \mathbf{u}_2=[-0.58, 0.81]^T
     \]
-
+    
     选择\(m=1\)时，数据被投影到\( \mathbf{u}_1 \)方向，保留约85.7%的总方差。
 
 ## 最优性总结及应用
@@ -1048,6 +1051,7 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
 1. **平稳性**：信号统计特性不随时间变化
 2. **马尔可夫性**：协方差矩阵满足\(\mathbf{C}_{ij} = \rho^{|i-j|}\)
    
+
 此时DCT基函数与KL变换的特征向量渐近一致{==（\(\rho \to 1\)）==}
 
 ??? abstract "数值验证"
@@ -1094,11 +1098,11 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
     2.相关系数\(\rho \to 1\)（高度相关信号）  此时DCT基函数收敛于KL变换的特征向量。 
     
     3.数学近似推导 对Toeplitz矩阵\(\mathbf{C}\)，当\(\rho \approx 1\)时：
-
+    
     \[
     \mathbf{C} \approx \mathbf{U}\mathbf{\Lambda}\mathbf{U}^T
     \]
-
+    
     其中\(\mathbf{U}\)的列向量趋近DCT基函数。
 
 !!! info "工程实践中的选择"
@@ -1111,7 +1115,7 @@ KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特�
         - **非平稳信号分析**：如金融时间序列
         - **小样本高维数据**：如基因表达数据分析
         - **精确建模需求**：如量子化学计算
-
+    
     - 改进方向：自适应DCT
         结合两者优势的方法：
         1. **分块自适应**：将信号分段，每段选择最优DCT类型
@@ -1337,7 +1341,7 @@ Discretize it,
 
 ---
 - detailed deduction
- 
+
 连续STFT表达式为：
 
 \[
@@ -1382,7 +1386,7 @@ X[m, k] = \sum_{n=0}^{N-1} x_m[n] e^{-j\frac{2\pi}{N}kn} = \sum_{n=0}^{N-1} x_m[
     2.  帧移\(H\)
         - 重叠率：\( \text{Overlap} = (N - H)/N \times 100\% \)
         - 常用重叠率：50%-75%（平衡计算量与时间连续性）
-
+    
     3.  窗函数选择
     
     | 窗类型       | 主瓣宽度 | 旁瓣衰减 | 适用场景          |
@@ -1411,8 +1415,8 @@ X[m, k] \in \mathbb{C}^{M \times K}
 
 ### 连续小波变换 (CWT)
 - 基本定义
-连续小波变换将信号$f(t)$分解为一系列小波基函数 (1) 的线性组合
-{ .annotate }
+  连续小波变换将信号$f(t)$分解为一系列小波基函数 (1) 的线性组合
+  { .annotate }
 
     1.   $\psi(t)$：母小波函数（满足$\int_{-\infty}^\infty\psi(t)dt = 0$）
         $a > 0$：尺度参数（控制频率）
@@ -1601,6 +1605,10 @@ coeffs = multilevel_dwt(x, h0, h1, levels=3)
 $$
 \Delta t \cdot \Delta \omega \geq \frac{1}{2}
 $$
+
+# 6. Wiener filter
+
+维纳滤波（Wiener Filter）是一种经典的**最优线性滤波器**，由诺伯特·维纳（Norbert Wiener）在1940年代提出，用于**信号去噪**和**图像恢复**。它的核心思想是**最小化均方误差（MSE, Mean Squared Error）**，使得滤波后的信号尽可能接近原始无噪信号。
 
 
 

@@ -1,4 +1,4 @@
-# 协同操作
+# Cooperating
 - MarginNote 3（iPad / macOS）：
 一款非常强大的文献批注和笔记管理工具，支持手写批注、知识点梳理、文献高亮等。
 
@@ -24,9 +24,9 @@
 
 插件/软件：需要单独购买和安装 Notability。
 
-# Some shortcuts for Mac
+# Some Shortcuts for Mac
 
-## ​一、系统全局快捷键
+## 一、系统全局快捷键
 快捷键	功能
 ​**⌘Command + Space**	打开 ​聚焦搜索​（快速启动应用/查找文件）
 ​**⌘Command + Tab**	切换正在运行的应用程序
@@ -36,7 +36,7 @@
 ​Control + ⌘Command + Q	快速锁定屏幕
 ​Option + ⌘Command + Esc	强制退出无响应的应用
 
-## ​二、文件管理（Finder）​
+## 二、文件管理（Finder）​
 快捷键	功能
 ​**⌘Command + N**	新建 Finder 窗口
 ​**⌘Command + Shift + N**	新建文件夹
@@ -46,7 +46,7 @@
 ​**⌘Command + Option + V**	​剪切文件​（先复制，用此组合键粘贴即等效剪切）
 ​**⌘Command + ↑ / ↓**	进入上级文件夹 / 打开选中的文件夹
 
-## ​三、文本编辑
+## 三、文本编辑
 快捷键	功能
 ​**⌘Command + A**	全选文本
 ​**⌘Command + Z**	撤销上一步操作
@@ -56,7 +56,7 @@
 ​**⌘Command + ← / →**	将光标移动到行首 / 行尾
 ​**⌘Command + ↑ / ↓**	将光标移动到文档开头 / 结尾
 
-## ​四、窗口与屏幕控制
+## 四、窗口与屏幕控制
 快捷键	功能
 ​**⌘Command + H**	隐藏当前应用窗口
 ​**⌘Command + Option + H**	隐藏其他所有应用窗口
@@ -65,14 +65,14 @@
 ​F3 (或 Fn + F3)	打开 ​调度中心​（多桌面管理）
 ​Control + ← / →	切换虚拟桌面（需先启用调度中心）
 
-## ​五、截图与录屏
+## 五、截图与录屏
 快捷键	功能
 ​**⌘Command + Shift + 3**	全屏截图并保存到桌面
 ​**⌘Command + Shift + 4**	区域截图（按空格键切换为窗口截图）
 ​**⌘Command + Shift + 5**	打开截图工具栏（支持录屏）
 ​**⌘Command + Shift + 6**	Touch Bar 截图（仅带 Touch Bar 的机型）
 
-## ​六、浏览器（Safari/Chrome）​
+## 六、浏览器（Safari/Chrome）​
 快捷键	功能
 ​**⌘Command + T**	新建标签页
 ​**⌘Command + W**	关闭当前标签页
@@ -142,4 +142,20 @@
 	•	显示/隐藏问题面板: Cmd + Shift + M
 	•	显示/隐藏输出面板: Cmd + Shift + U
 
-这些快捷键能大大提高你在 macOS 上使用 VSCode 的效率！
+# Master Relevants
+## ZJU
+### CONTROL SCIENCE AND ENGINEERING
+#### [智能感知与检测研究所](http://www.cse.zju.edu.cn/2024/0913/c39336a2962059/page.htm)
+- [曹雨齐](https://person.zju.edu.cn/yqcao#980446)
+	主要项目集中在DL，ML与视觉技术结合，有涉及医学的部分，但只涉及后端图像分析识别，还是信号处理的范畴
+-	[黄平捷](https://person.zju.edu.cn/huangpingjie#0)
+	职位较高，为副所长，有可能行政工作比较忙。同时开设了很多很多课程，有极大可能需要去当助教，比较分散精力。主要内容是水文相关的自动化处理以及传感。检测技术与自动化装置、智能感知与多模态信息处理、无损检测。
+-	[张光新](https://person.zju.edu.cn/gxzhang#0)
+	为本科生院院长，虽然可能较忙，但是对学生的应该会很包容。
+-	[喻洁](https://person.zju.edu.cn/yujie)
+	课题组长期面向生态环境保护等国家重大战略需求，围绕海洋、河湖、给排水系统，开展环境智能感知与异常检测研究。包括：
+	1. 基于非接触式光学（荧光、紫外等）的复杂水体多污染检测
+	
+	2. 基于机器视觉和无人系统的河湖异常巡检
+	
+	3. 基于多参数融合的供水系统水质异常检测

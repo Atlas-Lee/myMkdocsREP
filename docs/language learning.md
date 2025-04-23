@@ -35,7 +35,7 @@
     多用于科学、数学领域。
 
 - *feminine*
-!!! note
+  !!! note
     :woman_raising_hand: female, feminist, feminism, femininity
   
 - *feudal*: *adj.* 封建的 -> feudalism
@@ -43,7 +43,7 @@
 - *heave*
 
 - *indulge*
-!!! note
+  !!! note
     indulgent, indulgently, indulgence
 
 
@@ -62,7 +62,7 @@
 !!! tip
 
     opt for sth. 选择、决定某事物
-
+    
     opt out of sth. 决定不参加某事物
 
 - *opaque* <-> *transparent*
@@ -76,7 +76,7 @@
 !!! tip
 
     refund 表示退款、归还，动作的主体是“给予者”
-
+    
     reclaim 表示拿回、领回、回收，动作的主体是“拿取者”
 
 - *circuit*:
@@ -155,7 +155,7 @@
 - *graze*: *v.* 吃草；放牧；擦过；擦伤，擦破；<非正式>经常吃零食而不吃正餐，吃很多零食；<美，非正式>随意地尝试（或体验、浏览）*n.*擦伤
 - *grease*: *n.* 油脂；润滑油 *v.* 给……加润滑油，为……涂（或抹）油
 - *medical* 内科的 <-> *pythical* 外科的
-!!! note "clinics"
+  !!! note "clinics"
     Emergency Room (ER) - 急诊室 2. Surgery Department - 外科部 3. Internal Medicine - 内科 4. Pediatrics - 儿科 5. Radiology - 放射科 6. Diagnostics - 诊断科 7. Physical Therapy Department - 物理治疗科 8. Intensive Care Unit (ICU) - 重症监护室 9. Maternity Ward - 产科病房 10. Outpatient Services - 门诊服务
 - *plight* -> *dilemma*
 - *plough/plow*
@@ -164,7 +164,7 @@
   *v.*（使）突然向前倒下（跌落）；猛推，猛插；投入（液体中以使淹没）；（价值）猛跌；（剧烈）颠簸，震荡；（马）猛地用后腿直立；陡然向下倾斜；骤然陷入；（鲁莽地）开始；（使）投身，（使）突然开始从事；种下（植物）  
   *n.*（突然的）坠落；跳水，快速游泳；（价值或数量的）骤然下跌；突然陷入  
   *adj.*（女式服装）领口低的（plunging）
-!!! tip ""
+  !!! tip ""
     plunge (sth.) into sth. 投入，跳入，冲入  
     plunge sb. into sth. 使得XXX感到.../使得XXX陷入某种状态
 - *plural*
@@ -174,7 +174,7 @@
 - *relish*:  
   *n.*享受，乐趣；喜欢，喜爱；开胃小菜，调味品；滋味，风味；<古> 引起食欲的香味  
   *v.*享受，喜欢；憧憬，期盼；品味；味道可口；有……的味道；<古> 使有滋味，加佐料于
-??? note "examples"
+  ??? note "examples"
 
     1. She savoured the moment with obvious relish.
 
@@ -237,12 +237,12 @@
     - charter: 特指租车租船用于出行或娱乐
 
     - lease: 长期租，单次预支几年，一般在结束后会进行续租
-
+    
     - rent: 短期租，大多以月为单位，结束后可能退租
 
 - *defect*: *n.*: 缺点，缺陷
 - *deficiency*: *n.*: 1.缺乏，不足 2.缺陷 3.赤字 (deficit)
-??? abstract "examples"
+  ??? abstract "examples"
     1.
     Vitamin deficiency in the diet can cause illness.
 
@@ -294,7 +294,7 @@
 -> *exile*: *n.*流放；被流放者，流亡者 *v.*流放；使离开
 
 - *elbow*: 
-!!! note "phrases"
+  !!! note "phrases"
     - at one's elbow: 在手头，附近
 
     - give sb. the elbow: （非正式）排斥某人
@@ -319,7 +319,7 @@
         • 语境：Often used to describe something that is not immediately present but feels threatening or dangerous.   
         
     2.  {++Threat++}： 
-
+    
         • 定义：A statement, action, or condition that indicates an {==intention to cause harm or damage.==} 
         
         • 侧重点：Emphasizes something direct, explicit, or intentional, often in a more immediate sense. 
@@ -329,7 +329,7 @@
         • 语境：Often used to describe something that is direct, clear, or intended to cause fear.      
         
     3.  {++Key Differences++}： 
-
+    
         •  抽象 vs. 具体： • Menace is more abstract and often refers to a lingering or potential danger. • Threat is more concrete and direct, often referring to an explicit indication of harm.   
         
         •  情感色彩： • Menace often carries a sense of dread or ominousness. • Threat is more about the explicit indication of harm or danger.   
@@ -428,8 +428,8 @@
 *adj.* 易变的，动荡不定的，反复无常的；（情绪）易变的，易怒的，突然发作的；（液体或固体）易挥发的，易气化的；（计算机内存）易失的
 **核心含义就是不稳定性，强调食物的不可长久存在性质，引申到物理化学等层面**
 - *amiable*: {++/ˈeɪmiəb(ə)l/++}
-*adj.* 和蔼可亲的，友好的；令人愉快的 
-!!! note ""
+  *adj.* 和蔼可亲的，友好的；令人愉快的 
+  !!! note ""
 
     1.
     Her parents seemed very amiable.
@@ -456,7 +456,7 @@
 *n.* 扣子，扣环；紧握，紧抱
 *v.* 扣住，扣紧；握紧，抱紧；紧紧缠绕
 - *clap*: 
-!!! success ""
+  !!! success ""
     - Clap： 
         • 更常用于日常交流，表达个人的情感。 
         • 可以用于任何需要拍手的场合，如赞同、欢迎或鼓励。   
@@ -464,7 +464,7 @@
         • 更正式，通常用于大型或正式的场合，如音乐会、颁奖典礼等。 
         • 表达集体的赞赏和欢迎，通常是对表演者或获奖者的肯定。
 - *departure*: *n.* 
-!!! note ""
+  !!! note ""
     - take one's ~: 出发（较为正式和文学性，用于替代简单的leave）
     - a point of ~: 起点
     - in anticipation of ~: 预期即将离开（用于描述离开前的准备工作或其他内容） 
@@ -529,13 +529,13 @@ n.
     | **特点**       | - 直接减少价格，无需凭证        | - **针对性强，通常有使用期限或限制条件** | - 灵活性高，用途广泛            |
 
     ---
-
+    
     **总结**
-
+    
     - **Discount** 是一种直接的价格减少，适用于各种商品和服务。
     - **Coupon** 是一种优惠凭证，通常用于特定商品或服务，提供折扣或优惠。
     - **Voucher** 是一种兑换凭证，可以用于多种消费形式，如礼品卡、旅行券等。
-
+    
     通过理解这些区别，可以在不同的场合中正确使用这三个词，避免混淆。😊
 - disguise
 - dismay
@@ -556,28 +556,28 @@ n.
 
     国会通过了一条管理废物处理的法律。
     《柯林斯英汉双解大词典》
-
+    
     2.
     Attempts are being made to solve the problem of waste disposal.
-
+    
     正在想办法解决废物处理的问题。
     《牛津词典》
-
+    
     3.
     Therefore, less money is spent for garbage disposal.
-
+    
     因此，花在垃圾处理上的钱就少了。
     youdao
-
+    
     4.
     There's a high-tech underground trash disposal system.
-
+    
     有一个高科技的地下垃圾处理系统。
     youdao
-
+    
     5.
     Typically, parents have fewer technological resources at their disposal than do schools.
-
+    
     通常情况下，家长可支配的技术资源比学校少。
     youdao
 ## dispose 
@@ -588,11 +588,11 @@ v.
     - dispose of 
 
     处理：指处理或处理掉某物，通常是为了摆脱或解决问题。
-
+    
     处置：指采取行动或决策来解决问题或处理情况。
-
+    
     摆脱：指摆脱或解决某种不需要或不想要的东西。
-
+    
     - dispose for 
     
     为……做好准备：为某事或某人做好安排或准备。
@@ -647,26 +647,26 @@ n.
 
     n.
     零售
-
+    
     v.
     零售；以……价格销售；详说，述说（尤指别人的事情）
-
+    
     adv.
     以零售方式
-
+    
     adj.
     零售的
     
     - wholesale
     n.
     批发，趸售
-
+    
     adj.
     批发的，趸售的；大规模的，大批的
-
+    
     adv.
     批发地，成批卖地；完全地
-
+    
     v.
     批发销售；以……价格批发
 
@@ -695,22 +695,22 @@ adj.
 
     猩红热的接触传染性很强。
     《牛津词典》
-
+    
     2.
     Laughing is contagious.
-
+    
     笑是有感染力的。
     《柯林斯英汉双解大词典》
-
+    
     3.
     This disease is not contagious [infectious].
-
+    
     这病不传染。
     《新英汉大辞典》
-
+    
     4.
     The pleasure of connection seems contagious.
-
+    
     联系的乐趣似乎具有感染力。
     youdao
 
@@ -803,15 +803,15 @@ n.
     |Excursion😢|	有组织的短途游览|	郊游、集体活动|	可数名词	|短暂、**有组织性**|
 
     - 易混点总结
-
+    
     Travel vs. Trip：
     Travel 是抽象概念（不可数），如：I love travel.
     Trip 是具体某次行程（可数），如：a weekend trip.
-
+    
     Journey vs. Trip：
     Journey 强调单程（可能更长更累），如：a tiring journey.
     Trip 侧重往返和目的（更轻松），如：a fun trip.
-
+    
     Voyage vs. Excursion：
     Voyage 用于长途冒险（如航海），Excursion 是短途集体活动（如郊游）。
 
@@ -829,10 +829,10 @@ vt.
 
     旅客应在上午10:30以前腾出房间。
     《牛津词典》
-
+    
     2.
     Guests are requested to vacate their rooms by noon on the day of departure.
-
+    
     房客务请在离开之日的中午以前腾出房间。
     《牛津词典》
 
@@ -863,34 +863,34 @@ v.
 
     我们认为这些政策十分重要。
     《牛津词典》
-
+    
     2.
     We do not ascribe a superior wisdom to government or the state.
-
+    
     我们并不将胜人一筹的智慧归属于政府或国家。
     《柯林斯英汉双解大词典》
-
+    
     4.
     I would not ascribe vice to him.
-
+    
     我不愿意把罪过归给他。
     youdao
-
+    
     5.
     Scholars ascribe the trend to many causes.
-
+    
     学者对这种趋势的原因众说纷纭。
     youdao
-
+    
     6.
     If I infer an intention, I ascribe meaning.
-
+    
     如果我推断出一个意图，我就会赋予它意义。
     youdao
-
+    
     7.
     If I infer no intention, I ascribe no meaning.
-
+    
     若我没有推断出任何意图，那么我不会赋予它意义。
     youdao
 
@@ -976,11 +976,11 @@ v.
     2. Duplicate:  
         - The lab needs to duplicate the experiment. （完全重复步骤）  
         - ✅ The lab needs to copy the experiment. （可能指模仿方法，但不完全一致）
-
+    
     3. Transcript:  
         - The interview transcript is 10 pages long. （逐字记录）  
         - ❌ The interview duplicate is 10 pages long. （语义错误）
-
+    
     4. Counterpart:  
         - The left hand is the counterpart of the right hand. （结构对应）  
         - ❌ The left hand is a duplicate of the right hand. （除非完全克隆）
@@ -1023,26 +1023,26 @@ v.
             （河流侵蚀河岸，改变其形状。）
         - Inflation **erodes** the value of savings.  
             （通货膨胀削弱储蓄的价值。）
-
+    
     === "**易混场景辨析**"
         1. **金属生锈**：  
         - ✅ The iron gate **corroded** due to exposure to moisture.  
             （铁门因潮湿而腐蚀。）  
         - ❌ The iron gate eroded...（除非被物理摩擦磨损）。
-
+    
         2. **河岸被水破坏**：  
         - ✅ The river **eroded** the soil along the bank.  
             （河水侵蚀了河岸的土壤。）  
         - ❌ The river corroded...（除非水中含强酸导致化学腐蚀）。
-
+    
         3. **比喻用法**：  
         - Trust **corrodes** when lies accumulate.  
             （谎言堆积会腐蚀信任。）——强调化学性“变质”。  
         - Political scandals **erode** public confidence.  
             （政治丑闻削弱公众信心。）——强调逐渐“流失”。
-
+    
     **核心区别对比表**
-
+    
     | 维度         | **Corrode**                     | **Erode**                      |
     |--------------|---------------------------------|--------------------------------|
     | **破坏机制** | 化学腐蚀（氧化、酸蚀等）       | 物理磨损（风、水、摩擦等）     |
@@ -1096,8 +1096,8 @@ v.
 - excel
     - excellence, excellent
     - excel in sth.在……方面表现出色：在某个领域或活动中表现出非常出色或优秀。
-v.
-精通，擅长；超过，胜过
+    v.
+    精通，擅长；超过，胜过
 
 - exceptional
 - excerpt{++/ekˈsɜːpt/++}
@@ -1140,7 +1140,7 @@ n.
         - Temporary worker（临时工）
         - Temporary fix（临时修复）
         - Temporary visa（临时签证）
-
+    
     === "**3. 主要区别**"
         | **方面**       | **Interim**                          | **Temporary**                       |
         |------------------|--------------------------------------|-------------------------------------|
@@ -1330,3 +1330,17 @@ v.
 骚扰 {++He will bring up your past to haunt and harass you.++}
 
 - parasite n.寄生植物（或动物），寄生虫；不劳而获者，依赖他人过活者
+- hence adv.因此，之后（一个表示因果关联的词）
+
+## phrases of TURN
+
+!!! info "区分"
+
+	- turn around 有好转，有起色
+	- turn over 翻转，移交 -> 可以联想到完整的单词 turnover *n.*（一定时期内的）营业额，成交量；（商店的）货物周转率，销售比率；人事变动率，人员流动率；半圆馅饼（用水果、肉类或蔬菜做馅）；<美>（比赛中的）易手，失误
+
+
+
+- eleavte *v.*提拔，提升；抬起，提起；提高，增加；使情绪高昂，使兴高采烈
+- exert *v.*运用，施加（影响）；努力，尽力（exert oneself to）
+- unprecedented 史无前例的

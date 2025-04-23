@@ -102,18 +102,16 @@ extra_javascript:
 
 nav:
   - 🏠 Home: home page.md
-  - 🚀 My Pamphlet: formations.md
+  - 🚀 My Pamphlet: pamphlet.md
   - 📒 Other Things: other things.md
   - 🧩 Language Learning: language learning.md
-  - 📖 Study : 
-    - 🎶 Acoustics: 
-      - Audio Acoustics: audio acoustics.md
-      - Ultrasonics: ultrasonics.md
-      - Acoustic Measure: acoustic measure.md 
-      - Room Acoustics: room acoustics.md
-    - ⚙️COMSOL: COMSOL.md
+  - 🎶 Acoustics: 
+    - Audio Acoustics: audio acoustics.md
+    - Ultrasonics: ultrasonics.md
+    - Acoustic Measure: acoustic measure.md 
+    - Room Acoustics: room acoustics.md
+  - ⚙️COMSOL: COMSOL.md
 
-    - 📝 Data Science: data science.md
-    - 💡 MATLAB: MATLAB.md
-    - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md
-
+  - 📝 Data Science: data science.md
+  - 💡 MATLAB: MATLAB.md
+  - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md
