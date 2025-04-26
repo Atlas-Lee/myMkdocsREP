@@ -65,7 +65,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -88,16 +87,18 @@ markdown_extensions:
       permalink: "🏷️"
       toc_depth: 3 # restraint the depth of the table of contents
   - pymdownx.superfences:
-      custom_fences:
-        - name: foldable
-          class: foldable
+        custom_fences:
+        - name: mermaid
+          class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  #- https://unpkg.com/mermaid@8.14.0/dist/mermaid.min.js
   #- assets/javascripts/collapse-nav.js  # 自定义折叠逻辑
 
-#extra_css:
+extra_css:
+  #- https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
  # - assets/stylesheets/extra.css
 
 nav:

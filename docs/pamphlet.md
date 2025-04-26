@@ -1,6 +1,5 @@
 ## Pamphlet
-# 0. Improtant Links
-[Markdown教程](https://markdown.com.cn/)
+
 # 1. Math
 
 ## Using block syntax

@@ -31,4 +31,13 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 虽然整理起来似乎要辛苦一点，但这种标记式文本的的确确高效得多，增添、修改、扩充都十分方便，我也一下子就搭起来了数个文件几千行代码。也不再让知识只停留在脑海里浅浅的一丝记忆.
 
+# Links
+[LA Notions](https://www.cnblogs.com/ezhar/p/14188761.html)
 
+[Markdown教程](https://markdown.com.cn/)
+
+[R学习资源网站💻](https://www.w3cschool.cn/r/r_overview.html)
+
+一些SQLite的🔗
+[主页](http://www.sqlite.org/index.html)
+[教程](http://www.runoob.com/sqlite/sqlite-tutorial.html)
