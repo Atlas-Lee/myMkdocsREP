@@ -1,0 +1,1162 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://atlas-lee.github.io/myMkdocsREP/room%20acoustics/">
+      
+      
+        <link rel="prev" href="../acoustic%20measure/">
+      
+      
+        <link rel="next" href="../COMSOL/">
+      
+      
+      <link rel="icon" href="../assets/images/smileface.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Room Acoustics - Atlas's Notebook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%209.5A2.5%202.5%200%200%200%209.5%2012a2.5%202.5%200%200%200%202.5%202.5%202.5%202.5%200%200%200%202.5-2.5A2.5%202.5%200%200%200%2012%209.5m0%203.5a1%201%200%200%201-1-1%201%201%200%200%201%201-1%201%201%200%200%201%201%201%201%201%200%200%201-1%201m0-3.5A2.5%202.5%200%200%200%209.5%2012a2.5%202.5%200%200%200%202.5%202.5%202.5%202.5%200%200%200%202.5-2.5A2.5%202.5%200%200%200%2012%209.5m0%203.5a1%201%200%200%201-1-1%201%201%200%200%201%201-1%201%201%200%200%201%201%201%201%201%200%200%201-1%201m0-11A10%2010%200%200%200%202%2012a10%2010%200%200%200%2010%2010%2010%2010%200%200%200%2010-10A10%2010%200%200%200%2012%202m0%2014c-2.63%200-5-1.57-6-4a6.505%206.505%200%200%201%208.5-3.5A6.52%206.52%200%200%201%2018%2012c-1%202.43-3.37%204-6%204m0-6.5A2.5%202.5%200%200%200%209.5%2012a2.5%202.5%200%200%200%202.5%202.5%202.5%202.5%200%200%200%202.5-2.5A2.5%202.5%200%200%200%2012%209.5m0%203.5a1%201%200%200%201-1-1%201%201%200%200%201%201-1%201%201%200%200%201%201%201%201%201%200%200%201-1%201%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#room-acoustics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Atlas&#39;s Notebook" class="md-header__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
+      
+  <img src="../assets/images/apple-touch-icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Atlas's Notebook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Room Acoustics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="pink"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 10.28c-.26.02-.5.03-.74.03-1.94 0-3.87-.74-5.35-2.22A7.52 7.52 0 0 1 13.72 2c.05-.47-.5-1-1.01-1a.7.7 0 0 0-.39.12c-.32.24-.66.52-.96.82-2.31 2.3-2.81 5.72-1.52 8.52a5.48 5.48 0 0 0-3.15 3.6L6 14a4 4 0 0 0-4 4 4 4 0 0 0 4 4h13a3 3 0 0 0 3-3 3 3 0 0 0-3-3c-.58 0-1.12.16-1.58.45l.08-.95c0-.22 0-.45-.04-.67a7.45 7.45 0 0 0 4.6-2.19c.32-.3.58-.64.82-.96.39-.55-.23-1.4-.84-1.4M19 18a1 1 0 0 1 1 1 1 1 0 0 1-1 1H6a2 2 0 0 1-2-2 2 2 0 0 1 2-2h2.5v-.5c0-1.56 1.03-2.86 2.44-3.32.16-.05.32-.09.49-.12.18-.03.37-.06.57-.06.23 0 .45.03.66.07q.105.015.21.06c.13.03.28.07.41.12.08.03.16.07.22.11.13.05.24.11.34.18.08.05.16.1.23.16.1.07.18.14.27.22.07.08.16.13.21.2.08.08.14.17.21.25.06.08.13.16.18.25.06.09.1.18.15.28s.11.18.15.28c.17.41.26.85.26 1.32V18m1.33-5.14A5.51 5.51 0 0 0 12 10h-.13c-.46-.81-.73-1.74-.73-2.71 0-.98.25-1.92.72-2.74A9.4 9.4 0 0 0 14.5 9.5a9.35 9.35 0 0 0 4.95 2.64c-.79.46-1.69.7-2.62.72"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="yellow" data-md-color-primary="light-green" data-md-color-accent="deep-orange"  aria-label="Night mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Night mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 12h4a5 5 0 0 1 5-5 5 5 0 0 1 5 5h4a1 1 0 0 1 1 1 1 1 0 0 1-1 1H3a1 1 0 0 1-1-1 1 1 0 0 1 1-1m12 0a3 3 0 0 0-3-3 3 3 0 0 0-3 3zM12 2l2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm17.31 0-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-7.94 9.3 3.11 3.11a.996.996 0 1 1-1.41 1.41L12 18.41l-2.41 2.41a.996.996 0 1 1-1.41-1.41l3.11-3.11c.21-.2.45-.3.71-.3s.5.1.71.3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../home%20page/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏠 Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../pamphlet/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🚀 My Pamphlet
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../other%20things/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  📒 Other Things
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../language%20learning/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🧩 Language Learning
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../audio%20acoustics/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🎶 Acoustics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../COMSOL/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ⚙️COMSOL
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../data%20science/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  📝 Data Science
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../MATLAB/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  💡 MATLAB
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../fundamental%20principles%20of%20Marxism/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏭 Fundamental Principles of Marxism
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Atlas&#39;s Notebook" class="md-nav__button md-logo" aria-label="Atlas's Notebook" data-md-component="logo">
+      
+  <img src="../assets/images/apple-touch-icon.png" alt="logo">
+
+    </a>
+    Atlas's Notebook
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home%20page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🏠 Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pamphlet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🚀 My Pamphlet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other%20things/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📒 Other Things
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../language%20learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🧩 Language Learning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    🎶 Acoustics
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            🎶 Acoustics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../audio%20acoustics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Audio Acoustics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ultrasonics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ultrasonics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acoustic%20measure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Acoustic Measure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Room Acoustics
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Room Acoustics
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#room-acoustics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Room Acoustics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      0. 商用软件
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="0. 商用软件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#va-one" class="md-nav__link">
+    <span class="md-ellipsis">
+      VA One
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 扩散声场和混响声场
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 室内声场的数值建模与仿真
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 室内声场的数值建模与仿真">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ray-tracing" class="md-nav__link">
+    <span class="md-ellipsis">
+      声线跟踪法（Ray Tracing）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="声线跟踪法（Ray Tracing）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      对比虚声源法
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      辐射度法
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      统计能量分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../COMSOL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ⚙️COMSOL
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data%20science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📝 Data Science
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MATLAB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    💡 MATLAB
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fundamental%20principles%20of%20Marxism/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🏭 Fundamental Principles of Marxism
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h2 id="room-acoustics">Room Acoustics<a class="headerlink" href="#room-acoustics" title="Permanent link">🏷️</a></h2>
+<h1 id="0">0. 商用软件<a class="headerlink" href="#0" title="Permanent link">🏷️</a></h1>
+<h2 id="va-one">VA One<a class="headerlink" href="#va-one" title="Permanent link">🏷️</a></h2>
+<ul>
+<li>VA One vs AutoSEA2</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">核心架构对比</label><label for="__tabbed_1_2">工程应用场景</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>VA One</th>
+<th>AutoSEA2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>开发公司</strong></td>
+<td>ESI Group</td>
+<td>原MSC Software (现并入Hexagon)</td>
+</tr>
+<tr>
+<td><strong>求解器基础</strong></td>
+<td>SEA + Hybrid FE-SEA</td>
+<td>经典SEA</td>
+</tr>
+<tr>
+<td><strong>最新版本</strong></td>
+<td>2023版</td>
+<td>已停止更新 (最终版2019)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p>✅ VA One优势场景 • 航天器全频段振动分析 • 新能源汽车NVH预测 • 船舶水下辐射噪声模拟  </p>
+<p>✅ AutoSEA2适用场景 • 传统汽车高频噪声分析 • 建筑隔声性能评估 • 机械系统高频振动传递</p>
+</div>
+</div>
+</div>
+<p>功能差异点
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pie
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    title 功能覆盖度对比
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    &quot;高频分析(&gt;1kHz)&quot; : 75
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    &quot;中频分析(200-1kHz)&quot; : 60
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    &quot;低频分析(&lt;200Hz)&quot; : 30
+</span></code></pre></div></p>
+<h1 id="4">4. 扩散声场和混响声场<a class="headerlink" href="#4" title="Permanent link">🏷️</a></h1>
+<h1 id="5">5. 室内声场的数值建模与仿真<a class="headerlink" href="#5" title="Permanent link">🏷️</a></h1>
+<h2 id="ray-tracing">声线跟踪法（Ray Tracing）<a class="headerlink" href="#ray-tracing" title="Permanent link">🏷️</a></h2>
+<ul>
+<li>
+<p>定义</p>
+<p>声线跟踪法是一种基于几何声学的声场模拟方法，通过追踪声波传播路径（声线）来预测声场分布，常用于建筑声学、虚拟现实音频渲染等领域。</p>
+</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">基本原理</label><label for="__tabbed_2_2">应用场景</label><label for="__tabbed_2_3">优缺点</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li><strong>声线近似</strong><br />
+假设声波波长 &lt;&lt; 障碍物尺寸时，声波可近似为粒子沿直线传播</li>
+<li><strong>能量衰减模型</strong><br />
+声线能量随距离衰减：<span class="arithmatex">\( E(r) = E_0 \cdot \frac{1}{r^2} \)</span></li>
+<li><strong>反射定律</strong><br />
+声线在界面反射时满足：入射角 = 反射角</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>建筑声学设计（音乐厅、剧院）</li>
+<li>虚拟现实空间音频生成</li>
+<li>噪声控制工程模拟</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p>✅ <strong>优势</strong><br />
+- 物理意义直观
+- 适合复杂几何场景
+- 并行计算友好  </p>
+<p>❌ <strong>局限</strong><br />
+- 忽略波动效应（干涉、衍射）
+- 高频精度优于低频
+- 计算量随反射次数指数增长</p>
+</div>
+</div>
+</div>
+<div class="admonition info">
+<p class="admonition-title">算法流程</p>
+<ol>
+<li><strong>声线发射</strong>  <ul>
+<li>从声源向随机方向发射多条声线</li>
+<li>常用蒙特卡洛法确定发射方向</li>
+</ul>
+</li>
+<li><strong>路径追踪</strong>  <ul>
+<li>检测声线与场景物体的碰撞</li>
+<li>唯一碰撞点的记录</li>
+<li>能量阈值的控制</li>
+<li>记录反射/衍射次数（最大反射次数 <span class="arithmatex">\(n_{max}\)</span> 需预设）</li>
+</ul>
+</li>
+<li><strong>能量累积</strong>  <ul>
+<li>接收点统计所有经过声线的能量贡献</li>
+<li>考虑空气吸收：<span class="arithmatex">\(E = E_0 \cdot e^{-\alpha r}\)</span></li>
+<li>全部跟踪结束, 输出数据</li>
+</ul>
+</li>
+</ol>
+</div>
+<ul>
+<li>
+<p>声源</p>
+<p>声功率为<span class="arithmatex">\(L_W\)</span>的点声源,声线能量<span class="arithmatex">\(W_i = \frac{1}{N} 10^{(\frac{L_W}{10} - 12)}\)</span>.<ins class="critic">指向性复杂时,要考虑空间分布</ins></p>
+<p class="annotate"><mark class="critic">针对全向声源</mark>, z方向取等分圆环,再控制弧长, 从<strong>经纬</strong>方向近似<strong>球面</strong>的均匀分布.任意声线方向 (1) <span class="arithmatex">\(V_{ij}\)</span>, 再结合具体的点坐标, 由点法式方程可得声线方程.</p>
+<ol>
+<li>
+<div class="arithmatex">\[
+\theta_i = \frac{2i - 1}{2n} \pi \text{纬度圈**近似**为轴向角的划分数}
+\]</div>
+<div class="arithmatex">\[
+\phi_{ij} = \frac{2j - 1}{2 m_i} 2 \pi \text{经度圈**准确**为空间角的划分数}    
+\]</div>
+</li>
+</ol>
+</li>
+<li>
+<p>墙面</p>
+<p>一般认为墙面是空间内的平面<span class="arithmatex">\(ax + by + cz  + d = 0\)</span>, 再结合空间几何的知识可以分析如法向量等几何量.</p>
+<ul>
+<li>
+<p>声线与墙面交点</p>
+<p class="annotate">先计算点到平面距离"l" (1) , 再把这个参数引入到一个参数方程组 (2) , 则得到交点坐标</p>
+<ol>
+<li>
+<div class="arithmatex">\[
+        l = - \frac{ax_1 + by_1 + cz_1 + d}{a\alpha + b\beta + c\gamma}
+    \]</div>
+<p>但在这个具体场景中, l是恒大于零的, 因为在几何声学假定下, 声线无法穿透墙面. 同时对应着源点在平面内部, 且切向量指向平面法相.</p>
+</li>
+<li>
+<div class="arithmatex">\[
+        \begin{cases}
+        x = x_1 + \alpha l\\
+        y = y_1 + \beta l\\
+        z = z_1 + \gamma l
+        \end{cases}
+        ,\quad
+        \mathbf{x} = \mathbf{x_1} +  t \mathbf{V}
+    \]</div>
+</li>
+</ol>
+<hr />
+<ul>
+<li>反射声线</li>
+</ul>
+</li>
+</ul>
+<p class="annotate">能量<span class="arithmatex">\(W_i(t) = W_i(t-t_1)(1 - \alpha)\)</span>, 方向为 (1) <span class="arithmatex">\(\mathbf{t_2} = \mathbf{t_1} - 2 \cos(\frac{\Delta}{2}) \mathbf{n}\)</span></p>
+<ol>
+<li>
+<p>这里的情况就是射线向平面外侧的方向射进界面, 反射回平面内部空间, 且这个角度<span class="arithmatex">\(\Delta\)</span>值的是两个射线方向向量的夹角, 而非简单的"入射角 + 反射角", 如果是那样, 将会变为<span class="arithmatex">\(\sin(\frac{\Delta}{2})\)</span></p>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="_1">对比虚声源法<a class="headerlink" href="#_1" title="Permanent link">🏷️</a></h3>
+<div class="admonition success">
+<p class="admonition-title">比较</p>
+<p>1.<strong>虚声源法</strong></p>
+<p>适用于<mark class="critic">简单</mark>空间, 特别是规则的矩形空间, 同时能能计算<mark class="critic">能量和声压脉冲响应</mark>, 对于镜面反射的模拟精度很高, 但是计算效率较低.</p>
+<p>2.<strong>声线跟踪法</strong>
+<mark class="critic">适用于任意空间的高频声学仿真</mark>, 能够计算指定定点的能量和声压脉冲响应, 计算精度取决于<mark class="critic">反射条件和接收圆半径</mark>.</p>
+</div>
+<h3 id="_2">辐射度法<a class="headerlink" href="#_2" title="Permanent link">🏷️</a></h3>
+<h3 id="_3">统计能量分析<a class="headerlink" href="#_3" title="Permanent link">🏷️</a></h3>
+<ul>
+<li>
+<p>原理</p>
+<p>系统: 建模的实际物理系统</p>
+<p>子系统: 继承原有系统属性的一组模态</p>
+</li>
+</ul>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>graph LR
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    A(输入) --&gt;|&quot;W_in&quot;| B{&quot;E_i&quot;}
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    B --&gt; |&quot;W_ij&quot;| C[&quot;E_j&quot;]
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>    D[&quot;E_i&quot;] --&gt; |&quot;W_ji&quot;| B
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    B --&gt; |&quot;W_ii&quot;| E(&quot;损耗&quot;)
+</span></code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.tracking", "toc.integrate", "content.code.copy", "content.code.select", "content.code.annotate", "search.highlight"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

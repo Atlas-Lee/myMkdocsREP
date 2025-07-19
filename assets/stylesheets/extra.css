@@ -1,0 +1,18 @@
+/* 添加到 extra.css */
+.md-nav__toggle {
+  transition: transform 0.2s;
+}
+.md-nav__toggle:checked {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .md-nav__item--nested .md-nav {
+    transition: max-height 0.3s;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .md-nav__toggle:checked ~ .md-nav {
+    max-height: 1000px;
+  }
+}
