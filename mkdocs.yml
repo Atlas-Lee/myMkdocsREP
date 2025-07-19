@@ -65,7 +65,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -89,30 +88,31 @@ markdown_extensions:
       toc_depth: 3 # restraint the depth of the table of contents
   - pymdownx.superfences:
       custom_fences:
-        - name: mermaid
-          class: mermaid
+        - name: foldable
+          class: foldable
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  #- https://unpkg.com/mermaid@8.14.0/dist/mermaid.min.js
   #- assets/javascripts/collapse-nav.js  # 自定义折叠逻辑
 
-#extra_css:
+extra_css:
+  #- https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
  # - assets/stylesheets/extra.css
 
 nav:
   - 🏠 Home: home page.md
-  - 🚀 My Pamphlet: formations.md
+  - 🚀 My Pamphlet: pamphlet.md
   - 📒 Other Things: other things.md
-  - 📖 Study : 
-    - 🎶 Acoustics: 
-      - Audio Acoustics: audio acoustics.md
-      - Ultrasonics: ultrasonics.md
-      - Acoustic Measure: acoustic measure.md 
-      - Room Acoustics: room acoustics.md
-    - ⚙️COMSOL: COMSOL.md
-    - 🧩 Language Learning: language learning.md
-    - 📝 Data Science: data science.md
-    - 💡 MATLAB: MATLAB.md
-    - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md
+  - 🧩 Language Learning: language learning.md
+  - 🎶 Acoustics: 
+    - Audio Acoustics: audio acoustics.md
+    - Ultrasonics: ultrasonics.md
+    - Acoustic Measure: acoustic measure.md 
+    - Room Acoustics: room acoustics.md
+  - ⚙️COMSOL: COMSOL.md
 
+  - 📝 Data Science: data science.md
+  - 💡 MATLAB: MATLAB.md
+  - 🏭 Fundamental Principles of Marxism: fundamental principles of Marxism.md

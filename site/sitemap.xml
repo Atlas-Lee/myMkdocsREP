@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://atlas-lee.github.io/myMkdocsREP/COMSOL/</loc>
+<<<<<<< HEAD
          <lastmod>2025-07-19</lastmod>
     </url>
     <url>
@@ -47,5 +48,52 @@
     <url>
          <loc>https://atlas-lee.github.io/myMkdocsREP/ultrasonics/</loc>
          <lastmod>2025-07-19</lastmod>
+=======
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/MATLAB/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/acoustic%20measure/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/audio%20acoustics/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/data%20science/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/fundamental%20principles%20of%20Marxism/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/home%20page/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/language%20learning/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/other%20things/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/pamphlet/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/room%20acoustics/</loc>
+         <lastmod>2025-04-25</lastmod>
+    </url>
+    <url>
+         <loc>https://atlas-lee.github.io/myMkdocsREP/ultrasonics/</loc>
+         <lastmod>2025-04-25</lastmod>
+>>>>>>> 98c9865bd38f7ec19be859412f0be670b8e65239
     </url>
 </urlset>
