@@ -29,10 +29,7 @@
 
 - *fellow* *n.* 略 *adj.* 同类的，同样的
 
-  - *homogeneous*: 意为“同质的”“均匀的”“一致的”，通常用来描述事物的组成或性质的一致性。
-    例句：The mixture is homogeneous.
-
-    多用于科学、数学领域。
+  - *homogeneous*: 意为“同质的”“均匀的”“一致的”，通常用来描述事物的组成或性质的一致性。例句：The mixture is homogeneous.多用于科学、数学领域。
 
 - *feminine*
 !!! note
@@ -47,15 +44,12 @@
     indulgent, indulgently, indulgence
 
 
-- *kin*
+- *kin* 家属，亲戚 -> kin net
 
-- *kit*
+- *kit* 配套工具,工具包
 
-- *omit* <-> *omission*
-
-!!! warning
-
-    这并不是一个口语用词，较为正式
+- *omit* <-> *omission* 引出omitted，
+    {==这并不是一个口语用词，较为正式==}
 
 ## *opt* 
 
@@ -91,6 +85,8 @@
   *v.*
   （绕……）环行
 
+- plaster: 石膏,灰泥;张贴,铺满(围绕在核心含义"铺平/紧贴")也有新闻报道充斥于...的含义
+
 ## *grace*
 含义极为广泛灵活。
 
@@ -121,7 +117,7 @@
     2. **Emotional Charge**: The term "massacre" carries a stronger sense of horror and moral judgment, while "slaughter" is less emotionally charged and can be used in a more neutral or even casual way.  
     3. **Usage**: Massacre is more likely to be used in **serious, historical, or journalistic** contexts, while slaughter can be used in **both serious and casual contexts**.
 
-- *slender*: 1.苗条的,修长的,细长的 2.微薄的,不足的 -> *nominal*: (余额、租金)微不足道的,象征性的
+- *slender*: 1.苗条的,修长的,细长的 2.微薄的,不足的 -> *nominal*: (余额、租金)微不足道的,象征性的,{==形同虚设的,有名无实的==},可以和literally近义替换
 - *slice*:*n.* 薄片,切片;部分,份 *vt.* 切
 - *climax* -> culminate *v.*（以……）结束，告终；到达顶点，达到高潮
 - *clip*: *vt.* 剪，修建；钳，夹住 *n.* 夹子，钳子，回形针

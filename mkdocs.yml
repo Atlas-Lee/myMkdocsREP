@@ -89,8 +89,8 @@ markdown_extensions:
       toc_depth: 3 # restraint the depth of the table of contents
   - pymdownx.superfences:
       custom_fences:
-        - name: foldable
-          class: foldable
+        - name: mermaid
+          class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:

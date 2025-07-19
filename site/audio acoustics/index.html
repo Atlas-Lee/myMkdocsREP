@@ -54,8 +54,6 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
-    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -441,8 +439,6 @@
         
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
@@ -496,21 +492,16 @@
     
       
       
-        
-          
-          
-        
-      
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
         
           
-          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
             
   
   
@@ -960,21 +951,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="DCT与KL变换的近似关系">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#dct" class="md-nav__link">
-    <span class="md-ellipsis">
-      DCT
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
         
       </ul>
@@ -1039,13 +1015,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-time-frequency-displays" class="md-nav__link">
+  <a href="#5-stft" class="md-nav__link">
     <span class="md-ellipsis">
-      5. Time-Frequency Displays
+      5. STFT
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="5. Time-Frequency Displays">
+    <nav class="md-nav" aria-label="5. STFT">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1090,20 +1066,95 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#wavelet-analysis" class="md-nav__link">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-mra" class="md-nav__link">
     <span class="md-ellipsis">
-      Wavelet Analysis
+      6. MRA
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Wavelet Analysis">
+    <nav class="md-nav" aria-label="6. MRA">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-cwt" class="md-nav__link">
+  <a href="#mra" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 连续小波变换 (CWT)
+      多分辨率分析 (MRA)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="多分辨率分析 (MRA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      几种分析方式对比
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      嵌套子空间
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      连续小波变换 (CWT)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      离散小波变换 (DWT)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mallat-dwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      快速小波变换 (Mallat算法, DWT)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="快速小波变换 (Mallat算法, DWT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mallat" class="md-nav__link">
+    <span class="md-ellipsis">
+      递推式与Mallat算法的关系
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-two-scale-equations" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 双尺度方程（Two-Scale Equations）
     </span>
   </a>
   
@@ -1112,43 +1163,34 @@
           <li class="md-nav__item">
   <a href="#2-dwt" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 离散小波变换 (DWT)
+      2. 分解算法（正向DWT）
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-mra" class="md-nav__link">
+  <a href="#3-dwt" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 多分辨率分析 (MRA)
+      3. 重构算法（逆向DWT）
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-mallat" class="md-nav__link">
+  <a href="#haar" class="md-nav__link">
     <span class="md-ellipsis">
-      4. 快速小波变换 (Mallat算法)
+      常用小波函数推导示例（Haar小波）
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-haar" class="md-nav__link">
+  <a href="#_18" class="md-nav__link">
     <span class="md-ellipsis">
-      5. 常用小波函数推导示例（Haar小波）
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#6" class="md-nav__link">
-    <span class="md-ellipsis">
-      6. 时频分辨率关系
+      时频分辨率关系
     </span>
   </a>
   
@@ -1388,11 +1430,11 @@
 
 
 
-<h2 id="1-sundry-patches">1. Sundry Patches<a class="headerlink" href="#1-sundry-patches" title="Permanent link">📌</a></h2>
-<h1 id="-pre-contents">- Pre-contents<a class="headerlink" href="#-pre-contents" title="Permanent link">📌</a></h1>
+<h2 id="1-sundry-patches">1. Sundry Patches<a class="headerlink" href="#1-sundry-patches" title="Permanent link">🏷️</a></h2>
+<h1 id="-pre-contents">- Pre-contents<a class="headerlink" href="#-pre-contents" title="Permanent link">🏷️</a></h1>
 <p><a class="glightbox" href="https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs/assets/images/AudioAcoustics_process.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Application Field" src="https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs/assets/images/AudioAcoustics_process.png" /></a></p>
-<h1 id="-some-rules-of-vector-and-matrix">- Some rules of vector and matrix<a class="headerlink" href="#-some-rules-of-vector-and-matrix" title="Permanent link">📌</a></h1>
-<h2 id="1">1. 基本约定<a class="headerlink" href="#1" title="Permanent link">📌</a></h2>
+<h1 id="-some-rules-of-vector-and-matrix">- Some rules of vector and matrix<a class="headerlink" href="#-some-rules-of-vector-and-matrix" title="Permanent link">🏷️</a></h1>
+<h2 id="1">1. 基本约定<a class="headerlink" href="#1" title="Permanent link">🏷️</a></h2>
 <p>采用<strong>分母布局</strong>（Denominator Layout）：</p>
 <ul>
 <li>标量<span class="arithmatex">\( y \)</span>对列向量<span class="arithmatex">\( \mathbf{x} \in \mathbb{R}^n \)</span>求导结果为列向量：</li>
@@ -1411,8 +1453,8 @@
 \end{bmatrix}
 \]</div>
 <hr />
-<h2 id="2">2. 基本法则<a class="headerlink" href="#2" title="Permanent link">📌</a></h2>
-<h3 id="21">2.1 线性函数<a class="headerlink" href="#21" title="Permanent link">📌</a></h3>
+<h2 id="2">2. 基本法则<a class="headerlink" href="#2" title="Permanent link">🏷️</a></h2>
+<h3 id="21">2.1 线性函数<a class="headerlink" href="#21" title="Permanent link">🏷️</a></h3>
 <p>设<span class="arithmatex">\( \mathbf{a} \)</span>为常数向量，<span class="arithmatex">\( \mathbf{x} \in \mathbb{R}^n \)</span>，则：</p>
 <div class="arithmatex">\[
 \frac{\partial (\mathbf{a}^T \mathbf{x})}{\partial \mathbf{x}} = \mathbf{a}
@@ -1423,7 +1465,7 @@
 \mathbf{a}^T \mathbf{x} = \sum_{i=1}^n a_i x_i \text{(i.Prod)} \implies \frac{\partial (\mathbf{a}^T \mathbf{x})}{\partial x_j} = a_j \implies \frac{\partial (\mathbf{a}^T \mathbf{x})}{\partial \mathbf{x}} = \mathbf{a}
 \]</div>
 </details>
-<h3 id="22">2.2 二次型<a class="headerlink" href="#22" title="Permanent link">📌</a></h3>
+<h3 id="22">2.2 二次型<a class="headerlink" href="#22" title="Permanent link">🏷️</a></h3>
 <p>设对称矩阵<span class="arithmatex">\( \mathbf{A} \in \mathbb{R}^{n \times n} \)</span>，则：</p>
 <div class="arithmatex">\[
 \frac{\partial (\mathbf{x}^T \mathbf{A} \mathbf{x})}{\partial \mathbf{x}} = 2\mathbf{A}\mathbf{x}
@@ -1440,8 +1482,8 @@
 \]</div>
 </details>
 <hr />
-<h2 id="3">3. 矩阵求导<a class="headerlink" href="#3" title="Permanent link">📌</a></h2>
-<h3 id="31-">3.1 矩阵-向量乘积<a class="headerlink" href="#31-" title="Permanent link">📌</a></h3>
+<h2 id="3">3. 矩阵求导<a class="headerlink" href="#3" title="Permanent link">🏷️</a></h2>
+<h3 id="31-">3.1 矩阵-向量乘积<a class="headerlink" href="#31-" title="Permanent link">🏷️</a></h3>
 <p>设<span class="arithmatex">\( \mathbf{A} \in \mathbb{R}^{m \times n} \)</span>，则：</p>
 <div class="arithmatex">\[
 \frac{\partial (\mathbf{A} \mathbf{x})}{\partial \mathbf{x}} = \mathbf{A}^T
@@ -1456,7 +1498,7 @@
 \end{bmatrix} \implies \frac{\partial (\mathbf{A}\mathbf{x})_i}{\partial x_j} = A_{ij} \implies \frac{\partial (\mathbf{A}\mathbf{x})}{\partial \mathbf{x}} = \mathbf{A}^T
 \]</div>
 </details>
-<h3 id="32">3.2 迹的导数<a class="headerlink" href="#32" title="Permanent link">📌</a></h3>
+<h3 id="32">3.2 迹的导数<a class="headerlink" href="#32" title="Permanent link">🏷️</a></h3>
 <p>对任意方阵<span class="arithmatex">\( \mathbf{X} \)</span>，有：</p>
 <div class="arithmatex">\[
 \frac{\partial \, \text{tr}(\mathbf{X}^T \mathbf{A} \mathbf{X} \mathbf{B})}{\partial \mathbf{X}} = \mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X} \mathbf{B}^T
@@ -1619,14 +1661,14 @@ df = \text{tr}\left( [\mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X}
 </ul>
 <p>因此，虽然表面上改变了矩阵位置，但数学上是严格等价的。</p>
 </details>
-<h2 id="4">4. 链式法则<a class="headerlink" href="#4" title="Permanent link">📌</a></h2>
+<h2 id="4">4. 链式法则<a class="headerlink" href="#4" title="Permanent link">🏷️</a></h2>
 <p>设复合函数<span class="arithmatex">\( \mathbf{z} = \mathbf{g}(\mathbf{y}) \)</span>, <span class="arithmatex">\( \mathbf{y} = \mathbf{f}(\mathbf{x}) \)</span>，则：</p>
 <div class="arithmatex">\[
 \frac{\partial \mathbf{z}}{\partial \mathbf{x}} = \frac{\partial \mathbf{z}}{\partial \mathbf{y}} \cdot \frac{\partial \mathbf{y}}{\partial \mathbf{x}}
 \]</div>
 <p>其中“·”表示矩阵乘法</p>
 <hr />
-<h2 id="5">5. 常用公式总结<a class="headerlink" href="#5" title="Permanent link">📌</a></h2>
+<h2 id="5">5. 常用公式总结<a class="headerlink" href="#5" title="Permanent link">🏷️</a></h2>
 <table>
 <thead>
 <tr>
@@ -1657,8 +1699,8 @@ df = \text{tr}\left( [\mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X}
 </tr>
 </tbody>
 </table>
-<h1 id="-use-metric-tensor-to-tranform-coordinate">- Use metric tensor to tranform coordinate<a class="headerlink" href="#-use-metric-tensor-to-tranform-coordinate" title="Permanent link">📌</a></h1>
-<h2 id="_1">度量张量的基本概念<a class="headerlink" href="#_1" title="Permanent link">📌</a></h2>
+<h1 id="-use-metric-tensor-to-tranform-coordinate">- Use metric tensor to tranform coordinate<a class="headerlink" href="#-use-metric-tensor-to-tranform-coordinate" title="Permanent link">🏷️</a></h1>
+<h2 id="_1">度量张量的基本概念<a class="headerlink" href="#_1" title="Permanent link">🏷️</a></h2>
 <p>度量张量是一个矩阵，用于描述空间中不同坐标系下的距离和角度的测量方式。在不同的坐标系下，度量张量的形式可能会有所不同。它在微分几何和广义相对论中具有重要作用。</p>
 <p>度量张量的概念源于对非欧几里得空间中距离和角度的描述需求。在欧几里得空间中，距离和角度的计算相对简单，可以通过勾股定理和标准内积来实现。然而，在弯曲的流形（如广义相对论中的时空）中，这些简单的计算不再适用。 </p>
 <p>为了在更一般的流形上定义距离和角度，数学家引入了度量张量（Metric Tensor）。度量张量是一个二阶张量，它在流形的每一点上定义了该点处的内积结构。通过度量张量，可以计算出流形上任意两点之间的距离，以及两个切向量之间的角度。</p>
@@ -1678,7 +1720,7 @@ df = \text{tr}\left( [\mathbf{A} \mathbf{X} \mathbf{B} + \mathbf{A}^T \mathbf{X}
 <li>机器人学：在机器人路径规划和运动控制中，度量张量可以用于描述机器人在配置空间中的距离和角度，从而优化运动轨迹。</li>
 </ol>
 </div>
-<h2 id="_2">坐标变换的基本概念<a class="headerlink" href="#_2" title="Permanent link">📌</a></h2>
+<h2 id="_2">坐标变换的基本概念<a class="headerlink" href="#_2" title="Permanent link">🏷️</a></h2>
 <p>坐标变换是指将一个点从一个坐标系转换到另一个坐标系的过程。例如，从笛卡尔坐标系转换到球坐标系。在进行坐标变换时，需要知道两个坐标系之间的转换关系，以及如何在新的坐标系下表达原来的度量张量。</p>
 <ul>
 <li>
@@ -1782,8 +1824,8 @@ J^T \cdot J = \begin{bmatrix}
 </div>
 </li>
 </ul>
-<h2 id="_3">应用<a class="headerlink" href="#_3" title="Permanent link">📌</a></h2>
-<h3 id="_4">度量张量在拉普拉斯算子变换中的应用<a class="headerlink" href="#_4" title="Permanent link">📌</a></h3>
+<h2 id="_3">应用<a class="headerlink" href="#_3" title="Permanent link">🏷️</a></h2>
+<h3 id="_4">度量张量在拉普拉斯算子变换中的应用<a class="headerlink" href="#_4" title="Permanent link">🏷️</a></h3>
 <p>拉普拉斯算子在不同的坐标系下有不同的表达式，而度量张量 <span class="arithmatex">\( g' \)</span> 在其中起到了关键作用。</p>
 <div class="admonition abstract annotate">
 <p class="admonition-title">拉普拉斯算子在新坐标系下的表达式 (1) </p>
@@ -1832,7 +1874,7 @@ g'^{ij} = \begin{bmatrix}
 <ol>
 <li>通过这个过程，我们可以看到度量张量 <span class="arithmatex">\( g' \)</span> 在拉普拉斯算子变换中的重要性。它确保了在新坐标系下，拉普拉斯算子能够正确描述场的分布。</li>
 </ol>
-<h3 id="_5">计算距离<a class="headerlink" href="#_5" title="Permanent link">📌</a></h3>
+<h3 id="_5">计算距离<a class="headerlink" href="#_5" title="Permanent link">🏷️</a></h3>
 <p>假设我们有两个点A和B，它们的柱坐标分别是 <span class="arithmatex">\( (r1, \phi1, z1) \)</span> 和 <span class="arithmatex">\( (r2, \phi2, z2) \)</span>，那么它们之间的距离 <span class="arithmatex">\( d \)</span> 可以表示为： </p>
 <div class="arithmatex">\[
 d^2 = g'_{rr}(r2 - r1)^2 + g'_{\phi\phi}(\phi2 - \phi1)^2 + g'_{zz}(z2 - z1)^2
@@ -1862,7 +1904,7 @@ g' = J^T \cdot J = \begin{bmatrix}
 <div class="arithmatex">\[
 d^2 = (r2 - r1)^2 + r1^2 (\phi2 - \phi1)^2 + (z2 - z1)^2
 \]</div>
-<h3 id="_6">计算体积<a class="headerlink" href="#_6" title="Permanent link">📌</a></h3>
+<h3 id="_6">计算体积<a class="headerlink" href="#_6" title="Permanent link">🏷️</a></h3>
 <p>体积元素 ( dV ) 可以通过度量张量的行列式计算： </p>
 <div class="arithmatex">\[
 dV = \sqrt{\det g'} dr  d\phi  dz
@@ -1875,7 +1917,7 @@ dV = \sqrt{\det g'} dr  d\phi  dz
 <div class="arithmatex">\[
 dV = r dr  d\phi  dz
 \]</div>
-<h2 id="_7">总结<a class="headerlink" href="#_7" title="Permanent link">📌</a></h2>
+<h2 id="_7">总结<a class="headerlink" href="#_7" title="Permanent link">🏷️</a></h2>
 <p>度量张量是一个重要的工具，用于描述流形上的距离和角度的测量方式。通过计算新坐标系下的度量张量 <span class="arithmatex">\( g' \)</span>，我们可以实现坐标变换，并在新坐标系下进行几何计算和拉普拉斯算子的变换。具体步骤包括：</p>
 <ol>
 <li><strong>确定坐标变换公式</strong>：找到从旧坐标系到新坐标系的转换关系。</li>
@@ -1885,8 +1927,8 @@ dV = r dr  d\phi  dz
 <li><strong>在拉普拉斯算子变换中应用 <span class="arithmatex">\( g' \)</span></strong>：通过计算 <span class="arithmatex">\( g' \)</span> 的行列式和逆矩阵，代入拉普拉斯算子的表达式，确保在新坐标系下，拉普拉斯算子能够正确描述场的分布。</li>
 </ol>
 <hr />
-<h1 id="2-signal-vector-space">2. Signal Vector Space<a class="headerlink" href="#2-signal-vector-space" title="Permanent link">📌</a></h1>
-<h2 id="norm">范数(norm)<a class="headerlink" href="#norm" title="Permanent link">📌</a></h2>
+<h1 id="2-signal-vector-space">2. Signal Vector Space<a class="headerlink" href="#2-signal-vector-space" title="Permanent link">🏷️</a></h1>
+<h2 id="norm">范数(norm)<a class="headerlink" href="#norm" title="Permanent link">🏷️</a></h2>
 <p>空间元素<span class="arithmatex">\( \mathbf{x}=(x_1,x_2,\cdots,x_N) \)</span>的p阶范数定义为:</p>
 <div class="arithmatex">\[
     \left\|\mathbf{x}\right\|_p=\begin{cases}\left[\sum_{i=1}^N\left|x_i\right|^p\right]^{\frac{1}{p}},&amp;1\leq p&lt;\infty\\\max_{1\leq i\leq N}\left|x_i\right|,&amp;p=\infty&amp;&amp;\end{cases}\\
@@ -1914,8 +1956,8 @@ dV = r dr  d\phi  dz
     \begin{gathered}\left\|\mathbf{x}\right\|_p=\begin{cases}\left[\int_{-\infty}^\infty\left|x(t)\right|^pdt\right]^{\frac{1}{p}},1\leq p&lt;\infty\\\\\sup\left|x\left(t\right)\right|,\quad p\to\infty&amp;\end{cases}\\\left\|\mathbf{x}\right\|_p=\begin{cases}\left[\sum_{n=-\infty}^\infty\left|x(n)\right|^p\right]^{\frac{1}{p}},1\leq p&lt;\infty\\\\\sup\left|x(n)\right|,\quad p\to\infty&amp;\end{cases}\end{gathered}
 \]</div>
 </div>
-<h2 id="inner-product-spe">Inner product SPE<a class="headerlink" href="#inner-product-spe" title="Permanent link">📌</a></h2>
-<h2 id="_8">内积空间的定义<a class="headerlink" href="#_8" title="Permanent link">📌</a></h2>
+<h2 id="inner-product-spe">Inner product SPE<a class="headerlink" href="#inner-product-spe" title="Permanent link">🏷️</a></h2>
+<h2 id="_8">内积空间的定义<a class="headerlink" href="#_8" title="Permanent link">🏷️</a></h2>
 <p>内积空间（Inner Product Space）是一个向量空间 <span class="arithmatex">\( V \)</span>，其中定义了一个内积运算，记作 <span class="arithmatex">\( \langle \cdot, \cdot \rangle \)</span>。内积满足以下公理：</p>
 <ol>
 <li>
@@ -1950,7 +1992,7 @@ dV = r dr  d\phi  dz
 \]</div>
 </li>
 </ol>
-<h2 id="_9">完备性的要求<a class="headerlink" href="#_9" title="Permanent link">📌</a></h2>
+<h2 id="_9">完备性的要求<a class="headerlink" href="#_9" title="Permanent link">🏷️</a></h2>
 <p class="annotate">完备性（Completeness）是内积空间的一个重要性质，它要求内积空间中的所有柯西序列（Cauchy Sequence） (1) 都收敛到该空间中的某个点。</p>
 <ol>
 <li>
@@ -1975,7 +2017,7 @@ dV = r dr  d\phi  dz
 <p>柯西列的定义依赖于距离的定义，所以只有在度量空间(metric space)中柯西列才有意义。在更一般的一致空间(uniform space)中，可以定义更为抽象的柯西滤子(Cauchy filter)和柯西网(Cauchy net)。</p>
 <p>一个重要性质是，在完备空间（complete space）中，所有的柯西列都有极限，这就让人们可以在不求出这个极限（如果存在）的情况下，利用柯西列的判别法则证明该极限是存在的。柯西列在构造具有完备性的代数结构的过程中也有重要价值，如构造实数。</p>
 </details>
-<h2 id="hilbert">内积空间与Hilbert空间<a class="headerlink" href="#hilbert" title="Permanent link">📌</a></h2>
+<h2 id="hilbert">内积空间与Hilbert空间<a class="headerlink" href="#hilbert" title="Permanent link">🏷️</a></h2>
 <p><mark class="critic"> 一个<strong>完备的内积空间</strong>被称为 <strong>Hilbert空间</strong>（Hilbert Space）</mark>。Hilbert空间在数学和物理中具有广泛的应用，例如在量子力学中，状态空间就是一个Hilbert空间。</p>
 <ul>
 <li>
@@ -2005,8 +2047,8 @@ dV = r dr  d\phi  dz
 <li>总结</li>
 </ul>
 <p>内积空间通过内积运算扩展了向量空间的结构，使得我们可以定义向量的长度和夹角。完备性要求确保了内积空间中的所有柯西序列都收敛到空间中的某个点，从而使得内积空间成为一个Hilbert空间，具备广泛的应用价值。</p>
-<h2 id="linear-transform-and-orthogonal-transform">Linear transform and orthogonal transform<a class="headerlink" href="#linear-transform-and-orthogonal-transform" title="Permanent link">📌</a></h2>
-<h2 id="self-adjointhermitianoperator">Self-adjoint(Hermitian)operator<a class="headerlink" href="#self-adjointhermitianoperator" title="Permanent link">📌</a></h2>
+<h2 id="linear-transform-and-orthogonal-transform">Linear transform and orthogonal transform<a class="headerlink" href="#linear-transform-and-orthogonal-transform" title="Permanent link">🏷️</a></h2>
+<h2 id="self-adjointhermitianoperator">Self-adjoint(Hermitian)operator<a class="headerlink" href="#self-adjointhermitianoperator" title="Permanent link">🏷️</a></h2>
 <p>即保证了内积定义下的可交换性</p>
 <div class="admonition note">
 <p class="admonition-title">Self-adjoint(Hermitian)operator(自伴算子)</p>
@@ -2016,14 +2058,14 @@ dV = r dr  d\phi  dz
 <li>特征矢量构成H的完备正交基（可转换为归一化正交基）</li>
 </ol>
 </div>
-<h2 id="orthogonal-transform">orthogonal transform<a class="headerlink" href="#orthogonal-transform" title="Permanent link">📌</a></h2>
+<h2 id="orthogonal-transform">orthogonal transform<a class="headerlink" href="#orthogonal-transform" title="Permanent link">🏷️</a></h2>
 <p><strong>Invariant I.Prod</strong>
 保证内积不变，则可以在内积空间进行操作。对<span class="arithmatex">\( \mathbb{R}^N \)</span>,变换矩阵为正交矩阵</p>
 <div class="arithmatex">\[
     \left\langle T\mathbf{x},T\mathbf{y}\right\rangle=\left\langle\mathbf{x},\mathbf{y}\right\rangle\mathrm{~for~}\mathbf{x},\mathbf{y}\in V
 \]</div>
 <p>更一般定义<strong>酉变换</strong>(unitary transform)(complex I.prod SPE).此时变换矩阵是酉矩阵。</p>
-<h2 id="unitary-trans-and-unitary-mat">Unitary trans. and Unitary Mat.<a class="headerlink" href="#unitary-trans-and-unitary-mat" title="Permanent link">📌</a></h2>
+<h2 id="unitary-trans-and-unitary-mat">Unitary trans. and Unitary Mat.<a class="headerlink" href="#unitary-trans-and-unitary-mat" title="Permanent link">🏷️</a></h2>
 <p>在数学中，酉变换（Unitary Transformation）和酉矩阵（Unitary Matrix）是与复数域上的线性变换相关的重要概念。它们在量子力学、信号处理、控制系统等领域有着广泛的应用。 酉变换 酉变换是一种保持向量内积不变的线性变换。具体来说，对于一个复数内积空间，酉变换是一个线性映射，它保持向量的内积不变。数学上，如果 ( U ) 是一个酉变换，那么对于任意的向量 ( x ) 和 ( y )，都有： </p>
 <div class="arithmatex">\[
 \langle Ux, Uy \rangle = \langle x, y \rangle
@@ -2102,8 +2144,8 @@ UU^\dagger = I
 <p>因此，( U ) 是一个酉矩阵。</p>
 </details>
 <hr />
-<h1 id="3-karhunen-loeve-transform">3. Karhunen-Loève Transform<a class="headerlink" href="#3-karhunen-loeve-transform" title="Permanent link">📌</a></h1>
-<h2 id="_10">定义<a class="headerlink" href="#_10" title="Permanent link">📌</a></h2>
+<h1 id="3-karhunen-loeve-transform">3. Karhunen-Loève Transform<a class="headerlink" href="#3-karhunen-loeve-transform" title="Permanent link">🏷️</a></h1>
+<h2 id="_10">定义<a class="headerlink" href="#_10" title="Permanent link">🏷️</a></h2>
 <p>KL变换（Karhunen-Loève Transform）是一种基于数据协方差矩阵特征分解的线性变换，用于<strong>数据降维</strong>和<strong>特征提取</strong>。其核心思想是将数据投影到正交基上，使得投影后的坐标具有最大方差且互不相关。</p>
 <ul>
 <li>
@@ -2114,7 +2156,7 @@ UU^\dagger = I
 注意：我们处理的对象是随机过程<mark class="critic">（一般约定广义平稳遍历条件）</mark></p>
 </li>
 </ul>
-<h2 id="_11">数学推导<a class="headerlink" href="#_11" title="Permanent link">📌</a></h2>
+<h2 id="_11">数学推导<a class="headerlink" href="#_11" title="Permanent link">🏷️</a></h2>
 <div class="admonition note annotate">
 <p class="admonition-title">基本过程</p>
 <p>1.数据假设
@@ -2225,7 +2267,7 @@ y_k = \mathbf{u}_k^T \mathbf{x} \quad (k=1,2,...,m)
 <p>结论: 符号选择不是任意的，<ins class="critic">1. 保持优化方向与物理意义一致 2. 确保驻点方程与原始问题同构 3. 维护对偶关系的数学一致性</ins></p>
 </li>
 </ol>
-<h2 id="_12">关键概念解释<a class="headerlink" href="#_12" title="Permanent link">📌</a></h2>
+<h2 id="_12">关键概念解释<a class="headerlink" href="#_12" title="Permanent link">🏷️</a></h2>
 <p>1."截短"(Truncation)</p>
 <ul>
 <li>
@@ -2278,7 +2320,7 @@ y_k = \mathbf{u}_k^T \mathbf{x} \quad (k=1,2,...,m)
 \]</div>
 <p>选择<span class="arithmatex">\(m=1\)</span>时，数据被投影到<span class="arithmatex">\( \mathbf{u}_1 \)</span>方向，保留约85.7%的总方差。</p>
 </details>
-<h2 id="_13">最优性总结及应用<a class="headerlink" href="#_13" title="Permanent link">📌</a></h2>
+<h2 id="_13">最优性总结及应用<a class="headerlink" href="#_13" title="Permanent link">🏷️</a></h2>
 <p>通过Lagrange乘数法可严格证明：</p>
 <p><ins class="critic">
     1. KL变换是<strong>方差最大意义下</strong>的最优线性投影
@@ -2297,8 +2339,8 @@ y_k = \mathbf{u}_k^T \mathbf{x} \quad (k=1,2,...,m)
 <li>变换域滤波</li>
 </ol>
 </div>
-<h2 id="_14">实际问题与近似算法<a class="headerlink" href="#_14" title="Permanent link">📌</a></h2>
-<h3 id="_15">基本定义<a class="headerlink" href="#_15" title="Permanent link">📌</a></h3>
+<h2 id="_14">实际问题与近似算法<a class="headerlink" href="#_14" title="Permanent link">🏷️</a></h2>
+<h3 id="_15">基本定义<a class="headerlink" href="#_15" title="Permanent link">🏷️</a></h3>
 <p>离散余弦变换（DCT）的基向量为<ins class="critic">预先定义</ins>的余弦函数：</p>
 <div class="arithmatex">\[
 \mathbf{u}_k[n] = \alpha_k \cos\left(\frac{(2n+1)k\pi}{2N}\right)
@@ -2322,7 +2364,7 @@ y_k = \mathbf{u}_k^T \mathbf{x} \quad (k=1,2,...,m)
 </ul>
 </div>
 <hr />
-<h3 id="dctkl">DCT与KL变换的近似关系<a class="headerlink" href="#dctkl" title="Permanent link">📌</a></h3>
+<h3 id="dctkl">DCT与KL变换的近似关系<a class="headerlink" href="#dctkl" title="Permanent link">🏷️</a></h3>
 <ul>
 <li>理论近似条件</li>
 </ul>
@@ -2358,7 +2400,7 @@ y_k = \mathbf{u}_k^T \mathbf{x} \quad (k=1,2,...,m)
 </tbody>
 </table>
 </details>
-<h4 id="dct">DCT<a class="headerlink" href="#dct" title="Permanent link">📌</a></h4>
+<h4 id="dct">DCT<a class="headerlink" href="#dct" title="Permanent link">🏷️</a></h4>
 <ul>
 <li>DCT-II标准式</li>
 </ul>
@@ -2449,15 +2491,15 @@ X_k = \sum_{n=0}^{N-1} x_n \cos\left(\frac{\pi}{N}(n+\frac{1}{2})k\right)
 </li>
 </ul>
 </div>
-<h1 id="4-power-spectrum-analysis">4. Power Spectrum Analysis<a class="headerlink" href="#4-power-spectrum-analysis" title="Permanent link">📌</a></h1>
-<h2 id="basic-background">Basic background<a class="headerlink" href="#basic-background" title="Permanent link">📌</a></h2>
+<h1 id="4-power-spectrum-analysis">4. Power Spectrum Analysis<a class="headerlink" href="#4-power-spectrum-analysis" title="Permanent link">🏷️</a></h1>
+<h2 id="basic-background">Basic background<a class="headerlink" href="#basic-background" title="Permanent link">🏷️</a></h2>
 <ul>
 <li>功率谱是描述随机信号的重要参量，描述随机过程在频域的能量（功率）分布情况。</li>
 <li>通过功率谱分析，可以了解信号中各个频率成分的强度，这对于信号的频域特性分析非常重要。</li>
 <li>对于确定性信号的功率谱计算，一般采用傅立叶分析法即可，但需注意窗函数的选择。</li>
 <li>对于随机信号的功率谱计算，传统的方法，无论是用傅立叶分析法还是通过维纳-辛钦定理计算，在数据量较少时其结果的准确性都存在很大的问题，这就催生了参数谱估计方法。</li>
 </ul>
-<h2 id="classic-psa">Classic PSA<a class="headerlink" href="#classic-psa" title="Permanent link">📌</a></h2>
+<h2 id="classic-psa">Classic PSA<a class="headerlink" href="#classic-psa" title="Permanent link">🏷️</a></h2>
 <p class="annotate"><strong>对平稳随机过程，功率谱直接定义为自相关函数的Fourier transform(Wiener-Khinchine定理 (1) )</strong> </p>
 <ol>
 <li>对于一个平稳随机过程，其功率谱密度（Power Spectral Density, PSD）是其自相关函数（Autocorrelation Function, ACF）的傅里叶变换。换句话说，功率谱密度和自相关函数是一对傅里叶变换对。</li>
@@ -2505,7 +2547,7 @@ S(f) = \mathcal{F}{R(\tau)}
 • 缺点：计算稍微复杂，结果的尺度随延迟变化，可能影响直观比较  </p>
 <p>固定分母法可以看作是有偏估计，而变化分母法是无偏估计。在某些应用中，无偏估计更受青睐，但在实际操作中，两种方法都可以提供有用的信息。</p>
 </details>
-<h2 id="welch-method">Welch method<a class="headerlink" href="#welch-method" title="Permanent link">📌</a></h2>
+<h2 id="welch-method">Welch method<a class="headerlink" href="#welch-method" title="Permanent link">🏷️</a></h2>
 <p>Welch方法是一种用于估计信号功率谱密度（Power Spectral Density, PSD）的经典技术。<strong>它通过将信号分成多个重叠的子段，对每个子段进行傅里叶变换，然后对所有子段的功率谱进行平均，从而降低了估计的方差，提高了估计的稳定性。</strong></p>
 <ul>
 <li>
@@ -2547,7 +2589,7 @@ S(f) = \mathcal{F}{R(\tau)}
 </ol>
 </li>
 </ul>
-<h2 id="parameter-sprctrum-estimatemodern-estimate">Parameter sprctrum estimate(modern estimate)<a class="headerlink" href="#parameter-sprctrum-estimatemodern-estimate" title="Permanent link">📌</a></h2>
+<h2 id="parameter-sprctrum-estimatemodern-estimate">Parameter sprctrum estimate(modern estimate)<a class="headerlink" href="#parameter-sprctrum-estimatemodern-estimate" title="Permanent link">🏷️</a></h2>
 <p>参数谱估计（现代谱估计）的处理出发点：<br />
 平稳随机过程x(n)可以看成是由一个输入信号u(n)激励一个LTI Causal系统H(Z)的输出，u(n)是均值为零方差为<span class="arithmatex">\(σ^2\)</span>的白噪声序列.<strong>由观测序列推导系统参数，进而获得功率谱估计结果</strong></p>
 <ul>
@@ -2563,8 +2605,8 @@ S(f) = \mathcal{F}{R(\tau)}
     \end{aligned}
 \]</div>
 <p>系数矩阵为Toeplitz matrix，可通过Levinson-Durbin迭代方法快速计算</p>
-<h1 id="5-time-frequency-displays">5. Time-Frequency Displays<a class="headerlink" href="#5-time-frequency-displays" title="Permanent link">📌</a></h1>
-<h2 id="different-ft">Different FT<a class="headerlink" href="#different-ft" title="Permanent link">📌</a></h2>
+<h1 id="5-stft">5. STFT<a class="headerlink" href="#5-stft" title="Permanent link">🏷️</a></h1>
+<h2 id="different-ft">Different FT<a class="headerlink" href="#different-ft" title="Permanent link">🏷️</a></h2>
 <p><a class="glightbox" href="https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs/assets/images/4kinds_of_FT.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="different FT" src="https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs/assets/images/4kinds_of_FT.png" /></a></p>
 <p>In all four cases, the Fourier transform can be interpreted as the inner product of the signal <span class="arithmatex">\(x\)</span> with a complex sinusoid at radian frequency <span class="arithmatex">\(\omega\)</span>.</p>
 <div class="arithmatex">\[
@@ -2596,7 +2638,7 @@ S(f) = \mathcal{F}{R(\tau)}
 <div class="arithmatex">\[
     x(\frac{t}{a}) \longleftrightarrow |a|\cdot X(a\omega)    
 \]</div>
-<h2 id="stftshort-time-fourier-transform-stft">STFT(Short-Time Fourier Transform, STFT)<a class="headerlink" href="#stftshort-time-fourier-transform-stft" title="Permanent link">📌</a></h2>
+<h2 id="stftshort-time-fourier-transform-stft">STFT(Short-Time Fourier Transform, STFT)<a class="headerlink" href="#stftshort-time-fourier-transform-stft" title="Permanent link">🏷️</a></h2>
 <p>The STFT is the main computational tool used in spectral modeling applications. The STFT may be viewed as either an </p>
 <ol>
 <li>overlap-add processor--a sequence of Fourier transforms of windowed data segments (a ''sliding'' or ''hopping'' FFT), or a </li>
@@ -2613,7 +2655,7 @@ S(f) = \mathcal{F}{R(\tau)}
 短时傅里叶变换（STFT）是一种时频分析工具，通过对信号加窗分段后计算傅里叶变换，将非平稳信号的频谱随时间变化的过程可视化。其核心思想是：<ins class="critic">假设信号在短时间内是平稳的</ins>。</li>
 </ul>
 <hr />
-<h3 id="mathematical-definition">Mathematical definition<a class="headerlink" href="#mathematical-definition" title="Permanent link">📌</a></h3>
+<h3 id="mathematical-definition">Mathematical definition<a class="headerlink" href="#mathematical-definition" title="Permanent link">🏷️</a></h3>
 <div class="admonition note annotate">
 <p class="admonition-title">(1)</p>
 <div class="arithmatex">\[
@@ -2636,7 +2678,7 @@ S(f) = \mathcal{F}{R(\tau)}
 \]</div>
 <p>For usage as a spectrum analyzer for measurement and display, the COLA requirement can often be relaxed, as doing so only means we are not <strong>weighting all information equally in our analysis</strong>. Nothing disastrous happens.</p>
 <p>For example, if we use 50% overlap with the Blackman window in a short-time spectrum analysis over time--the results look fine; however, in such a case, data falling near the edges of the window will have a slightly muted impact on the results relative to data falling near the window center, because the Blackman window is not COLA at 50% overlap.</p>
-<h3 id="stft-discretization">STFT discretization<a class="headerlink" href="#stft-discretization" title="Permanent link">📌</a></h3>
+<h3 id="stft-discretization">STFT discretization<a class="headerlink" href="#stft-discretization" title="Permanent link">🏷️</a></h3>
 <ul>
 <li>Take it as static window and hopping signal: variable replace: <span class="arithmatex">\(n \rightarrow n+MR\)</span></li>
 </ul>
@@ -2747,9 +2789,97 @@ X[m, k] \in \mathbb{C}^{M \times K}
 <p><strong>时间轴</strong>：<span class="arithmatex">\( t[m] = mH/F_s \)</span>（秒）</p>
 <p><strong>频率轴</strong>：<span class="arithmatex">\( f[k] = kF_s/N \)</span>（Hz），仅需保留<span class="arithmatex">\(0 \leq k \leq N/2\)</span>（共轭对称性）</p>
 <hr />
-<h2 id="wavelet-analysis">Wavelet Analysis<a class="headerlink" href="#wavelet-analysis" title="Permanent link">📌</a></h2>
-<p>与傅里叶变换相比，它既能捕捉频率信息，又能保留时间/空间定位能力。</p>
-<h3 id="1-cwt">1. 连续小波变换 (CWT)<a class="headerlink" href="#1-cwt" title="Permanent link">📌</a></h3>
+<h1 id="6-mra">6. MRA<a class="headerlink" href="#6-mra" title="Permanent link">🏷️</a></h1>
+<h2 id="mra">多分辨率分析 (MRA)<a class="headerlink" href="#mra" title="Permanent link">🏷️</a></h2>
+<p>多分辨率分析（MRA） 是小波变换的核心数学框架和基石，由Mallat和Meyer在1980年代系统化提出。它通过嵌套的子空间序列描述信号在不同分辨率下的逼近与细节，使得小波变换既能捕获全局趋势（低频），又能定位局部突变（高频）。</p>
+<h3 id="_16">几种分析方式对比<a class="headerlink" href="#_16" title="Permanent link">🏷️</a></h3>
+<ul>
+<li>STFT</li>
+</ul>
+<p>核心思想：通过加窗傅里叶变换实现时频局部化. 但是由于窗口是固定的, TD的分辨率无法调整无法适应高频瞬态和低频持续信号并存的情况</p>
+<ul>
+<li>MRA</li>
+</ul>
+<p>解决思路：构造嵌套子空间, 通过尺度变化实现分辨率自适应. 数学需求：需要一个<mark class="critic">能生成嵌套空间的函数(即尺度函数)</mark>.</p>
+<hr />
+<ul>
+<li>
+<p>小波分析 ≠ MRA的混合方式 <mark class="critic">MRA是小波分析的充分非必要条件</mark>：</p>
+<ol>
+<li>基于MRA的小波（如Daubechies、Haar）：通过尺度函数和小波函数分层分解。</li>
+<li>非MRA的小波： ■  连续小波变换（CWT）：直接定义小波函数，无需尺度函数。  ■  第二代小波（如提升小波）：通过预测和更新步骤构造，脱离MRA框架。       </li>
+</ol>
+</li>
+</ul>
+<p>为什么MRA更常用: </p>
+<ul>
+<li>结构化分解：MRA提供清晰的层次化空间划分（𝑉𝑗⊕𝑊𝑗），适合压缩、去噪等应用。  </li>
+<li>高效算法：基于MRA的离散小波变换（DWT）可通过滤波器组快速实现（Mallat算法）</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Logical chain</p>
+<p>STFT的缺陷 → MRA的多分辨率需求 → 尺度函数 𝜙(𝑡) 构造近似空间 → 小波函数 𝜓(𝑡) 补充细节 → DWT/FWT实现高效计算</p>
+</div>
+<pre class="mermaid"><code>graph TD
+    A[短时傅里叶变换 STFT] --&gt;|固定窗口| B["多分辨率分析 MRA"]
+    B --&gt; C["尺度函数 φ(t)"]
+    B --&gt; D["小波函数 ψ(t)"]
+    C --&gt; E["近似空间 V_j"]
+    D --&gt; F["细节空间 W_j"]
+    E &amp; F --&gt; G["离散小波变换 DWT"]
+    G --&gt; H["快速小波算法 FWT"]</code></pre>
+<h3 id="_17">嵌套子空间<a class="headerlink" href="#_17" title="Permanent link">🏷️</a></h3>
+<p>定义闭子空间序列<span class="arithmatex">\(\{V_j\}_{j\in\mathbb{Z}}\)</span>满足：</p>
+<ol>
+<li><strong>嵌套性</strong>：<span class="arithmatex">\(V_j \subset V_{j-1}\)</span></li>
+<li><strong>稠密性</strong>：<span class="arithmatex">\(\overline{\bigcup_{j\in\mathbb{Z}} V_j} = L^2(\mathbb{R})\)</span></li>
+<li><strong>正交基存在性</strong>：存在尺度函数<span class="arithmatex">\(\phi(t)\)</span>使得<span class="arithmatex">\(\{\phi(t-k)\}\)</span>构成<span class="arithmatex">\(V_0\)</span>的正交基</li>
+</ol>
+<hr />
+<p class="annotate">与傅里叶变换相比，它既能捕捉频率信息，又能保留时间/空间定位能力。FT在interval内进行了平均化操作 (1) , 这样就可以反映出具有的频率成分信息, 但是他们的顺次和时间未知.</p>
+<ol>
+<li>
+<table>
+<thead>
+<tr>
+<th>区间类型\信号类型</th>
+<th>discrete</th>
+<th>continuous</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>finite</td>
+<td>DFT</td>
+<td>FS</td>
+</tr>
+<tr>
+<td>infinite</td>
+<td>DTFT</td>
+<td>FT</td>
+</tr>
+<tr>
+<td><a href="#different-ft">跳转查看不同类型的FT</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">为什么要引入</p>
+<p>傅里叶变换的不足</p>
+<ul>
+<li>全局性：傅里叶基（正弦/余弦函数）缺乏时域局部化能力，无法分析信号的瞬时特征（如突变、边缘）。  </li>
+<li>固定分辨率：无法适应信号不同区域的频率变化（如高频瞬态+低频持续信号）。  </li>
+</ul>
+<p>小波的核心思想 </p>
+<ul>
+<li>时频局部化：通过具有有限支撑（紧支撑）的基函数，同时捕捉信号的时间位置和频率特征。  - 多尺度分析：通过缩放（scale）和平移（translation）生成一组函数族，覆盖不同分辨率。</li>
+</ul>
+</div>
+<h3 id="cwt">连续小波变换 (CWT)<a class="headerlink" href="#cwt" title="Permanent link">🏷️</a></h3>
 <ul>
 <li>
 <p class="annotate">基本定义
@@ -2773,7 +2903,7 @@ $$
 其中<span class="arithmatex">\(\hat{\psi}(\omega)\)</span>是<span class="arithmatex">\(\psi(t)\)</span>的傅里叶变换</li>
 </ul>
 <hr />
-<h3 id="2-dwt">2. 离散小波变换 (DWT)<a class="headerlink" href="#2-dwt" title="Permanent link">📌</a></h3>
+<h3 id="dwt">离散小波变换 (DWT)<a class="headerlink" href="#dwt" title="Permanent link">🏷️</a></h3>
 <ul>
 <li>
 <p>二进离散化
@@ -2791,68 +2921,80 @@ $$</p>
 </li>
 </ul>
 <hr />
-<h3 id="3-mra">3. 多分辨率分析 (MRA)<a class="headerlink" href="#3-mra" title="Permanent link">📌</a></h3>
+<h2 id="mallat-dwt">快速小波变换 (Mallat算法, DWT)<a class="headerlink" href="#mallat-dwt" title="Permanent link">🏷️</a></h2>
 <ul>
-<li>嵌套子空间
-定义闭子空间序列<span class="arithmatex">\(\{V_j\}_{j\in\mathbb{Z}}\)</span>满足：</li>
-<li><strong>嵌套性</strong>：<span class="arithmatex">\(V_j \subset V_{j-1}\)</span></li>
-<li><strong>稠密性</strong>：<span class="arithmatex">\(\overline{\bigcup_{j\in\mathbb{Z}} V_j} = L^2(\mathbb{R})\)</span></li>
 <li>
-<p><strong>正交基存在性</strong>：存在尺度函数<span class="arithmatex">\(\phi(t)\)</span>使得<span class="arithmatex">\(\{\phi(t-k)\}\)</span>构成<span class="arithmatex">\(V_0\)</span>的正交基</p>
+<p>单一基函数的局限性：若强行设计一个同时覆盖高频和低频的基函数（如傅里叶变换的正弦波），会面临两大问题： </p>
+<ol>
+<li>时频局部化矛盾（Heisenberg不确定性原理）：单一基函数无法同时在时域和频域达到最优分辨率。  </li>
+<li>缺乏多尺度适应性：无法根据信号特征动态调整分析尺度。</li>
+</ol>
 </li>
 <li>
-<p>尺度方程与小波方程
-$$
-\begin{aligned}
-\phi(t) &amp;= \sqrt{2} \sum_n h_n \phi(2t-n) \quad (\text{尺度方程}) \
-\psi(t) &amp;= \sqrt{2} \sum_n g_n \phi(2t-n) \quad (\text{小波方程})
-\end{aligned}
-$$
-其中<span class="arithmatex">\(h_n\)</span>为低通滤波器系数，<span class="arithmatex">\(g_n = (-1)^n h_{1-n}\)</span>为高通滤波器系数</p>
+<p>多分辨率分析（MRA）：通过嵌套的子空间序列 {𝑉𝑗}𝑗∈𝑍 和它们的补空间 {𝑊𝑗}𝑗∈𝑍，将信号空间分层： </p>
 </li>
 </ul>
-<hr />
-<h3 id="4-mallat">4. 快速小波变换 (Mallat算法)<a class="headerlink" href="#4-mallat" title="Permanent link">📌</a></h3>
+<div class="arithmatex">\[𝑉_{𝑗+1}=𝑉_𝑗⊕𝑊_𝑗\quad 𝐿^2(𝑅)=⨁_{𝑗∈𝑍}𝑊_𝑗\]</div>
+<p><mark class="critic">
+尺度函数 𝜙(𝑡) 生成近似空间 𝑉𝑗（低频）
+小波函数 𝜓(𝑡) 生成细节空间 𝑊𝑗（高频）
+</mark></p>
+<h3 id="mallat">递推式与Mallat算法的关系<a class="headerlink" href="#mallat" title="Permanent link">🏷️</a></h3>
+<p>Mallat算法不是递推式的发明者，而是系统化应用者. 递推式（双尺度方程）的数学基础源自多分辨率分析（MRA），由Meyer、Daubechies等数学家在小波理论中建立。Mallat的贡献在于将这一理论转化为高效的数字信号处理算法(即快速小波变换，FWT).</p>
+<h3 id="1-two-scale-equations">1. 双尺度方程（Two-Scale Equations）<a class="headerlink" href="#1-two-scale-equations" title="Permanent link">🏷️</a></h3>
+<p>定义尺度函数 <span class="arithmatex">\(\phi(t)\)</span> 和小波函数 <span class="arithmatex">\(\psi(t)\)</span> 的递归关系：</p>
+<div class="admonition abstract annotate">
+<p class="admonition-title">iteration relation (1) </p>
+<div class="arithmatex">\[
+\phi(t) = \sqrt{2} \sum_{n} h_0[n] \phi(2t - n), \quad 
+\psi(t) = \sqrt{2} \sum_{n} h_1[n] \phi(2t - n)
+\]</div>
+</div>
+<ol>
+<li>
 <ul>
-<li>
-<p>分解过程
-$$
-\begin{aligned}
-c_{j+1}[k] &amp;= \sum_n h[n-2k] c_j[n] \quad (\text{近似系数}) \
-d_{j+1}[k] &amp;= \sum_n g[n-2k] c_j[n] \quad (\text{细节系数})
-\end{aligned}
-$$</p>
-</li>
-<li>
-<p>重构过程
-$$
-c_j[n] = \sum_k h[n-2k] c_{j+1}[k] + \sum_k g[n-2k] d_{j+1}[k]
-$$</p>
-</li>
+<li><span class="arithmatex">\(h_0[n]\)</span>：低通分解滤波器（尺度系数）</li>
+<li><span class="arithmatex">\(h_1[n]\)</span>：高通分解滤波器（小波系数），满足 <span class="arithmatex">\(h_1[n] = (-1)^n h_0[1-n]\)</span></li>
 </ul>
-<hr />
-<h3 id="5-haar">5. 常用小波函数推导示例（Haar小波）<a class="headerlink" href="#5-haar" title="Permanent link">📌</a></h3>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">关联</p>
+<div class="arithmatex">\[
+\begin{cases}
+\text{approximation} \rightarrow \text{尺度函数}\rightarrow \text{father} \rightarrow V \text{space}\\
+\text{detail}\rightarrow \text{小波函数}\rightarrow \text{mather} \rightarrow W \text{space}
+\end{cases}
+\]</div>
+</div>
+<h3 id="2-dwt">2. 分解算法（正向DWT）<a class="headerlink" href="#2-dwt" title="Permanent link">🏷️</a></h3>
+<p>信号 <span class="arithmatex">\(a_{j+1}[k]\)</span> 在尺度 <span class="arithmatex">\(j+1\)</span> 的系数分解为：</p>
+<div class="admonition abstract">
+<p class="admonition-title">分解过程</p>
+<div class="arithmatex">\[
+\begin{cases}
+a_j[k] = \sum_{n} h_0[n-2k] a_{j+1}[n] \quad (\text{近似系数})
+\\\\
+d_j[k] = \sum_{n} h_1[n-2k] a_{j+1}[n] \quad (\text{细节系数})
+\end{cases}
+\]</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">~</p>
+<p>这里的系数都是通过更高精度的细节空间进行张出, 即W空间</p>
+</div>
+<ul>
+<li><strong>操作</strong>：卷积 + 下采样（步长2）</li>
+</ul>
+<h3 id="3-dwt">3. 重构算法（逆向DWT）<a class="headerlink" href="#3-dwt" title="Permanent link">🏷️</a></h3>
+<p>通过上采样和滤波器合并：</p>
+<div class="arithmatex">\[
+a_{j+1}[k] = \sum_{n} a_j[n] h_0[k-2n] + \sum_{n} d_j[n] h_1[k-2n]
+\]</div>
+<p><mark class="critic">即通过j+1阶的近似空间V和细节空间W直和形成高阶近似空间</mark></p>
 <ul>
 <li>
-<p>尺度函数
-$$
-\phi(t) = 
-\begin{cases}
-1 &amp; 0 \leq t &lt; 1 \
-0 &amp; \text{其他}
-\end{cases}
-$$</p>
-</li>
-<li>
-<p>小波函数
-$$
-\psi(t) = 
-\begin{cases}
-1 &amp; 0 \leq t &lt; 0.5 \
--1 &amp; 0.5 \leq t &lt; 1 \
-0 &amp; \text{其他}
-\end{cases}
-$$</p>
+<p><strong>操作</strong>：上采样（插零） + 卷积 + 求和</p>
 </li>
 <li>
 <p>滤波器系数
@@ -2863,14 +3005,90 @@ $$</p>
 </li>
 </ul>
 <hr />
-<h3 id="6">6. 时频分辨率关系<a class="headerlink" href="#6" title="Permanent link">📌</a></h3>
-<p>根据Heisenberg不确定性原理：
-$$
+<h3 id="haar">常用小波函数推导示例（Haar小波）<a class="headerlink" href="#haar" title="Permanent link">🏷️</a></h3>
+<ul>
+<li>尺度函数</li>
+</ul>
+<div class="arithmatex">\[
+\phi(t) = 
+\begin{cases}
+1 &amp; 0 \leq t &lt; 1 \\
+0 &amp; \text{else}
+\end{cases}
+\]</div>
+<ul>
+<li>小波函数</li>
+</ul>
+<div class="arithmatex">\[
+\psi(t) = 
+\begin{cases}
+1 &amp; 0 \leq t &lt; 0.5 \\
+-1 &amp; 0.5 \leq t &lt; 1 \\
+0 &amp; \text{else}
+\end{cases}
+\]</div>
+<div class="language-python highlight"><span class="filename">Harr_Wavelet.py</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1"># Haar小波滤波器系数（理论值）</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">h0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">)])</span>  <span class="c1"># 低通</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">h1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">)])</span>  <span class="c1"># 高通 </span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1"># 正向DWT（分解） </span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">def</span><span class="w"> </span><span class="nf">dwt_1d</span><span class="p">(</span><span class="n">signal</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">h1</span><span class="p">):</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="c1"># 卷积后下采样</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    <span class="n">cA</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">convolve</span><span class="p">(</span><span class="n">signal</span><span class="p">,</span> <span class="n">h0</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;valid&#39;</span><span class="p">)[::</span><span class="mi">2</span><span class="p">]</span>  <span class="c1"># 近似系数</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    <span class="n">cD</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">convolve</span><span class="p">(</span><span class="n">signal</span><span class="p">,</span> <span class="n">h1</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;valid&#39;</span><span class="p">)[::</span><span class="mi">2</span><span class="p">]</span>  <span class="c1"># 细节系数</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    <span class="k">return</span> <span class="n">cA</span><span class="p">,</span> <span class="n">cD</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="c1"># 示例信号</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="n">cA</span><span class="p">,</span> <span class="n">cD</span> <span class="o">=</span> <span class="n">dwt_1d</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">h1</span><span class="p">)</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;近似系数 (cA):&quot;</span><span class="p">,</span> <span class="n">cA</span><span class="p">)</span>  <span class="c1"># 输出: [2.121, 4.950, 7.778, 10.607]</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;细节系数 (cD):&quot;</span><span class="p">,</span> <span class="n">cD</span><span class="p">)</span>  <span class="c1"># 输出: [-0.707, -0.707, -0.707, -0.707] </span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="c1"># 逆向DWT（重构） </span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="k">def</span><span class="w"> </span><span class="nf">idwt_1d</span><span class="p">(</span><span class="n">cA</span><span class="p">,</span> <span class="n">cD</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">h1</span><span class="p">):</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>    <span class="c1"># 上采样（插零）</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>    <span class="n">up_cA</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">cA</span><span class="p">))</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>    <span class="n">up_cA</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">cA</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>    <span class="n">up_cD</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">cD</span><span class="p">))</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>    <span class="n">up_cD</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">cD</span>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>    <span class="c1"># 卷积合并</span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>    <span class="n">recon</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">convolve</span><span class="p">(</span><span class="n">up_cA</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;full&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">convolve</span><span class="p">(</span><span class="n">up_cD</span><span class="p">,</span> <span class="n">h1</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;full&#39;</span><span class="p">)</span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>    <span class="k">return</span> <span class="n">recon</span><span class="p">[:</span><span class="nb">len</span><span class="p">(</span><span class="n">up_cA</span><span class="p">)]</span>  <span class="c1"># 裁剪</span>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="n">x_recon</span> <span class="o">=</span> <span class="n">idwt_1d</span><span class="p">(</span><span class="n">cA</span><span class="p">,</span> <span class="n">cD</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">h1</span><span class="p">)</span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;重构信号:&quot;</span><span class="p">,</span> <span class="n">x_recon</span><span class="p">)</span>  <span class="c1"># 应接近原始信号</span>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="c1"># 多级分解实现 </span>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="k">def</span><span class="w"> </span><span class="nf">multilevel_dwt</span><span class="p">(</span><span class="n">signal</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">h1</span><span class="p">,</span> <span class="n">levels</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>    <span class="n">coeffs</span> <span class="o">=</span> <span class="p">[]</span>
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>    <span class="n">current</span> <span class="o">=</span> <span class="n">signal</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">levels</span><span class="p">):</span>
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>        <span class="n">cA</span><span class="p">,</span> <span class="n">cD</span> <span class="o">=</span> <span class="n">dwt_1d</span><span class="p">(</span><span class="n">current</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">h1</span><span class="p">)</span>
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>        <span class="n">coeffs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cD</span><span class="p">)</span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>        <span class="n">current</span> <span class="o">=</span> <span class="n">cA</span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>    <span class="n">coeffs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>  <span class="c1"># 最后一级的cA</span>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a>    <span class="k">return</span> <span class="n">coeffs</span>
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="c1"># 3级分解示例</span>
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="n">coeffs</span> <span class="o">=</span> <span class="n">multilevel_dwt</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">h1</span><span class="p">,</span> <span class="n">levels</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</span></code></pre></div>
+<hr />
+<h3 id="_18">时频分辨率关系<a class="headerlink" href="#_18" title="Permanent link">🏷️</a></h3>
+<p class="annotate">根据Heisenberg不确定性原理 (1) ：</p>
+<ol>
+<li>
+<ul>
+<li><span class="arithmatex">\(\Delta t = \sqrt{\int t^2 |\psi(t)|^2 dt}\)</span></li>
+<li><span class="arithmatex">\(\Delta \omega = \sqrt{\int \omega^2 |\hat{\psi}(\omega)|^2 d\omega}\)</span></li>
+</ul>
+</li>
+</ol>
+<div class="arithmatex">\[
 \Delta t \cdot \Delta \omega \geq \frac{1}{2}
-$$
-其中：
-- <span class="arithmatex">\(\Delta t = \sqrt{\int t^2 |\psi(t)|^2 dt}\)</span>
-- <span class="arithmatex">\(\Delta \omega = \sqrt{\int \omega^2 |\hat{\psi}(\omega)|^2 d\omega}\)</span></p>
+\]</div>
 
 
 
@@ -2890,12 +3108,6 @@ $$
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-        
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Back to top
-</button>
         
       </main>
       
@@ -2925,14 +3137,12 @@ $$
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.sections", "toc.integrate", "content.code.copy", "content.code.select", "content.code.annotate", "search.highlight"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.tracking", "toc.integrate", "content.code.copy", "content.code.select", "content.code.annotate", "search.highlight"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-      
-        <script src="../assets/javascripts/collapse-nav.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

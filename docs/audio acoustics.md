@@ -1231,7 +1231,7 @@ Welch方法是一种用于估计信号功率谱密度（Power Spectral Density, 
 
 系数矩阵为Toeplitz matrix，可通过Levinson-Durbin迭代方法快速计算
 
-# 5. Time-Frequency Displays
+# 5. STFT
 
 ## Different FT
 ![different FT](https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs/assets/images/4kinds_of_FT.png)
@@ -1406,8 +1406,73 @@ X[m, k] \in \mathbb{C}^{M \times K}
 
 ---
 
-## Wavelet Analysis
-与傅里叶变换相比，它既能捕捉频率信息，又能保留时间/空间定位能力。
+# 6. MRA
+
+## 多分辨率分析 (MRA)
+
+多分辨率分析（MRA） 是小波变换的核心数学框架和基石，由Mallat和Meyer在1980年代系统化提出。它通过嵌套的子空间序列描述信号在不同分辨率下的逼近与细节，使得小波变换既能捕获全局趋势（低频），又能定位局部突变（高频）。
+### 几种分析方式对比
+- STFT
+
+核心思想：通过加窗傅里叶变换实现时频局部化. 但是由于窗口是固定的, TD的分辨率无法调整无法适应高频瞬态和低频持续信号并存的情况
+
+- MRA
+
+解决思路：构造嵌套子空间, 通过尺度变化实现分辨率自适应. 数学需求：需要一个{==能生成嵌套空间的函数(即尺度函数)==}.
+
+---
+
+- 小波分析 ≠ MRA的混合方式 {==MRA是小波分析的充分非必要条件==}：
+
+    1. 基于MRA的小波（如Daubechies、Haar）：通过尺度函数和小波函数分层分解。
+    - 非MRA的小波： ■  连续小波变换（CWT）：直接定义小波函数，无需尺度函数。  ■  第二代小波（如提升小波）：通过预测和更新步骤构造，脱离MRA框架。       
+    
+为什么MRA更常用: 
+
+- 结构化分解：MRA提供清晰的层次化空间划分（𝑉𝑗⊕𝑊𝑗），适合压缩、去噪等应用。  
+- 高效算法：基于MRA的离散小波变换（DWT）可通过滤波器组快速实现（Mallat算法）
+
+!!! tip "Logical chain"
+    STFT的缺陷 → MRA的多分辨率需求 → 尺度函数 𝜙(𝑡) 构造近似空间 → 小波函数 𝜓(𝑡) 补充细节 → DWT/FWT实现高效计算
+
+```mermaid
+graph TD
+    A[短时傅里叶变换 STFT] -->|固定窗口| B["多分辨率分析 MRA"]
+    B --> C["尺度函数 φ(t)"]
+    B --> D["小波函数 ψ(t)"]
+    C --> E["近似空间 V_j"]
+    D --> F["细节空间 W_j"]
+    E & F --> G["离散小波变换 DWT"]
+    G --> H["快速小波算法 FWT"]
+```
+
+### 嵌套子空间
+定义闭子空间序列$\{V_j\}_{j\in\mathbb{Z}}$满足：
+
+1. **嵌套性**：$V_j \subset V_{j-1}$
+2. **稠密性**：$\overline{\bigcup_{j\in\mathbb{Z}} V_j} = L^2(\mathbb{R})$
+3. **正交基存在性**：存在尺度函数$\phi(t)$使得$\{\phi(t-k)\}$构成$V_0$的正交基
+
+---
+
+与傅里叶变换相比，它既能捕捉频率信息，又能保留时间/空间定位能力。FT在interval内进行了平均化操作 (1) , 这样就可以反映出具有的频率成分信息, 但是他们的顺次和时间未知.
+{ .annotate }
+
+1. |区间类型\信号类型 | discrete | continuous|
+    |--|--|--|
+    | finite | DFT | FS |
+    | infinite | DTFT | FT|
+    [跳转查看不同类型的FT](#different-ft)
+
+!!! info "为什么要引入"
+    傅里叶变换的不足
+
+    - 全局性：傅里叶基（正弦/余弦函数）缺乏时域局部化能力，无法分析信号的瞬时特征（如突变、边缘）。  
+    - 固定分辨率：无法适应信号不同区域的频率变化（如高频瞬态+低频持续信号）。  
+
+    小波的核心思想 
+
+    - 时频局部化：通过具有有限支撑（紧支撑）的基函数，同时捕捉信号的时间位置和频率特征。  - 多尺度分析：通过缩放（scale）和平移（translation）生成一组函数族，覆盖不同分辨率。
 
 ### 连续小波变换 (CWT)
 - 基本定义
@@ -1449,27 +1514,27 @@ $$
 
 ---
 
-### 多分辨率分析 (MRA)
-- 嵌套子空间
-定义闭子空间序列$\{V_j\}_{j\in\mathbb{Z}}$满足：
-1. **嵌套性**：$V_j \subset V_{j-1}$
-2. **稠密性**：$\overline{\bigcup_{j\in\mathbb{Z}} V_j} = L^2(\mathbb{R})$
-3. **正交基存在性**：存在尺度函数$\phi(t)$使得$\{\phi(t-k)\}$构成$V_0$的正交基
 
-- 尺度方程与小波方程
-
-\[
-\begin{aligned}
-\phi(t) &= \sqrt{2} \sum_n h_n \phi(2t-n) \quad (\text{尺度方程}) \\
-\psi(t) &= \sqrt{2} \sum_n g_n \phi(2t-n) \quad (\text{小波方程})
-\end{aligned}
-\]
-
-其中\(h_n\)为低通滤波器系数，\(g_n = (-1)^n h_{1-n}\)为高通滤波器系数
-
----
 
 ## 快速小波变换 (Mallat算法, DWT)
+
+- 单一基函数的局限性：若强行设计一个同时覆盖高频和低频的基函数（如傅里叶变换的正弦波），会面临两大问题： 
+
+    1.  时频局部化矛盾（Heisenberg不确定性原理）：单一基函数无法同时在时域和频域达到最优分辨率。  
+    2.  缺乏多尺度适应性：无法根据信号特征动态调整分析尺度。
+
+- 多分辨率分析（MRA）：通过嵌套的子空间序列 {𝑉𝑗}𝑗∈𝑍 和它们的补空间 {𝑊𝑗}𝑗∈𝑍，将信号空间分层： 
+
+\[𝑉_{𝑗+1}=𝑉_𝑗⊕𝑊_𝑗\quad 𝐿^2(𝑅)=⨁_{𝑗∈𝑍}𝑊_𝑗\]  
+
+{==
+尺度函数 𝜙(𝑡) 生成近似空间 𝑉𝑗（低频）
+小波函数 𝜓(𝑡) 生成细节空间 𝑊𝑗（高频）
+==}
+
+### 递推式与Mallat算法的关系 
+
+Mallat算法不是递推式的发明者，而是系统化应用者. 递推式（双尺度方程）的数学基础源自多分辨率分析（MRA），由Meyer、Daubechies等数学家在小波理论中建立。Mallat的贡献在于将这一理论转化为高效的数字信号处理算法(即快速小波变换，FWT).
 
 ### 1. 双尺度方程（Two-Scale Equations）
 定义尺度函数 $\phi(t)$ 和小波函数 $\psi(t)$ 的递归关系：
@@ -1481,6 +1546,14 @@ $$
 
 1. - $h_0[n]$：低通分解滤波器（尺度系数）
     - $h_1[n]$：高通分解滤波器（小波系数），满足 $h_1[n] = (-1)^n h_0[1-n]$
+
+!!! tip "关联"
+    \[
+    \begin{cases}
+    \text{approximation} \rightarrow \text{尺度函数}\rightarrow \text{father} \rightarrow V \text{space}\\
+    \text{detail}\rightarrow \text{小波函数}\rightarrow \text{mather} \rightarrow W \text{space}
+    \end{cases}
+    \]
 
 ### 2. 分解算法（正向DWT）
 信号 $a_{j+1}[k]$ 在尺度 $j+1$ 的系数分解为：
@@ -1538,11 +1611,8 @@ $$
 \end{cases}
 \]
 
-``` py
-import tensorflow as tf
-```
+``` python title="Harr_Wavelet.py"
 
-```python title = "Harr小波处理演示"
 import numpy as np
 
 # Haar小波滤波器系数（理论值）

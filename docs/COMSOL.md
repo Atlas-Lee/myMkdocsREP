@@ -18,7 +18,7 @@
         - electroacoustics(电声耦合)
     - Approaches
         - FEM(finite element method)
-        - BEM(boundry element method)
+        - BEM(boundary element method)
         - HFBEM
         - mixture
 ![ac_modules_1](https://raw.githubusercontent.com/Atlas-Lee/myMkdocsREP/refs/heads/main/docs\assets\images\ac_1.png)
