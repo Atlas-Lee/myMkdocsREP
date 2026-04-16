@@ -41,7 +41,7 @@ theme:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-night-partly-cloudy
+        icon: material/weather-night
         name: Dark mode
       primary: grey
       accent: amber
